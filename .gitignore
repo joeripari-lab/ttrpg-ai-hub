@@ -1,0 +1,35 @@
+# Secrets & local user configuration
+config.json
+.env
+.env.*
+learned_memory.json
+
+# Copyrighted rulebooks (users provide their own via Setup Wizard)
+Rules/
+
+# Local databases, user vaults & generated outputs
+*.db
+campaign_vault/
+outputs/
+drop_inbox/
+drop_processed/
+browser_profile/
+
+# Python & virtual environments
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build & installer artifacts
+build/
+build_win/
+dist/
+dist_win/
+*.spec
+
+# Editor, temp & runtime markers
+.continue/
+.playwright_ready
+.tmp.*
+*.log

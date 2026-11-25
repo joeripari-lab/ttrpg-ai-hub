@@ -1,0 +1,2160 @@
+{
+  "page_1": [],
+  "page_2": [],
+  "page_3": [],
+  "page_4": [
+    {
+      "name": "Dex Mod",
+      "type": "Text",
+      "rect": [
+        97.1,
+        144.5,
+        126.9,
+        165.4
+      ],
+      "nearby": "30% EVADE d20 + + DEX Mod DAMAGE"
+    },
+    {
+      "name": "Buffs-01 ",
+      "type": "Text",
+      "rect": [
+        137.8,
+        144.5,
+        221.0,
+        165.4
+      ],
+      "nearby": "40% + + = DEX Mod Buffs Evade"
+    },
+    {
+      "name": "Evade Total",
+      "type": "Text",
+      "rect": [
+        233.3,
+        144.5,
+        284.4,
+        165.4
+      ],
+      "nearby": "60% 70% 80% = Buffs Evade Total Move"
+    },
+    {
+      "name": "Move",
+      "type": "Text",
+      "rect": [
+        294.9,
+        143.5,
+        338.5,
+        164.4
+      ],
+      "nearby": "70% 80% 90% = Evade Total Move Step"
+    },
+    {
+      "name": "Step",
+      "type": "Text",
+      "rect": [
+        345.8,
+        143.5,
+        389.4,
+        164.4
+      ],
+      "nearby": "80% 90% 100% = Evade Total Move Step"
+    },
+    {
+      "name": "Armor",
+      "type": "Text",
+      "rect": [
+        97.1,
+        186.9,
+        126.9,
+        207.8
+      ],
+      "nearby": "+ + DEX Mod DAMAGE RESISTANCE + Armor"
+    },
+    {
+      "name": "Buffs-02",
+      "type": "Text",
+      "rect": [
+        137.8,
+        186.9,
+        221.0,
+        207.8
+      ],
+      "nearby": "Mod Buffs Evade + = DR Armor Buffs"
+    },
+    {
+      "name": "DR Total",
+      "type": "Text",
+      "rect": [
+        233.3,
+        186.9,
+        284.4,
+        207.8
+      ],
+      "nearby": "Evade Total Move = DR Total AI Favor"
+    },
+    {
+      "name": "AI Favor",
+      "type": "Text",
+      "rect": [
+        294.9,
+        185.9,
+        338.5,
+        206.8
+      ],
+      "nearby": "Total Move Step DR Total AI Favor Size"
+    },
+    {
+      "name": "Size",
+      "type": "Text",
+      "rect": [
+        345.8,
+        185.9,
+        389.4,
+        206.8
+      ],
+      "nearby": "Total Move Step DR Total AI Favor Size"
+    },
+    {
+      "name": "Text Field",
+      "type": "Text",
+      "rect": [
+        45.8,
+        255.6,
+        75.5,
+        276.5
+      ],
+      "nearby": "Strength Enhanced"
+    },
+    {
+      "name": "Text Field 2",
+      "type": "Text",
+      "rect": [
+        119.0,
+        255.6,
+        148.7,
+        276.5
+      ],
+      "nearby": "Strength Enhanced Unenhanced"
+    },
+    {
+      "name": "Text Field 3",
+      "type": "Text",
+      "rect": [
+        196.1,
+        255.6,
+        225.8,
+        276.5
+      ],
+      "nearby": "Strength Intelligence Enhanced Unenhanced Enhanced"
+    },
+    {
+      "name": "Text Field 4",
+      "type": "Text",
+      "rect": [
+        269.3,
+        255.6,
+        299.1,
+        276.5
+      ],
+      "nearby": "Intelligence Unenhanced Enhanced Unenhanced"
+    },
+    {
+      "name": "Text Field 5",
+      "type": "Text",
+      "rect": [
+        45.8,
+        356.9,
+        75.5,
+        377.8
+      ],
+      "nearby": "Constitution Enhanced"
+    },
+    {
+      "name": "Text Field 6",
+      "type": "Text",
+      "rect": [
+        196.1,
+        357.9,
+        225.8,
+        378.8
+      ],
+      "nearby": "Constitution Dexterity Enhanced Unenhanced Enhanced"
+    },
+    {
+      "name": "Text Field 7",
+      "type": "Text",
+      "rect": [
+        119.0,
+        356.9,
+        148.7,
+        377.8
+      ],
+      "nearby": "Constitution Enhanced Unenhanced"
+    },
+    {
+      "name": "Text Field 8",
+      "type": "Text",
+      "rect": [
+        269.3,
+        357.9,
+        299.1,
+        378.8
+      ],
+      "nearby": "Dexterity Unenhanced Enhanced Unenhanced"
+    },
+    {
+      "name": "Text Field 9",
+      "type": "Text",
+      "rect": [
+        45.8,
+        461.5,
+        75.5,
+        482.4
+      ],
+      "nearby": "Charisma Enhanced"
+    },
+    {
+      "name": "Text Field 10",
+      "type": "Text",
+      "rect": [
+        119.0,
+        461.5,
+        148.7,
+        482.4
+      ],
+      "nearby": "Charisma Enhanced Unenhanced"
+    },
+    {
+      "name": "Text Field 11",
+      "type": "Text",
+      "rect": [
+        59.6,
+        300.7,
+        151.7,
+        321.6
+      ],
+      "nearby": "Enhanced Unenhanced STR MOD"
+    },
+    {
+      "name": "Text Field 12",
+      "type": "Text",
+      "rect": [
+        209.2,
+        300.7,
+        301.4,
+        321.6
+      ],
+      "nearby": "Enhanced Unenhanced Enhanced Unenhanced INT MOD"
+    },
+    {
+      "name": "Text Field 13",
+      "type": "Text",
+      "rect": [
+        59.6,
+        401.7,
+        151.7,
+        422.6
+      ],
+      "nearby": "Enhanced Unenhanced CON MOD"
+    },
+    {
+      "name": "Text Field 14",
+      "type": "Text",
+      "rect": [
+        209.2,
+        401.7,
+        301.4,
+        422.6
+      ],
+      "nearby": "Enhanced Unenhanced Enhanced Unenhanced DEX MOD"
+    },
+    {
+      "name": "Text Field 15",
+      "type": "Text",
+      "rect": [
+        59.6,
+        506.3,
+        151.7,
+        527.3
+      ],
+      "nearby": "1. Enhanced Unenhanced 2. CHA MOD 3."
+    },
+    {
+      "name": "Text Field 76",
+      "type": "Text",
+      "rect": [
+        189.9,
+        463.6,
+        383.1,
+        484.5
+      ],
+      "nearby": "External Buffs (Max 3) 1. Enhanced Unenhanced 2."
+    },
+    {
+      "name": "Text Field 77",
+      "type": "Text",
+      "rect": [
+        189.9,
+        489.0,
+        383.1,
+        509.9
+      ],
+      "nearby": "External Buffs (Max 3) 1. Unenhanced 2. 3."
+    },
+    {
+      "name": "Text Field 78",
+      "type": "Text",
+      "rect": [
+        189.9,
+        515.0,
+        383.1,
+        536.0
+      ],
+      "nearby": "Enhanced Unenhanced 2. CHA MOD 3."
+    },
+    {
+      "name": "Text Field 79",
+      "type": "Text",
+      "rect": [
+        50.0,
+        35.6,
+        156.8,
+        49.8
+      ],
+      "nearby": "Name Race Level Crawler Number"
+    },
+    {
+      "name": "Text Field 80",
+      "type": "Text",
+      "rect": [
+        50.0,
+        56.4,
+        87.3,
+        70.0
+      ],
+      "nearby": "Name Level Crawler"
+    },
+    {
+      "name": "Text Field 81",
+      "type": "Text",
+      "rect": [
+        183.0,
+        36.2,
+        248.3,
+        49.8
+      ],
+      "nearby": "Name Race Gender/Pronouns Level Crawler Number Class"
+    },
+    {
+      "name": "Text Field 82",
+      "type": "Text",
+      "rect": [
+        160.1,
+        56.4,
+        248.3,
+        70.0
+      ],
+      "nearby": "Name Race Gender/Pronouns Level Crawler Number Class"
+    },
+    {
+      "name": "Text Field 83",
+      "type": "Text",
+      "rect": [
+        328.7,
+        36.2,
+        384.5,
+        49.8
+      ],
+      "nearby": "Race Gender/Pronouns Class"
+    },
+    {
+      "name": "Text Field 84",
+      "type": "Text",
+      "rect": [
+        279.3,
+        56.2,
+        383.4,
+        69.8
+      ],
+      "nearby": "Race Gender/Pronouns Number Class"
+    },
+    {
+      "name": "Radio Button 1",
+      "type": "RadioButton",
+      "rect": [
+        30.9,
+        94.4,
+        45.8,
+        112.0
+      ],
+      "nearby": "Level 10%"
+    },
+    {
+      "name": "Radio Button 1",
+      "type": "RadioButton",
+      "rect": [
+        68.1,
+        94.4,
+        83.0,
+        112.0
+      ],
+      "nearby": "Level Crawler 10% 20% 30%"
+    },
+    {
+      "name": "Radio Button 1",
+      "type": "RadioButton",
+      "rect": [
+        101.1,
+        94.4,
+        116.0,
+        112.0
+      ],
+      "nearby": "Level Crawler Number 10% 20% 30%"
+    },
+    {
+      "name": "Radio Button 1",
+      "type": "RadioButton",
+      "rect": [
+        139.2,
+        94.4,
+        154.0,
+        112.0
+      ],
+      "nearby": "Level Crawler Number 10% 20% 30% 40%"
+    },
+    {
+      "name": "Radio Button 1",
+      "type": "RadioButton",
+      "rect": [
+        176.6,
+        94.4,
+        191.5,
+        112.0
+      ],
+      "nearby": "Crawler Number 10% 20% 30% 40% 50% 60%"
+    },
+    {
+      "name": "Radio Button 1",
+      "type": "RadioButton",
+      "rect": [
+        210.6,
+        94.4,
+        225.4,
+        112.0
+      ],
+      "nearby": "Crawler Number Class 20% 30% 40% 50% 60%"
+    },
+    {
+      "name": "Radio Button 1",
+      "type": "RadioButton",
+      "rect": [
+        248.3,
+        94.4,
+        263.2,
+        112.0
+      ],
+      "nearby": "Crawler Number Class 30% 40% 50% 60% 70%"
+    },
+    {
+      "name": "Radio Button 1",
+      "type": "RadioButton",
+      "rect": [
+        286.4,
+        94.4,
+        301.2,
+        112.0
+      ],
+      "nearby": "Number Class 40% 50% 60% 70% 80%"
+    },
+    {
+      "name": "Radio Button 1",
+      "type": "RadioButton",
+      "rect": [
+        325.0,
+        94.4,
+        339.8,
+        112.0
+      ],
+      "nearby": "Class 50% 60% 70% 80% 90% 100%"
+    },
+    {
+      "name": "Radio Button 1",
+      "type": "RadioButton",
+      "rect": [
+        361.4,
+        94.4,
+        376.2,
+        112.0
+      ],
+      "nearby": "Class 60% 70% 80% 90% 100%"
+    }
+  ],
+  "page_5": [
+    {
+      "name": "Text Field 18",
+      "type": "Text",
+      "rect": [
+        123.1,
+        140.5,
+        153.6,
+        170.4
+      ],
+      "nearby": "+ +"
+    },
+    {
+      "name": "Text Field 20",
+      "type": "Text",
+      "rect": [
+        123.1,
+        186.7,
+        153.6,
+        216.6
+      ],
+      "nearby": "+ +"
+    },
+    {
+      "name": "Text Field 22",
+      "type": "Text",
+      "rect": [
+        123.1,
+        232.9,
+        153.6,
+        262.8
+      ],
+      "nearby": "+ +"
+    },
+    {
+      "name": "Text Field 24",
+      "type": "Text",
+      "rect": [
+        123.1,
+        279.2,
+        153.6,
+        309.0
+      ],
+      "nearby": "+ +"
+    },
+    {
+      "name": "Text Field 26",
+      "type": "Text",
+      "rect": [
+        123.1,
+        326.6,
+        153.6,
+        356.5
+      ],
+      "nearby": "+ +"
+    },
+    {
+      "name": "Text Field 28",
+      "type": "Text",
+      "rect": [
+        123.1,
+        372.0,
+        153.6,
+        401.9
+      ],
+      "nearby": "+ +"
+    },
+    {
+      "name": "Text Field 30",
+      "type": "Text",
+      "rect": [
+        123.1,
+        416.8,
+        153.6,
+        446.7
+      ],
+      "nearby": "+ +"
+    },
+    {
+      "name": "Text Field 32",
+      "type": "Text",
+      "rect": [
+        123.1,
+        464.0,
+        153.6,
+        493.9
+      ],
+      "nearby": "+ +"
+    },
+    {
+      "name": "Text Field 34",
+      "type": "Text",
+      "rect": [
+        123.1,
+        510.2,
+        153.6,
+        540.1
+      ],
+      "nearby": "+ +"
+    },
+    {
+      "name": "Text Field 16",
+      "type": "Text",
+      "rect": [
+        123.1,
+        94.9,
+        153.6,
+        124.7
+      ],
+      "nearby": "Stat Name Rank + Mod +"
+    },
+    {
+      "name": "Text Field 36",
+      "type": "Text",
+      "rect": [
+        288.4,
+        88.9,
+        406.1,
+        129.6
+      ],
+      "nearby": "Stat Dice + Effects Mod Mod + +"
+    },
+    {
+      "name": "Text Field 37",
+      "type": "Text",
+      "rect": [
+        288.4,
+        135.1,
+        406.1,
+        175.8
+      ],
+      "nearby": "+ + + + + +"
+    },
+    {
+      "name": "Text Field 38",
+      "type": "Text",
+      "rect": [
+        288.4,
+        181.3,
+        406.1,
+        222.0
+      ],
+      "nearby": "+ + + + + +"
+    },
+    {
+      "name": "Text Field 39",
+      "type": "Text",
+      "rect": [
+        288.4,
+        227.5,
+        406.1,
+        268.2
+      ],
+      "nearby": "+ + + + + +"
+    },
+    {
+      "name": "Text Field 40",
+      "type": "Text",
+      "rect": [
+        288.4,
+        273.7,
+        406.1,
+        314.5
+      ],
+      "nearby": "+ + + +"
+    },
+    {
+      "name": "Text Field 41",
+      "type": "Text",
+      "rect": [
+        288.4,
+        319.9,
+        406.1,
+        360.7
+      ],
+      "nearby": "+ + + +"
+    },
+    {
+      "name": "Text Field 42",
+      "type": "Text",
+      "rect": [
+        288.4,
+        366.2,
+        406.1,
+        406.9
+      ],
+      "nearby": "+ + + + + +"
+    },
+    {
+      "name": "Text Field 43",
+      "type": "Text",
+      "rect": [
+        288.4,
+        412.4,
+        406.1,
+        453.1
+      ],
+      "nearby": "+ + + +"
+    },
+    {
+      "name": "Text Field 44",
+      "type": "Text",
+      "rect": [
+        288.4,
+        458.6,
+        406.1,
+        499.3
+      ],
+      "nearby": "+ + + +"
+    },
+    {
+      "name": "Text Field 45",
+      "type": "Text",
+      "rect": [
+        288.4,
+        504.8,
+        406.1,
+        545.5
+      ],
+      "nearby": "+ + + + 5"
+    },
+    {
+      "name": "Text Field 48",
+      "type": "Text",
+      "rect": [
+        39.4,
+        504.8,
+        114.6,
+        545.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 49",
+      "type": "Text",
+      "rect": [
+        39.4,
+        458.6,
+        114.6,
+        499.3
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 54",
+      "type": "Text",
+      "rect": [
+        39.4,
+        412.4,
+        114.6,
+        453.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 55",
+      "type": "Text",
+      "rect": [
+        39.4,
+        366.2,
+        114.6,
+        406.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 60",
+      "type": "Text",
+      "rect": [
+        39.4,
+        319.9,
+        114.6,
+        360.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 61",
+      "type": "Text",
+      "rect": [
+        39.4,
+        273.7,
+        114.6,
+        314.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 66",
+      "type": "Text",
+      "rect": [
+        39.4,
+        227.5,
+        114.6,
+        268.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 67",
+      "type": "Text",
+      "rect": [
+        39.4,
+        181.3,
+        114.6,
+        222.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 72",
+      "type": "Text",
+      "rect": [
+        39.4,
+        135.1,
+        114.6,
+        175.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 73",
+      "type": "Text",
+      "rect": [
+        39.4,
+        88.9,
+        114.6,
+        129.6
+      ],
+      "nearby": "Name Rank"
+    },
+    {
+      "name": "Text Field 110",
+      "type": "Text",
+      "rect": [
+        157.7,
+        94.9,
+        188.2,
+        124.7
+      ],
+      "nearby": "Stat Name Rank + Dice Mod +"
+    },
+    {
+      "name": "Text Field 111",
+      "type": "Text",
+      "rect": [
+        157.7,
+        140.5,
+        188.2,
+        170.4
+      ],
+      "nearby": "+ +"
+    },
+    {
+      "name": "Text Field 112",
+      "type": "Text",
+      "rect": [
+        157.7,
+        186.7,
+        188.2,
+        216.6
+      ],
+      "nearby": "+ +"
+    },
+    {
+      "name": "Text Field 113",
+      "type": "Text",
+      "rect": [
+        157.7,
+        232.9,
+        188.2,
+        262.8
+      ],
+      "nearby": "+ +"
+    },
+    {
+      "name": "Text Field 114",
+      "type": "Text",
+      "rect": [
+        157.7,
+        279.2,
+        188.2,
+        309.0
+      ],
+      "nearby": "+ +"
+    },
+    {
+      "name": "Text Field 115",
+      "type": "Text",
+      "rect": [
+        157.7,
+        326.6,
+        188.2,
+        356.5
+      ],
+      "nearby": "+ +"
+    },
+    {
+      "name": "Text Field 116",
+      "type": "Text",
+      "rect": [
+        157.7,
+        372.0,
+        188.2,
+        401.9
+      ],
+      "nearby": "+ +"
+    },
+    {
+      "name": "Text Field 117",
+      "type": "Text",
+      "rect": [
+        157.7,
+        416.8,
+        188.2,
+        446.7
+      ],
+      "nearby": "+ +"
+    },
+    {
+      "name": "Text Field 118",
+      "type": "Text",
+      "rect": [
+        157.7,
+        464.0,
+        188.2,
+        493.9
+      ],
+      "nearby": "+ +"
+    },
+    {
+      "name": "Text Field 119",
+      "type": "Text",
+      "rect": [
+        157.7,
+        510.2,
+        188.2,
+        540.1
+      ],
+      "nearby": "+ +"
+    },
+    {
+      "name": "Text Field 120",
+      "type": "Text",
+      "rect": [
+        196.3,
+        94.9,
+        234.5,
+        124.7
+      ],
+      "nearby": "Stat + Dice + Mod Mod + +"
+    },
+    {
+      "name": "Text Field 122",
+      "type": "Text",
+      "rect": [
+        196.3,
+        140.5,
+        234.5,
+        170.4
+      ],
+      "nearby": "+ + + +"
+    },
+    {
+      "name": "Text Field 124",
+      "type": "Text",
+      "rect": [
+        196.3,
+        186.7,
+        234.5,
+        216.6
+      ],
+      "nearby": "+ + + +"
+    },
+    {
+      "name": "Text Field 126",
+      "type": "Text",
+      "rect": [
+        196.3,
+        232.9,
+        234.5,
+        262.8
+      ],
+      "nearby": "+ + + +"
+    },
+    {
+      "name": "Text Field 128",
+      "type": "Text",
+      "rect": [
+        196.3,
+        279.2,
+        234.5,
+        309.0
+      ],
+      "nearby": "+ + + +"
+    },
+    {
+      "name": "Text Field 130",
+      "type": "Text",
+      "rect": [
+        196.3,
+        326.6,
+        234.5,
+        356.5
+      ],
+      "nearby": "+ + + +"
+    },
+    {
+      "name": "Text Field 132",
+      "type": "Text",
+      "rect": [
+        196.3,
+        372.0,
+        234.5,
+        401.9
+      ],
+      "nearby": "+ + + +"
+    },
+    {
+      "name": "Text Field 134",
+      "type": "Text",
+      "rect": [
+        196.3,
+        416.8,
+        234.5,
+        446.7
+      ],
+      "nearby": "+ + + +"
+    },
+    {
+      "name": "Text Field 136",
+      "type": "Text",
+      "rect": [
+        196.3,
+        464.0,
+        234.5,
+        493.9
+      ],
+      "nearby": "+ + + +"
+    },
+    {
+      "name": "Text Field 138",
+      "type": "Text",
+      "rect": [
+        196.3,
+        510.2,
+        234.5,
+        540.1
+      ],
+      "nearby": "+ + + +"
+    },
+    {
+      "name": "Text Field 140",
+      "type": "Text",
+      "rect": [
+        239.7,
+        94.9,
+        277.9,
+        124.7
+      ],
+      "nearby": "Stat + Dice + Mod Mod + +"
+    },
+    {
+      "name": "Text Field 141",
+      "type": "Text",
+      "rect": [
+        239.7,
+        140.5,
+        277.9,
+        170.4
+      ],
+      "nearby": "+ + + +"
+    },
+    {
+      "name": "Text Field 142",
+      "type": "Text",
+      "rect": [
+        239.7,
+        186.7,
+        277.9,
+        216.6
+      ],
+      "nearby": "+ + + +"
+    },
+    {
+      "name": "Text Field 143",
+      "type": "Text",
+      "rect": [
+        239.7,
+        232.9,
+        277.9,
+        262.8
+      ],
+      "nearby": "+ + + +"
+    },
+    {
+      "name": "Text Field 144",
+      "type": "Text",
+      "rect": [
+        239.7,
+        279.2,
+        277.9,
+        309.0
+      ],
+      "nearby": "+ + + +"
+    },
+    {
+      "name": "Text Field 145",
+      "type": "Text",
+      "rect": [
+        239.7,
+        325.4,
+        277.9,
+        355.2
+      ],
+      "nearby": "+ + + +"
+    },
+    {
+      "name": "Text Field 146",
+      "type": "Text",
+      "rect": [
+        239.7,
+        371.6,
+        277.9,
+        401.5
+      ],
+      "nearby": "+ + + +"
+    },
+    {
+      "name": "Text Field 147",
+      "type": "Text",
+      "rect": [
+        239.7,
+        417.8,
+        277.9,
+        447.7
+      ],
+      "nearby": "+ + + +"
+    },
+    {
+      "name": "Text Field 148",
+      "type": "Text",
+      "rect": [
+        239.7,
+        464.0,
+        277.9,
+        493.9
+      ],
+      "nearby": "+ + + +"
+    },
+    {
+      "name": "Text Field 149",
+      "type": "Text",
+      "rect": [
+        239.7,
+        510.2,
+        277.9,
+        540.1
+      ],
+      "nearby": "+ + + +"
+    }
+  ],
+  "page_6": [
+    {
+      "name": "Text Field 86",
+      "type": "Text",
+      "rect": [
+        224.7,
+        48.1,
+        392.3,
+        118.1
+      ],
+      "nearby": "HOTLIST"
+    },
+    {
+      "name": "Text Field 87",
+      "type": "Text",
+      "rect": [
+        25.4,
+        131.4,
+        193.0,
+        201.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 88",
+      "type": "Text",
+      "rect": [
+        224.7,
+        131.4,
+        392.3,
+        201.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 89",
+      "type": "Text",
+      "rect": [
+        25.4,
+        215.0,
+        193.0,
+        285.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 90",
+      "type": "Text",
+      "rect": [
+        224.7,
+        215.0,
+        392.3,
+        285.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 91",
+      "type": "Text",
+      "rect": [
+        25.4,
+        298.6,
+        193.0,
+        368.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 92",
+      "type": "Text",
+      "rect": [
+        224.7,
+        298.6,
+        392.3,
+        368.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 93",
+      "type": "Text",
+      "rect": [
+        25.4,
+        382.2,
+        193.0,
+        452.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 94",
+      "type": "Text",
+      "rect": [
+        224.7,
+        382.2,
+        392.3,
+        452.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 95",
+      "type": "Text",
+      "rect": [
+        25.4,
+        465.8,
+        193.0,
+        535.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 96",
+      "type": "Text",
+      "rect": [
+        224.7,
+        465.8,
+        392.3,
+        535.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 85",
+      "type": "Text",
+      "rect": [
+        25.4,
+        48.1,
+        193.0,
+        118.1
+      ],
+      "nearby": "HOTLIST"
+    }
+  ],
+  "page_7": [
+    {
+      "name": "Text Field 99",
+      "type": "Text",
+      "rect": [
+        41.8,
+        128.9,
+        406.1,
+        151.9
+      ],
+      "nearby": "Arms Hands/Holding"
+    },
+    {
+      "name": "Text Field 100",
+      "type": "Text",
+      "rect": [
+        41.8,
+        174.0,
+        403.2,
+        211.3
+      ],
+      "nearby": "Hands/Holding Legs"
+    },
+    {
+      "name": "Text Field 101",
+      "type": "Text",
+      "rect": [
+        41.8,
+        88.8,
+        406.1,
+        111.8
+      ],
+      "nearby": "Torso Arms"
+    },
+    {
+      "name": "Text Field 102",
+      "type": "Text",
+      "rect": [
+        41.8,
+        50.8,
+        406.1,
+        73.8
+      ],
+      "nearby": "GEAR SLOTS/TATTOOS/PATCHES Head Torso"
+    },
+    {
+      "name": "Text Field 103",
+      "type": "Text",
+      "rect": [
+        41.8,
+        236.9,
+        403.2,
+        263.0
+      ],
+      "nearby": "Legs Feet"
+    },
+    {
+      "name": "Text Field 104",
+      "type": "Text",
+      "rect": [
+        41.8,
+        285.6,
+        403.2,
+        326.2
+      ],
+      "nearby": "Feet Accessories (Max 10)"
+    },
+    {
+      "name": "Text Field 105",
+      "type": "Text",
+      "rect": [
+        39.8,
+        348.3,
+        403.2,
+        531.7
+      ],
+      "nearby": "Accessories (Max 10)"
+    }
+  ],
+  "page_8": [
+    {
+      "name": "Text Field 107",
+      "type": "Text",
+      "rect": [
+        234.0,
+        64.8,
+        259.9,
+        87.8
+      ],
+      "nearby": "SKILLS Name Rank Stat &"
+    },
+    {
+      "name": "Text Field 108",
+      "type": "Text",
+      "rect": [
+        265.8,
+        64.8,
+        317.5,
+        87.8
+      ],
+      "nearby": "SKILLS Name Rank Stat & Mod Check"
+    },
+    {
+      "name": "Text Field 109",
+      "type": "Text",
+      "rect": [
+        323.4,
+        64.8,
+        393.1,
+        87.8
+      ],
+      "nearby": "SKILLS Rank Stat & Mod Check Type"
+    },
+    {
+      "name": "Text Field 1010",
+      "type": "Text",
+      "rect": [
+        27.1,
+        90.7,
+        228.1,
+        113.7
+      ],
+      "nearby": "Name Rank"
+    },
+    {
+      "name": "Text Field 1011",
+      "type": "Text",
+      "rect": [
+        234.0,
+        90.7,
+        259.9,
+        113.7
+      ],
+      "nearby": "Name Rank Stat &"
+    },
+    {
+      "name": "Text Field 1012",
+      "type": "Text",
+      "rect": [
+        265.8,
+        90.7,
+        317.5,
+        113.7
+      ],
+      "nearby": "Name Rank Stat & Mod Check"
+    },
+    {
+      "name": "Text Field 1013",
+      "type": "Text",
+      "rect": [
+        323.4,
+        90.7,
+        393.1,
+        113.7
+      ],
+      "nearby": "Rank Stat & Mod Check Type"
+    },
+    {
+      "name": "Text Field 1014",
+      "type": "Text",
+      "rect": [
+        27.1,
+        116.6,
+        228.1,
+        139.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1015",
+      "type": "Text",
+      "rect": [
+        234.0,
+        116.6,
+        259.9,
+        139.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1016",
+      "type": "Text",
+      "rect": [
+        265.8,
+        116.6,
+        317.5,
+        139.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1017",
+      "type": "Text",
+      "rect": [
+        323.4,
+        116.6,
+        393.1,
+        139.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1018",
+      "type": "Text",
+      "rect": [
+        27.1,
+        142.6,
+        228.1,
+        165.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1019",
+      "type": "Text",
+      "rect": [
+        234.0,
+        142.6,
+        259.9,
+        165.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1020",
+      "type": "Text",
+      "rect": [
+        265.8,
+        142.6,
+        317.5,
+        165.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1021",
+      "type": "Text",
+      "rect": [
+        323.4,
+        142.6,
+        393.1,
+        165.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1022",
+      "type": "Text",
+      "rect": [
+        27.1,
+        168.5,
+        228.1,
+        191.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1023",
+      "type": "Text",
+      "rect": [
+        234.0,
+        168.5,
+        259.9,
+        191.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1024",
+      "type": "Text",
+      "rect": [
+        265.8,
+        168.5,
+        317.5,
+        191.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1025",
+      "type": "Text",
+      "rect": [
+        323.4,
+        168.5,
+        393.1,
+        191.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1026",
+      "type": "Text",
+      "rect": [
+        27.1,
+        194.4,
+        228.1,
+        217.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1027",
+      "type": "Text",
+      "rect": [
+        234.0,
+        194.4,
+        259.9,
+        217.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1028",
+      "type": "Text",
+      "rect": [
+        265.8,
+        194.4,
+        317.5,
+        217.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1029",
+      "type": "Text",
+      "rect": [
+        323.4,
+        194.4,
+        393.1,
+        217.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1030",
+      "type": "Text",
+      "rect": [
+        27.1,
+        220.3,
+        228.1,
+        243.3
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1031",
+      "type": "Text",
+      "rect": [
+        234.0,
+        220.3,
+        259.9,
+        243.3
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1032",
+      "type": "Text",
+      "rect": [
+        265.8,
+        220.3,
+        317.5,
+        243.3
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1033",
+      "type": "Text",
+      "rect": [
+        323.4,
+        220.3,
+        393.1,
+        243.3
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1034",
+      "type": "Text",
+      "rect": [
+        27.1,
+        246.2,
+        228.1,
+        269.3
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1035",
+      "type": "Text",
+      "rect": [
+        234.0,
+        246.2,
+        259.9,
+        269.3
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1036",
+      "type": "Text",
+      "rect": [
+        265.8,
+        246.2,
+        317.5,
+        269.3
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1037",
+      "type": "Text",
+      "rect": [
+        323.4,
+        246.2,
+        393.1,
+        269.3
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1038",
+      "type": "Text",
+      "rect": [
+        27.1,
+        272.2,
+        228.1,
+        295.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1039",
+      "type": "Text",
+      "rect": [
+        234.0,
+        272.2,
+        259.9,
+        295.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1040",
+      "type": "Text",
+      "rect": [
+        265.8,
+        272.2,
+        317.5,
+        295.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1041",
+      "type": "Text",
+      "rect": [
+        323.4,
+        272.2,
+        393.1,
+        295.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1042",
+      "type": "Text",
+      "rect": [
+        27.1,
+        298.6,
+        228.1,
+        321.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1043",
+      "type": "Text",
+      "rect": [
+        234.0,
+        298.6,
+        259.9,
+        321.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1044",
+      "type": "Text",
+      "rect": [
+        265.8,
+        298.6,
+        317.5,
+        321.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1045",
+      "type": "Text",
+      "rect": [
+        323.4,
+        298.6,
+        393.1,
+        321.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1046",
+      "type": "Text",
+      "rect": [
+        27.1,
+        323.9,
+        228.1,
+        346.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1047",
+      "type": "Text",
+      "rect": [
+        234.0,
+        323.9,
+        259.9,
+        346.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1048",
+      "type": "Text",
+      "rect": [
+        265.8,
+        323.9,
+        317.5,
+        346.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1049",
+      "type": "Text",
+      "rect": [
+        323.4,
+        323.9,
+        393.1,
+        346.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1050",
+      "type": "Text",
+      "rect": [
+        27.1,
+        351.0,
+        228.1,
+        374.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1051",
+      "type": "Text",
+      "rect": [
+        234.0,
+        351.0,
+        259.9,
+        374.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1052",
+      "type": "Text",
+      "rect": [
+        265.8,
+        351.0,
+        317.5,
+        374.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1053",
+      "type": "Text",
+      "rect": [
+        323.4,
+        351.0,
+        393.1,
+        374.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1054",
+      "type": "Text",
+      "rect": [
+        27.1,
+        376.1,
+        228.1,
+        399.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1055",
+      "type": "Text",
+      "rect": [
+        234.0,
+        376.1,
+        259.9,
+        399.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1056",
+      "type": "Text",
+      "rect": [
+        265.8,
+        376.1,
+        317.5,
+        399.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1057",
+      "type": "Text",
+      "rect": [
+        323.4,
+        376.1,
+        393.1,
+        399.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1058",
+      "type": "Text",
+      "rect": [
+        27.1,
+        402.4,
+        228.1,
+        425.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1059",
+      "type": "Text",
+      "rect": [
+        234.0,
+        402.4,
+        259.9,
+        425.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1060",
+      "type": "Text",
+      "rect": [
+        265.8,
+        402.4,
+        317.5,
+        425.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1061",
+      "type": "Text",
+      "rect": [
+        323.4,
+        402.4,
+        393.1,
+        425.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1062",
+      "type": "Text",
+      "rect": [
+        27.1,
+        428.6,
+        228.1,
+        451.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1063",
+      "type": "Text",
+      "rect": [
+        234.0,
+        428.6,
+        259.9,
+        451.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1064",
+      "type": "Text",
+      "rect": [
+        265.8,
+        428.6,
+        317.5,
+        451.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1065",
+      "type": "Text",
+      "rect": [
+        323.4,
+        428.6,
+        393.1,
+        451.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1066",
+      "type": "Text",
+      "rect": [
+        27.1,
+        454.8,
+        228.1,
+        477.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1067",
+      "type": "Text",
+      "rect": [
+        234.0,
+        454.8,
+        259.9,
+        477.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1068",
+      "type": "Text",
+      "rect": [
+        265.8,
+        454.8,
+        317.5,
+        477.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1069",
+      "type": "Text",
+      "rect": [
+        323.4,
+        454.8,
+        393.1,
+        477.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1070",
+      "type": "Text",
+      "rect": [
+        27.1,
+        481.1,
+        228.1,
+        504.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1071",
+      "type": "Text",
+      "rect": [
+        234.0,
+        481.1,
+        259.9,
+        504.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1072",
+      "type": "Text",
+      "rect": [
+        265.8,
+        481.1,
+        317.5,
+        504.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1073",
+      "type": "Text",
+      "rect": [
+        323.4,
+        481.1,
+        393.1,
+        504.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1074",
+      "type": "Text",
+      "rect": [
+        27.1,
+        506.1,
+        228.1,
+        529.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1075",
+      "type": "Text",
+      "rect": [
+        234.0,
+        506.1,
+        259.9,
+        529.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1076",
+      "type": "Text",
+      "rect": [
+        265.8,
+        506.1,
+        317.5,
+        529.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 1077",
+      "type": "Text",
+      "rect": [
+        323.4,
+        506.1,
+        393.1,
+        529.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Text Field 106",
+      "type": "Text",
+      "rect": [
+        27.1,
+        64.8,
+        228.1,
+        87.8
+      ],
+      "nearby": "SKILLS Name Rank"
+    }
+  ]
+}

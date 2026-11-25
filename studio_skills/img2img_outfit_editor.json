@@ -1,0 +1,17 @@
+{
+  "id": "img2img_outfit_editor",
+  "name": "Seamless Img2Img Outfit & Detail Modifier",
+  "description": "Tuned for editing uploaded images while preserving the original face, body proportions, and pose.",
+  "prompt_prefix": "",
+  "prompt_suffix": "consistent lighting, seamless material integration, natural proportions, high detail skin and fabric texture, sharp focus",
+  "negative_prompt": "changed face, distorted pose, mutated hands, extra fingers, blurry, seam artifacts, low quality",
+  "ai_instructions": "Keep the exact pose, camera angle, framing, and facial features of the original image while explicitly describing the new outfit, state of dress, or background changes.",
+  "settings": {
+    "resolution": "832x1216",
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m_sde",
+    "scheduler": "karras",
+    "denoise": 0.55
+  }
+}

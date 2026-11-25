@@ -1,0 +1,17 @@
+{
+  "id": "ttrpg_vtt_token",
+  "name": "VTT Circular Token Bust (1:1)",
+  "description": "Centered head-and-shoulders bust with bold silhouette and clean contrast, ideal for Roll20 / Foundry VTT tokens.",
+  "prompt_prefix": "centered head and shoulders character portrait, tabletop RPG token art, ",
+  "prompt_suffix": "bold readable silhouette, clean high-contrast lighting, crisp facial details, stylized fantasy illustration, uncluttered background, 8k",
+  "negative_prompt": "full body, cropped head, cluttered background, blurry, bad anatomy, extra limbs, watermark, text, low quality",
+  "ai_instructions": "Frame as a centered 1:1 head-and-shoulders bust with strong silhouette readability and clean background separation suitable for circular VTT tokens.",
+  "settings": {
+    "resolution": "1024x1024",
+    "steps": 28,
+    "cfg": 6.0,
+    "sampler": "dpmpp_2m_sde",
+    "scheduler": "karras",
+    "denoise": 0.6
+  }
+}

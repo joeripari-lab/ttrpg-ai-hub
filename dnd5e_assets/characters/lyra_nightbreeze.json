@@ -1,0 +1,149 @@
+{
+  "id": "lyra_nightbreeze",
+  "name": "Lyra Nightbreeze",
+  "player_name": "Joe",
+  "race": "High Elf",
+  "class_name": "Wizard",
+  "level": 1,
+  "background": "Sage",
+  "alignment": "Neutral Good",
+  "xp": "0",
+  "ac": 12,
+  "hp_max": 8,
+  "hp_current": 8,
+  "hp_temp": 0,
+  "hit_dice": "1d6",
+  "speed": "30 ft.",
+  "inspiration": "",
+  "portrait_path": "C:\\Users\\Joe\\.gemini\\antigravity\\brain\\75b0c663-33fe-4dc7-977b-b0d4054ba43c\\scratch\\test_carl_portrait.png",
+  "stats": {
+    "STR": 8,
+    "DEX": 14,
+    "CON": 14,
+    "INT": 16,
+    "WIS": 12,
+    "CHA": 10
+  },
+  "save_profs": [
+    "INT",
+    "WIS"
+  ],
+  "skill_ranks": {
+    "Acrobatics": 0,
+    "Animal Handling": 0,
+    "Arcana": 1,
+    "Athletics": 0,
+    "Deception": 0,
+    "History": 1,
+    "Insight": 0,
+    "Intimidation": 0,
+    "Investigation": 1,
+    "Medicine": 0,
+    "Nature": 0,
+    "Perception": 1,
+    "Performance": 0,
+    "Persuasion": 0,
+    "Religion": 0,
+    "Sleight of Hand": 0,
+    "Stealth": 0,
+    "Survival": 0
+  },
+  "weapons": [
+    {
+      "name": "Quarterstaff",
+      "atk": "+1",
+      "damage": "1d6-1 Bludgeoning"
+    },
+    {
+      "name": "Fire Bolt",
+      "atk": "+5",
+      "damage": "1d10 Fire"
+    }
+  ],
+  "attacks_notes": "",
+  "currency": {
+    "cp": "0",
+    "sp": "0",
+    "ep": "0",
+    "gp": "10",
+    "pp": "0"
+  },
+  "proficiencies_lang": "Daggers, darts, slings, quarterstaffs, light crossbows\nLanguages: Common, Elvish, Draconic",
+  "equipment": "Quarterstaff\nArcane Focus (Crystal)\nScholar's Pack\nSpellbook",
+  "personality_traits": "",
+  "ideals": "",
+  "bonds": "",
+  "flaws": "",
+  "features_traits": "Darkvision 60 ft.\nFey Ancestry\nArcane Recovery",
+  "bio": {
+    "age": "",
+    "height": "",
+    "weight": "",
+    "eyes": "",
+    "skin": "",
+    "hair": "",
+    "allies": "",
+    "backstory": "",
+    "treasure": "",
+    "extra_features": ""
+  },
+  "spellcasting": {
+    "class_name": "Wizard",
+    "ability": "INT",
+    "slots_1": "2",
+    "slots_2": "",
+    "cantrips": [
+      "Fire Bolt",
+      "Mage Hand",
+      "Prestidigitation"
+    ],
+    "level_1": [
+      "Magic Missile",
+      "Shield",
+      "Mage Armor",
+      "Detect Magic"
+    ],
+    "level_2": [],
+    "save_dc": "13",
+    "atk_bonus": "+5"
+  },
+  "prof_bonus": 2,
+  "mods": {
+    "STR": -1,
+    "DEX": 2,
+    "CON": 2,
+    "INT": 3,
+    "WIS": 1,
+    "CHA": 0
+  },
+  "saves": {
+    "STR": -1,
+    "DEX": 2,
+    "CON": 2,
+    "INT": 5,
+    "WIS": 3,
+    "CHA": 0
+  },
+  "skill_bonuses": {
+    "Acrobatics": 2,
+    "Animal Handling": 1,
+    "Arcana": 5,
+    "Athletics": -1,
+    "Deception": 0,
+    "History": 5,
+    "Insight": 1,
+    "Intimidation": 0,
+    "Investigation": 5,
+    "Medicine": 1,
+    "Nature": 3,
+    "Perception": 3,
+    "Performance": 0,
+    "Persuasion": 0,
+    "Religion": 3,
+    "Sleight of Hand": 2,
+    "Stealth": 2,
+    "Survival": 1
+  },
+  "initiative": 2,
+  "passive_perception": 13
+}

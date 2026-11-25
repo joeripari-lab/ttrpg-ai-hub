@@ -1,0 +1,9008 @@
+{
+  "page_1": [
+    {
+      "name": "Classes  Level",
+      "type": "Text",
+      "rect": [
+        266.5,
+        39.4,
+        431.7,
+        52.1
+      ],
+      "nearby": "Class(es) & Level Alignment Species Background"
+    },
+    {
+      "name": "LEVEL",
+      "type": "Text",
+      "rect": [
+        432.2,
+        39.4,
+        448.7,
+        52.1
+      ],
+      "nearby": "& Level Alignment Background"
+    },
+    {
+      "name": "Character Name",
+      "type": "Text",
+      "rect": [
+        56.4,
+        73.0,
+        232.6,
+        95.0
+      ],
+      "nearby": "Character Name"
+    },
+    {
+      "name": "Alignment",
+      "type": "Text",
+      "rect": [
+        451.6,
+        40.7,
+        548.9,
+        52.1
+      ],
+      "nearby": "Level Alignment Background"
+    },
+    {
+      "name": "Species",
+      "type": "Text",
+      "rect": [
+        266.5,
+        59.0,
+        448.7,
+        70.3
+      ],
+      "nearby": "Class(es) & Level Alignment Species Background"
+    },
+    {
+      "name": "Background",
+      "type": "Text",
+      "rect": [
+        451.6,
+        59.0,
+        548.9,
+        70.3
+      ],
+      "nearby": "Level Alignment Background"
+    },
+    {
+      "name": "Experience Points",
+      "type": "Text",
+      "rect": [
+        266.5,
+        77.3,
+        360.8,
+        88.7
+      ],
+      "nearby": "Species Experience Points XP Next Level"
+    },
+    {
+      "name": "XP Next Level",
+      "type": "Text",
+      "rect": [
+        363.7,
+        77.3,
+        448.7,
+        88.7
+      ],
+      "nearby": "Background XP Next Level Player\u2019s Name"
+    },
+    {
+      "name": "Players Name",
+      "type": "Text",
+      "rect": [
+        451.6,
+        77.3,
+        548.9,
+        88.7
+      ],
+      "nearby": "Alignment Background Next Level Player\u2019s Name"
+    },
+    {
+      "name": "INITIATIVE",
+      "type": "Text",
+      "rect": [
+        405.3,
+        116.2,
+        425.4,
+        137.7
+      ],
+      "nearby": "XP Next Level Player\u2019s BONUS INITIATIVE"
+    },
+    {
+      "name": "STR",
+      "type": "Text",
+      "rect": [
+        67.7,
+        124.0,
+        88.8,
+        146.0
+      ],
+      "nearby": "Character Name STRENGTH"
+    },
+    {
+      "name": "SAVING THROW 1",
+      "type": "Text",
+      "rect": [
+        125.4,
+        136.2,
+        137.8,
+        146.8
+      ],
+      "nearby": "STRENGTH ____ Saving ____ Athletics"
+    },
+    {
+      "name": "Medium Armor Master",
+      "type": "CheckBox",
+      "rect": [
+        351.7,
+        149.1,
+        358.8,
+        156.2
+      ],
+      "nearby": "BONUS Armor Master (feat): CLASS Max"
+    },
+    {
+      "name": "BASE STR BONUS",
+      "type": "Text",
+      "rect": [
+        69.8,
+        150.7,
+        87.6,
+        165.7
+      ],
+      "nearby": "STRENGTH DEXTERITY"
+    },
+    {
+      "name": "Athletics",
+      "type": "Text",
+      "rect": [
+        125.4,
+        151.7,
+        137.8,
+        162.2
+      ],
+      "nearby": "STRENGTH ____ Saving ____ Athletics DEXTERITY"
+    },
+    {
+      "name": "ARMOR CLASS",
+      "type": "Text",
+      "rect": [
+        234.7,
+        151.7,
+        255.8,
+        173.7
+      ],
+      "nearby": "PROFICIENCY Saving Throw Medium Athletics ARMOR"
+    },
+    {
+      "name": "WIS",
+      "type": "Text",
+      "rect": [
+        68.2,
+        403.4,
+        89.2,
+        425.4
+      ],
+      "nearby": "WISDOM"
+    },
+    {
+      "name": "1",
+      "type": "Text",
+      "rect": [
+        242.8,
+        182.2,
+        369.5,
+        193.6
+      ],
+      "nearby": "Bonus Ench. AC Max DEX Weight"
+    },
+    {
+      "name": "CURRENT HIT POINTS",
+      "type": "Text",
+      "rect": [
+        433.2,
+        177.7,
+        529.8,
+        208.5
+      ],
+      "nearby": "POINTS MAXIMUM __________ CURRENT HIT POINTS"
+    },
+    {
+      "name": "CON",
+      "type": "Text",
+      "rect": [
+        68.2,
+        251.0,
+        89.2,
+        273.0
+      ],
+      "nearby": "CONSTITUTION"
+    },
+    {
+      "name": "BASE CHA BONUS",
+      "type": "Text",
+      "rect": [
+        69.5,
+        528.2,
+        87.3,
+        543.2
+      ],
+      "nearby": "CHARISMA"
+    },
+    {
+      "name": "INT",
+      "type": "Text",
+      "rect": [
+        68.7,
+        305.9,
+        89.7,
+        327.9
+      ],
+      "nearby": "INTELLIGENCE"
+    },
+    {
+      "name": "EXP. BONUS 3",
+      "type": "CheckBox",
+      "rect": [
+        112.8,
+        221.9,
+        122.2,
+        231.3
+      ],
+      "nearby": "____ Acrobatics ____ Sleight ____ Stealth"
+    },
+    {
+      "name": "EXP. BONUS 4",
+      "type": "CheckBox",
+      "rect": [
+        112.8,
+        234.9,
+        122.2,
+        244.2
+      ],
+      "nearby": "____ ____ Sleight ____ Stealth CONSTITUTION"
+    },
+    {
+      "name": "STR ST",
+      "type": "CheckBox",
+      "rect": [
+        107.8,
+        139.0,
+        117.1,
+        148.4
+      ],
+      "nearby": "STRENGTH ____ Saving ____ Athletics"
+    },
+    {
+      "name": "PROF ATHLETICS",
+      "type": "CheckBox",
+      "rect": [
+        101.7,
+        153.9,
+        111.1,
+        163.3
+      ],
+      "nearby": "STRENGTH ____ Saving ____ DEXTERITY"
+    },
+    {
+      "name": "DEX",
+      "type": "Text",
+      "rect": [
+        67.8,
+        178.6,
+        88.8,
+        200.6
+      ],
+      "nearby": "DEXTERITY"
+    },
+    {
+      "name": "DEX ST",
+      "type": "CheckBox",
+      "rect": [
+        107.9,
+        193.9,
+        117.3,
+        203.3
+      ],
+      "nearby": "DEXTERITY ____ Saving ____ Acrobatics Sleight"
+    },
+    {
+      "name": "PROF ACROBATICS",
+      "type": "CheckBox",
+      "rect": [
+        101.9,
+        209.0,
+        111.3,
+        218.3
+      ],
+      "nearby": "____ Saving ____ Acrobatics ____ Sleight"
+    },
+    {
+      "name": "PROF SLEIGHT OF HAND",
+      "type": "CheckBox",
+      "rect": [
+        101.9,
+        221.8,
+        111.3,
+        231.2
+      ],
+      "nearby": "____ Acrobatics ____ Sleight ____ Stealth"
+    },
+    {
+      "name": "PROF STEALTH",
+      "type": "CheckBox",
+      "rect": [
+        101.8,
+        234.9,
+        111.1,
+        244.3
+      ],
+      "nearby": "____ ____ Sleight ____ Stealth CONSTITUTION"
+    },
+    {
+      "name": "SAVING THROW 3",
+      "type": "Text",
+      "rect": [
+        125.4,
+        191.3,
+        137.8,
+        201.8
+      ],
+      "nearby": "DEXTERITY ____ Saving ____ Acrobatics"
+    },
+    {
+      "name": "Acrobatics",
+      "type": "Text",
+      "rect": [
+        125.4,
+        206.1,
+        137.8,
+        216.7
+      ],
+      "nearby": "____ Saving ____ Acrobatics ____ Sleight"
+    },
+    {
+      "name": "CON ST",
+      "type": "CheckBox",
+      "rect": [
+        107.9,
+        265.9,
+        117.2,
+        275.3
+      ],
+      "nearby": "____ Stealth CONSTITUTION ____ Saving"
+    },
+    {
+      "name": "2",
+      "type": "Text",
+      "rect": [
+        242.8,
+        195.5,
+        369.5,
+        206.9
+      ],
+      "nearby": "Bonus Ench. AC Max DEX Weight"
+    },
+    {
+      "name": "3",
+      "type": "Text",
+      "rect": [
+        242.8,
+        208.7,
+        369.5,
+        220.1
+      ],
+      "nearby": "Throw Acrobatics Hand ARMOR, SHIELD, PROTECTIONS"
+    },
+    {
+      "name": "1_2",
+      "type": "Text",
+      "rect": [
+        229.6,
+        257.2,
+        382.6,
+        268.6
+      ],
+      "nearby": "ARMOR, SHIELD, PROTECTIONS CONSTITUTION Saving Throw"
+    },
+    {
+      "name": "Sleight of Hand",
+      "type": "Text",
+      "rect": [
+        125.4,
+        219.3,
+        137.8,
+        229.9
+      ],
+      "nearby": "____ Acrobatics ____ Sleight ____ Stealth"
+    },
+    {
+      "name": "Stealth",
+      "type": "Text",
+      "rect": [
+        125.4,
+        232.5,
+        137.8,
+        243.1
+      ],
+      "nearby": "____ ____ Sleight ____ Stealth CONSTITUTION"
+    },
+    {
+      "name": "SAVING THROW 7",
+      "type": "Text",
+      "rect": [
+        125.4,
+        263.1,
+        137.8,
+        273.6
+      ],
+      "nearby": "____ Stealth CONSTITUTION ____ Saving"
+    },
+    {
+      "name": "2_2",
+      "type": "Text",
+      "rect": [
+        229.6,
+        270.4,
+        382.6,
+        281.8
+      ],
+      "nearby": "CONSTITUTION ____ Saving Throw"
+    },
+    {
+      "name": "3_2",
+      "type": "Text",
+      "rect": [
+        229.6,
+        283.7,
+        382.6,
+        295.1
+      ],
+      "nearby": "CONSTITUTION ____ Saving Throw INTELLIGENCE"
+    },
+    {
+      "name": "4",
+      "type": "Text",
+      "rect": [
+        229.6,
+        296.9,
+        382.6,
+        308.3
+      ],
+      "nearby": "Saving Throw INTELLIGENCE ____ Saving Throw"
+    },
+    {
+      "name": "SAVING THROW 8",
+      "type": "Text",
+      "rect": [
+        125.4,
+        318.1,
+        137.8,
+        328.7
+      ],
+      "nearby": "INTELLIGENCE ____ Saving ____ Investigation"
+    },
+    {
+      "name": "EXP. BONUS 1",
+      "type": "CheckBox",
+      "rect": [
+        112.6,
+        154.0,
+        122.0,
+        163.3
+      ],
+      "nearby": "STRENGTH ____ Saving ____ Athletics DEXTERITY"
+    },
+    {
+      "name": "EXP. BONUS 2",
+      "type": "CheckBox",
+      "rect": [
+        112.7,
+        208.8,
+        122.1,
+        218.1
+      ],
+      "nearby": "____ Saving ____ Acrobatics ____ Sleight"
+    },
+    {
+      "name": "PROF INVESTIGATION",
+      "type": "CheckBox",
+      "rect": [
+        101.8,
+        335.7,
+        111.1,
+        345.1
+      ],
+      "nearby": "INTELLIGENCE ____ Saving ____ Investigation ____"
+    },
+    {
+      "name": "PROF LORE",
+      "type": "CheckBox",
+      "rect": [
+        102.0,
+        348.6,
+        111.3,
+        358.0
+      ],
+      "nearby": "____ ____ Investigation ____ ____ ____"
+    },
+    {
+      "name": "CHA ST",
+      "type": "CheckBox",
+      "rect": [
+        108.0,
+        516.5,
+        117.3,
+        525.8
+      ],
+      "nearby": "____ CHARISMA ____ Saving Deception ____"
+    },
+    {
+      "name": "PROF DECEPTION",
+      "type": "CheckBox",
+      "rect": [
+        102.0,
+        531.3,
+        111.4,
+        540.7
+      ],
+      "nearby": "____ Saving Deception ____ ____ Intimidation"
+    },
+    {
+      "name": "PROF INTIMIDATION",
+      "type": "CheckBox",
+      "rect": [
+        101.9,
+        544.5,
+        111.2,
+        553.9
+      ],
+      "nearby": "Deception ____ ____ Intimidation ____ Performance"
+    },
+    {
+      "name": "EXP. BONUS 9",
+      "type": "CheckBox",
+      "rect": [
+        112.7,
+        387.9,
+        122.1,
+        397.2
+      ],
+      "nearby": "____ ____ Piloting Technology ____ WISDOM"
+    },
+    {
+      "name": "EXP. BONUS 8",
+      "type": "CheckBox",
+      "rect": [
+        112.8,
+        374.9,
+        122.2,
+        384.3
+      ],
+      "nearby": "____ Nature ____ Piloting Technology ____"
+    },
+    {
+      "name": "EXP. BONUS 10",
+      "type": "CheckBox",
+      "rect": [
+        112.7,
+        433.4,
+        122.1,
+        442.8
+      ],
+      "nearby": "____ Saving ____ Animal ____ Insight"
+    },
+    {
+      "name": "EXP. BONUS 11",
+      "type": "CheckBox",
+      "rect": [
+        112.7,
+        446.7,
+        122.1,
+        456.1
+      ],
+      "nearby": "____ Animal ____ Insight Medicine ____"
+    },
+    {
+      "name": "EXP. BONUS 12",
+      "type": "CheckBox",
+      "rect": [
+        112.7,
+        459.8,
+        122.1,
+        469.2
+      ],
+      "nearby": "____ Insight Medicine ____ ____ Perception"
+    },
+    {
+      "name": "EXP. BONUS 13",
+      "type": "CheckBox",
+      "rect": [
+        112.6,
+        472.6,
+        122.0,
+        482.0
+      ],
+      "nearby": "Medicine ____ ____ Perception ____ Survival"
+    },
+    {
+      "name": "5",
+      "type": "Text",
+      "rect": [
+        229.6,
+        310.1,
+        382.6,
+        321.5
+      ],
+      "nearby": "INTELLIGENCE ____ Saving Throw ____ Investigation"
+    },
+    {
+      "name": "HIT DIE 10",
+      "type": "CheckBox",
+      "rect": [
+        463.4,
+        316.6,
+        469.5,
+        322.7
+      ],
+      "nearby": "DICE MAXIMUM __________ HIT DICE SPENT"
+    },
+    {
+      "name": "6",
+      "type": "Text",
+      "rect": [
+        229.6,
+        323.3,
+        382.6,
+        334.7
+      ],
+      "nearby": "INTELLIGENCE ____ Saving Throw Investigation Successes"
+    },
+    {
+      "name": "7",
+      "type": "Text",
+      "rect": [
+        229.6,
+        336.5,
+        382.6,
+        347.9
+      ],
+      "nearby": "Throw Investigation Successes ADVANTAGES, RESISTANCES, IMMUNITIES"
+    },
+    {
+      "name": "8",
+      "type": "Text",
+      "rect": [
+        229.6,
+        349.7,
+        382.6,
+        361.1
+      ],
+      "nearby": "Investigation Successes Nature ADVANTAGES, RESISTANCES, IMMUNITIES"
+    },
+    {
+      "name": "HIT POINTS MAXIMUM",
+      "type": "Text",
+      "rect": [
+        499.2,
+        164.5,
+        545.9,
+        175.9
+      ],
+      "nearby": "HIT POINTS MAXIMUM __________ Weight"
+    },
+    {
+      "name": "undefined",
+      "type": "Text",
+      "rect": [
+        494.5,
+        287.3,
+        541.2,
+        298.7
+      ],
+      "nearby": "TEMPORARY HIT POINTS DICE MAXIMUM __________"
+    },
+    {
+      "name": "PROF ANIMAL HANDLING",
+      "type": "CheckBox",
+      "rect": [
+        102.2,
+        433.6,
+        111.5,
+        443.0
+      ],
+      "nearby": "____ Saving ____ Animal ____ Insight"
+    },
+    {
+      "name": "PROF MEDICINE",
+      "type": "CheckBox",
+      "rect": [
+        102.0,
+        459.7,
+        111.3,
+        469.1
+      ],
+      "nearby": "____ Insight Medicine ____ ____ Perception"
+    },
+    {
+      "name": "SUCCESS 3",
+      "type": "CheckBox",
+      "rect": [
+        467.5,
+        347.6,
+        476.9,
+        356.9
+      ],
+      "nearby": "HIT DICE Successes Failed DEATH SAVES"
+    },
+    {
+      "name": "undefined_5",
+      "type": "Text",
+      "rect": [
+        230.4,
+        561.7,
+        331.9,
+        573.7
+      ],
+      "nearby": "Intimidation ____ Performance Persuasion Armor penalty"
+    },
+    {
+      "name": "undefined_6",
+      "type": "Text",
+      "rect": [
+        342.7,
+        561.7,
+        444.4,
+        573.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "undefined_7",
+      "type": "Text",
+      "rect": [
+        455.2,
+        561.7,
+        556.7,
+        573.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "base",
+      "type": "Text",
+      "rect": [
+        66.2,
+        716.7,
+        93.9,
+        731.7
+      ],
+      "nearby": "SPEED base hour special movement"
+    },
+    {
+      "name": "hour",
+      "type": "Text",
+      "rect": [
+        114.4,
+        717.6,
+        147.0,
+        732.6
+      ],
+      "nearby": "SPEED base hour day special movement"
+    },
+    {
+      "name": "day",
+      "type": "Text",
+      "rect": [
+        164.6,
+        717.6,
+        197.3,
+        732.6
+      ],
+      "nearby": "SPEED base hour day special movement"
+    },
+    {
+      "name": "special movement",
+      "type": "Text",
+      "rect": [
+        58.6,
+        742.9,
+        204.6,
+        753.7
+      ],
+      "nearby": "special movement SENSES & MOVEMENT"
+    },
+    {
+      "name": "PROF BONUS",
+      "type": "Text",
+      "rect": [
+        232.5,
+        116.4,
+        253.5,
+        138.4
+      ],
+      "nearby": "Experience STRENGTH PROFICIENCY Saving Throw Medium"
+    },
+    {
+      "name": "HIT DIE 2",
+      "type": "CheckBox",
+      "rect": [
+        432.0,
+        306.0,
+        438.1,
+        312.2
+      ],
+      "nearby": "HIT DICE MAXIMUM HIT"
+    },
+    {
+      "name": "HIT DIE 3",
+      "type": "CheckBox",
+      "rect": [
+        442.5,
+        306.0,
+        448.7,
+        312.2
+      ],
+      "nearby": "HIT DICE MAXIMUM HIT DICE"
+    },
+    {
+      "name": "HIT DIE 4",
+      "type": "CheckBox",
+      "rect": [
+        452.8,
+        306.0,
+        459.0,
+        312.2
+      ],
+      "nearby": "HIT DICE MAXIMUM HIT DICE SPENT"
+    },
+    {
+      "name": "HIT DIE 5",
+      "type": "CheckBox",
+      "rect": [
+        463.5,
+        305.9,
+        469.7,
+        312.1
+      ],
+      "nearby": "HIT DICE MAXIMUM __________ HIT DICE"
+    },
+    {
+      "name": "HIT DIE 6",
+      "type": "CheckBox",
+      "rect": [
+        421.3,
+        316.6,
+        427.4,
+        322.7
+      ],
+      "nearby": "HIT DICE MAXIMUM"
+    },
+    {
+      "name": "HIT DIE 7",
+      "type": "CheckBox",
+      "rect": [
+        431.8,
+        316.6,
+        438.0,
+        322.7
+      ],
+      "nearby": "HIT DICE MAXIMUM HIT"
+    },
+    {
+      "name": "HIT DIE 8",
+      "type": "CheckBox",
+      "rect": [
+        442.3,
+        316.6,
+        448.4,
+        322.7
+      ],
+      "nearby": "HIT DICE MAXIMUM HIT DICE"
+    },
+    {
+      "name": "HIT DIE 9",
+      "type": "CheckBox",
+      "rect": [
+        452.9,
+        316.6,
+        459.1,
+        322.7
+      ],
+      "nearby": "HIT DICE MAXIMUM HIT DICE SPENT"
+    },
+    {
+      "name": "HIT DIE 11",
+      "type": "CheckBox",
+      "rect": [
+        491.2,
+        305.9,
+        497.4,
+        312.1
+      ],
+      "nearby": "DICE MAXIMUM __________ HIT DICE SPENT"
+    },
+    {
+      "name": "HIT DIE 12",
+      "type": "CheckBox",
+      "rect": [
+        502.0,
+        306.1,
+        508.1,
+        312.2
+      ],
+      "nearby": "DICE MAXIMUM __________ HIT DICE SPENT"
+    },
+    {
+      "name": "HIT DIE 13",
+      "type": "CheckBox",
+      "rect": [
+        512.5,
+        306.1,
+        518.7,
+        312.2
+      ],
+      "nearby": "DICE MAXIMUM __________ HIT DICE SPENT"
+    },
+    {
+      "name": "HIT DIE 14",
+      "type": "CheckBox",
+      "rect": [
+        522.9,
+        306.1,
+        529.1,
+        312.2
+      ],
+      "nearby": "DICE MAXIMUM __________ HIT DICE SPENT"
+    },
+    {
+      "name": "HIT DIE 15",
+      "type": "CheckBox",
+      "rect": [
+        533.6,
+        305.9,
+        539.7,
+        312.1
+      ],
+      "nearby": "DICE MAXIMUM __________ HIT DICE SPENT"
+    },
+    {
+      "name": "HIT DIE 16",
+      "type": "CheckBox",
+      "rect": [
+        491.3,
+        316.7,
+        497.5,
+        322.9
+      ],
+      "nearby": "DICE MAXIMUM __________ HIT DICE SPENT"
+    },
+    {
+      "name": "HIT DIE 17",
+      "type": "CheckBox",
+      "rect": [
+        501.7,
+        316.7,
+        507.9,
+        322.9
+      ],
+      "nearby": "DICE MAXIMUM __________ HIT DICE SPENT"
+    },
+    {
+      "name": "HIT DIE 18",
+      "type": "CheckBox",
+      "rect": [
+        512.4,
+        316.7,
+        518.5,
+        322.9
+      ],
+      "nearby": "DICE MAXIMUM __________ HIT DICE SPENT"
+    },
+    {
+      "name": "HIT DIE 19",
+      "type": "CheckBox",
+      "rect": [
+        523.0,
+        316.6,
+        529.2,
+        322.7
+      ],
+      "nearby": "DICE MAXIMUM __________ HIT DICE SPENT"
+    },
+    {
+      "name": "HIT DIE 20",
+      "type": "CheckBox",
+      "rect": [
+        533.7,
+        316.7,
+        539.8,
+        322.9
+      ],
+      "nearby": "DICE MAXIMUM __________ HIT DICE SPENT"
+    },
+    {
+      "name": "FAIL 1",
+      "type": "CheckBox",
+      "rect": [
+        517.7,
+        347.4,
+        527.1,
+        356.8
+      ],
+      "nearby": "HIT DICE SPENT Failed DEATH SAVES"
+    },
+    {
+      "name": "FAIL 2",
+      "type": "CheckBox",
+      "rect": [
+        531.1,
+        347.4,
+        540.5,
+        356.7
+      ],
+      "nearby": "HIT DICE SPENT Failed DEATH SAVES"
+    },
+    {
+      "name": "INT ST",
+      "type": "CheckBox",
+      "rect": [
+        107.9,
+        320.6,
+        117.2,
+        330.0
+      ],
+      "nearby": "INTELLIGENCE ____ Saving ____ Investigation Lore"
+    },
+    {
+      "name": "PROF NATURE",
+      "type": "CheckBox",
+      "rect": [
+        102.0,
+        361.7,
+        111.3,
+        371.1
+      ],
+      "nearby": "____ ____ ____ ____ Piloting ____"
+    },
+    {
+      "name": "PROF PILOTING",
+      "type": "CheckBox",
+      "rect": [
+        102.0,
+        374.8,
+        111.3,
+        384.2
+      ],
+      "nearby": "____ ____ Piloting Technology ____ WISDOM"
+    },
+    {
+      "name": "PROF TECHNOLOGY",
+      "type": "CheckBox",
+      "rect": [
+        102.0,
+        387.9,
+        111.3,
+        397.3
+      ],
+      "nearby": "____ ____ Piloting Technology ____ WISDOM"
+    },
+    {
+      "name": "Piloting",
+      "type": "Text",
+      "rect": [
+        125.4,
+        372.0,
+        137.8,
+        382.6
+      ],
+      "nearby": "____ Nature ____ Piloting Technology ____"
+    },
+    {
+      "name": "WIS ST",
+      "type": "CheckBox",
+      "rect": [
+        107.9,
+        418.7,
+        117.2,
+        428.0
+      ],
+      "nearby": "____ WISDOM ____ Saving ____ Animal"
+    },
+    {
+      "name": "SAVING THROW 14",
+      "type": "Text",
+      "rect": [
+        125.4,
+        416.1,
+        137.8,
+        426.6
+      ],
+      "nearby": "____ WISDOM ____ Saving ____ Animal"
+    },
+    {
+      "name": "Investigation",
+      "type": "Text",
+      "rect": [
+        125.4,
+        333.2,
+        137.8,
+        343.8
+      ],
+      "nearby": "____ Saving ____ Investigation ____ Lore"
+    },
+    {
+      "name": "Technology",
+      "type": "Text",
+      "rect": [
+        125.4,
+        385.0,
+        137.8,
+        395.5
+      ],
+      "nearby": "____ ____ Piloting Technology ____ WISDOM"
+    },
+    {
+      "name": "Lore",
+      "type": "Text",
+      "rect": [
+        125.4,
+        345.9,
+        137.8,
+        356.5
+      ],
+      "nearby": "____ Investigation ____ Lore ____ Nature"
+    },
+    {
+      "name": "Nature",
+      "type": "Text",
+      "rect": [
+        125.4,
+        358.8,
+        137.8,
+        369.4
+      ],
+      "nearby": "____ Lore ____ Nature ____ Piloting"
+    },
+    {
+      "name": "PROF INSIGHT",
+      "type": "CheckBox",
+      "rect": [
+        102.0,
+        446.7,
+        111.3,
+        456.0
+      ],
+      "nearby": "____ Animal ____ Insight Medicine ____"
+    },
+    {
+      "name": "PROF PERCEPTION",
+      "type": "CheckBox",
+      "rect": [
+        102.0,
+        472.7,
+        111.3,
+        482.1
+      ],
+      "nearby": "____ ____ Perception ____ Survival CHARISMA"
+    },
+    {
+      "name": "PROF SURVIVAL",
+      "type": "CheckBox",
+      "rect": [
+        101.9,
+        485.8,
+        111.2,
+        495.1
+      ],
+      "nearby": "____ ____ Perception ____ Survival CHARISMA"
+    },
+    {
+      "name": "PROF PERFORMANCE",
+      "type": "CheckBox",
+      "rect": [
+        101.9,
+        557.6,
+        111.2,
+        567.0
+      ],
+      "nearby": "____ Intimidation ____ Performance ____ Persuasion"
+    },
+    {
+      "name": "PROF PERSUASION",
+      "type": "CheckBox",
+      "rect": [
+        102.0,
+        570.5,
+        111.4,
+        579.9
+      ],
+      "nearby": "____ Performance ____ Persuasion Pro\ufb01cient Expertise"
+    },
+    {
+      "name": "EXP LORE",
+      "type": "CheckBox",
+      "rect": [
+        112.7,
+        348.7,
+        122.1,
+        358.1
+      ],
+      "nearby": "____ Investigation ____ Lore ____ Nature"
+    },
+    {
+      "name": "EXP INVESTIGATION",
+      "type": "CheckBox",
+      "rect": [
+        112.7,
+        335.6,
+        122.1,
+        345.0
+      ],
+      "nearby": "____ Saving ____ Investigation ____ Lore"
+    },
+    {
+      "name": "EXP. BONUS 7",
+      "type": "CheckBox",
+      "rect": [
+        112.7,
+        361.7,
+        122.1,
+        371.1
+      ],
+      "nearby": "____ Lore ____ Nature ____ Piloting"
+    },
+    {
+      "name": "EXP. BONUS 14",
+      "type": "CheckBox",
+      "rect": [
+        112.9,
+        485.8,
+        122.2,
+        495.2
+      ],
+      "nearby": "____ ____ Perception ____ Survival CHARISMA"
+    },
+    {
+      "name": "EXP. BONUS 15",
+      "type": "CheckBox",
+      "rect": [
+        112.7,
+        531.3,
+        122.0,
+        540.6
+      ],
+      "nearby": "____ Saving Deception ____ ____ Intimidation"
+    },
+    {
+      "name": "EXP. BONUS 16",
+      "type": "CheckBox",
+      "rect": [
+        112.7,
+        544.4,
+        122.0,
+        553.7
+      ],
+      "nearby": "Deception ____ ____ Intimidation ____ Performance"
+    },
+    {
+      "name": "EXP. BONUS 17",
+      "type": "CheckBox",
+      "rect": [
+        112.8,
+        557.4,
+        122.2,
+        566.8
+      ],
+      "nearby": "____ Intimidation ____ Performance ____ Persuasion"
+    },
+    {
+      "name": "EXP. BONUS 18",
+      "type": "CheckBox",
+      "rect": [
+        112.7,
+        570.5,
+        122.1,
+        579.9
+      ],
+      "nearby": "____ Performance ____ Persuasion Pro\ufb01cient Expertise"
+    },
+    {
+      "name": "SUCCESS 1",
+      "type": "CheckBox",
+      "rect": [
+        441.2,
+        347.4,
+        450.6,
+        356.8
+      ],
+      "nearby": "HIT DICE Successes RESISTANCES, IMMUNITIES DEATH"
+    },
+    {
+      "name": "HIT DIE 1",
+      "type": "CheckBox",
+      "rect": [
+        421.2,
+        306.0,
+        427.3,
+        312.2
+      ],
+      "nearby": "HIT DICE MAXIMUM"
+    },
+    {
+      "name": "WEAPON 1",
+      "type": "Text",
+      "rect": [
+        229.1,
+        397.4,
+        330.3,
+        410.0
+      ],
+      "nearby": "Technology Weapon Attack WISDOM Saving Throw"
+    },
+    {
+      "name": "ATTACK 1",
+      "type": "Text",
+      "rect": [
+        329.8,
+        397.4,
+        376.9,
+        410.0
+      ],
+      "nearby": "Weapon Attack Damage/Type Throw"
+    },
+    {
+      "name": "DAMAGE 1",
+      "type": "Text",
+      "rect": [
+        377.1,
+        397.4,
+        467.1,
+        410.0
+      ],
+      "nearby": "Weapon Attack Damage/Type Range"
+    },
+    {
+      "name": "RANGE 1",
+      "type": "Text",
+      "rect": [
+        467.3,
+        397.4,
+        528.6,
+        410.0
+      ],
+      "nearby": "Attack Damage/Type Range Weight"
+    },
+    {
+      "name": "WEIGHT 1",
+      "type": "Text",
+      "rect": [
+        527.7,
+        397.4,
+        557.3,
+        410.0
+      ],
+      "nearby": "Damage/Type Range Weight"
+    },
+    {
+      "name": "MISC 1",
+      "type": "Text",
+      "rect": [
+        228.7,
+        410.2,
+        556.5,
+        423.3
+      ],
+      "nearby": "Weapon Attack Damage/Type Range Weight Throw"
+    },
+    {
+      "name": "SUCCESS 2",
+      "type": "CheckBox",
+      "rect": [
+        454.4,
+        347.4,
+        463.8,
+        356.8
+      ],
+      "nearby": "HIT DICE SPENT Successes DEATH SAVES"
+    },
+    {
+      "name": "FAIL 3",
+      "type": "CheckBox",
+      "rect": [
+        544.2,
+        347.4,
+        553.5,
+        356.8
+      ],
+      "nearby": "HIT DICE SPENT Failed DEATH SAVES"
+    },
+    {
+      "name": "PASSIVE PERCEPTION",
+      "type": "Text",
+      "rect": [
+        60.8,
+        614.6,
+        88.5,
+        629.6
+      ],
+      "nearby": "Pro\ufb01cient Expertise PASSIVE INSPIRATION"
+    },
+    {
+      "name": "INSPIRATION",
+      "type": "Text",
+      "rect": [
+        60.8,
+        640.8,
+        88.5,
+        655.8
+      ],
+      "nearby": "PASSIVE INSPIRATION"
+    },
+    {
+      "name": "BASE DEX BONUS",
+      "type": "Text",
+      "rect": [
+        69.5,
+        205.4,
+        87.3,
+        220.4
+      ],
+      "nearby": "DEXTERITY"
+    },
+    {
+      "name": "BASE CON BONUS",
+      "type": "Text",
+      "rect": [
+        69.8,
+        277.2,
+        87.6,
+        292.2
+      ],
+      "nearby": "CONSTITUTION INTELLIGENCE"
+    },
+    {
+      "name": "BASE INT BONUS",
+      "type": "Text",
+      "rect": [
+        69.5,
+        331.9,
+        87.3,
+        346.9
+      ],
+      "nearby": "INTELLIGENCE"
+    },
+    {
+      "name": "BASE WIS BONUS",
+      "type": "Text",
+      "rect": [
+        69.5,
+        430.3,
+        87.3,
+        445.3
+      ],
+      "nearby": "WISDOM"
+    },
+    {
+      "name": "VISION",
+      "type": "Text",
+      "rect": [
+        57.6,
+        679.4,
+        207.6,
+        695.0
+      ],
+      "nearby": "VISION SPEED base hour day"
+    },
+    {
+      "name": "TEMPORARY HIT POINTS",
+      "type": "Text",
+      "rect": [
+        432.7,
+        231.1,
+        529.3,
+        261.9
+      ],
+      "nearby": "CURRENT HIT POINTS TEMPORARY HIT POINTS"
+    },
+    {
+      "name": "WEAPON 2",
+      "type": "Text",
+      "rect": [
+        229.1,
+        428.9,
+        330.3,
+        441.5
+      ],
+      "nearby": "Saving Throw Animal Handling Insight Medicine"
+    },
+    {
+      "name": "ATTACK 2",
+      "type": "Text",
+      "rect": [
+        329.8,
+        428.9,
+        376.9,
+        441.5
+      ],
+      "nearby": "Throw Handling"
+    },
+    {
+      "name": "DAMAGE 2",
+      "type": "Text",
+      "rect": [
+        377.1,
+        428.9,
+        467.1,
+        441.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "RANGE 2",
+      "type": "Text",
+      "rect": [
+        467.3,
+        428.9,
+        528.6,
+        441.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "WEIGHT 2",
+      "type": "Text",
+      "rect": [
+        527.7,
+        428.9,
+        557.3,
+        441.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Animal Handling",
+      "type": "Text",
+      "rect": [
+        125.4,
+        430.9,
+        137.8,
+        441.5
+      ],
+      "nearby": "____ Saving ____ Animal ____ Insight"
+    },
+    {
+      "name": "Insight",
+      "type": "Text",
+      "rect": [
+        125.4,
+        443.9,
+        137.8,
+        454.4
+      ],
+      "nearby": "____ Animal ____ Insight Medicine ____"
+    },
+    {
+      "name": "MISC 2",
+      "type": "Text",
+      "rect": [
+        228.7,
+        441.7,
+        556.5,
+        454.8
+      ],
+      "nearby": "Throw Animal Handling Insight Medicine Perception"
+    },
+    {
+      "name": "Medicine",
+      "type": "Text",
+      "rect": [
+        125.4,
+        456.8,
+        137.8,
+        467.3
+      ],
+      "nearby": "____ Insight Medicine ____ ____ Perception"
+    },
+    {
+      "name": "WEAPON 3",
+      "type": "Text",
+      "rect": [
+        229.1,
+        460.9,
+        330.3,
+        473.5
+      ],
+      "nearby": "Handling Insight Medicine ____ Perception Survival"
+    },
+    {
+      "name": "ATTACK 3",
+      "type": "Text",
+      "rect": [
+        329.8,
+        460.9,
+        376.9,
+        473.5
+      ],
+      "nearby": "Handling"
+    },
+    {
+      "name": "DAMAGE 3",
+      "type": "Text",
+      "rect": [
+        377.1,
+        460.9,
+        467.1,
+        473.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "RANGE 3",
+      "type": "Text",
+      "rect": [
+        467.3,
+        460.9,
+        528.6,
+        473.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "WEIGHT 3",
+      "type": "Text",
+      "rect": [
+        527.7,
+        460.9,
+        557.3,
+        473.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Perception",
+      "type": "Text",
+      "rect": [
+        125.4,
+        470.3,
+        137.8,
+        480.8
+      ],
+      "nearby": "Medicine ____ ____ Perception ____ Survival"
+    },
+    {
+      "name": "MISC 3",
+      "type": "Text",
+      "rect": [
+        228.7,
+        473.7,
+        556.5,
+        486.8
+      ],
+      "nearby": "Medicine ____ ____ Perception ____ Survival"
+    },
+    {
+      "name": "Survival",
+      "type": "Text",
+      "rect": [
+        125.4,
+        483.2,
+        137.8,
+        493.7
+      ],
+      "nearby": "____ ____ Perception ____ Survival CHARISMA"
+    },
+    {
+      "name": "WEAPON 4",
+      "type": "Text",
+      "rect": [
+        229.1,
+        491.8,
+        330.3,
+        504.5
+      ],
+      "nearby": "Perception ____ Survival CHARISMA Saving Throw"
+    },
+    {
+      "name": "ATTACK 4",
+      "type": "Text",
+      "rect": [
+        329.8,
+        491.8,
+        376.9,
+        504.5
+      ],
+      "nearby": "Throw"
+    },
+    {
+      "name": "DAMAGE 4",
+      "type": "Text",
+      "rect": [
+        377.1,
+        491.8,
+        467.1,
+        504.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "RANGE 4",
+      "type": "Text",
+      "rect": [
+        467.3,
+        491.8,
+        528.6,
+        504.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "WEIGHT 4",
+      "type": "Text",
+      "rect": [
+        527.7,
+        491.8,
+        557.3,
+        504.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "CHA",
+      "type": "Text",
+      "rect": [
+        68.0,
+        501.3,
+        89.1,
+        523.3
+      ],
+      "nearby": "CHARISMA"
+    },
+    {
+      "name": "MISC 4",
+      "type": "Text",
+      "rect": [
+        228.7,
+        504.7,
+        556.5,
+        517.8
+      ],
+      "nearby": "Survival CHARISMA ____ Saving Throw Deception"
+    },
+    {
+      "name": "SAVING THROW 20",
+      "type": "Text",
+      "rect": [
+        125.4,
+        514.3,
+        137.8,
+        524.8
+      ],
+      "nearby": "____ CHARISMA ____ Saving Deception ____"
+    },
+    {
+      "name": "WEAPON 5",
+      "type": "Text",
+      "rect": [
+        229.1,
+        523.9,
+        330.3,
+        536.5
+      ],
+      "nearby": "____ Saving Throw Deception ____ Intimidation"
+    },
+    {
+      "name": "ATTACK 5",
+      "type": "Text",
+      "rect": [
+        329.8,
+        523.9,
+        376.9,
+        536.5
+      ],
+      "nearby": "Throw"
+    },
+    {
+      "name": "DAMAGE 5",
+      "type": "Text",
+      "rect": [
+        377.1,
+        523.9,
+        467.1,
+        536.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "RANGE 5",
+      "type": "Text",
+      "rect": [
+        467.3,
+        523.9,
+        528.6,
+        536.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "WEIGHT 5",
+      "type": "Text",
+      "rect": [
+        527.7,
+        523.9,
+        557.3,
+        536.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "Deception",
+      "type": "Text",
+      "rect": [
+        125.4,
+        529.2,
+        137.8,
+        539.7
+      ],
+      "nearby": "____ Saving Deception ____ ____ Intimidation"
+    },
+    {
+      "name": "Intimidation",
+      "type": "Text",
+      "rect": [
+        125.4,
+        541.8,
+        137.8,
+        552.4
+      ],
+      "nearby": "Deception ____ ____ Intimidation ____ Performance"
+    },
+    {
+      "name": "MISC 5",
+      "type": "Text",
+      "rect": [
+        228.7,
+        536.7,
+        556.5,
+        549.8
+      ],
+      "nearby": "Saving Throw Deception ____ Intimidation Performance"
+    },
+    {
+      "name": "Performance",
+      "type": "Text",
+      "rect": [
+        125.4,
+        555.0,
+        137.8,
+        565.6
+      ],
+      "nearby": "____ Intimidation ____ Performance ____ Persuasion"
+    },
+    {
+      "name": "Persuasion",
+      "type": "Text",
+      "rect": [
+        125.4,
+        568.0,
+        137.8,
+        578.5
+      ],
+      "nearby": "____ Performance ____ Persuasion Expertise *"
+    },
+    {
+      "name": "AMMO 1",
+      "type": "CheckBox",
+      "rect": [
+        230.1,
+        577.0,
+        236.2,
+        583.2
+      ],
+      "nearby": "Performance ____ Persuasion * Armor penalty"
+    },
+    {
+      "name": "AMMO 2",
+      "type": "CheckBox",
+      "rect": [
+        240.6,
+        576.9,
+        246.8,
+        583.1
+      ],
+      "nearby": "Performance ____ Persuasion * Armor penalty"
+    },
+    {
+      "name": "AMMO 3",
+      "type": "CheckBox",
+      "rect": [
+        251.2,
+        577.0,
+        257.3,
+        583.2
+      ],
+      "nearby": "Performance ____ Persuasion * Armor penalty"
+    },
+    {
+      "name": "AMMO 4",
+      "type": "CheckBox",
+      "rect": [
+        261.8,
+        576.9,
+        267.9,
+        583.1
+      ],
+      "nearby": "Performance ____ Persuasion * Armor penalty"
+    },
+    {
+      "name": "AMMO 5",
+      "type": "CheckBox",
+      "rect": [
+        272.3,
+        576.9,
+        278.5,
+        583.1
+      ],
+      "nearby": "Performance ____ Persuasion * Armor penalty"
+    },
+    {
+      "name": "AMMO 6",
+      "type": "CheckBox",
+      "rect": [
+        283.7,
+        576.9,
+        289.9,
+        583.1
+      ],
+      "nearby": "Intimidation Performance Persuasion * Armor penalty"
+    },
+    {
+      "name": "AMMO 7",
+      "type": "CheckBox",
+      "rect": [
+        294.3,
+        577.0,
+        300.5,
+        583.2
+      ],
+      "nearby": "Intimidation Performance Persuasion Armor penalty"
+    },
+    {
+      "name": "AMMO 8",
+      "type": "CheckBox",
+      "rect": [
+        304.9,
+        576.9,
+        311.1,
+        583.1
+      ],
+      "nearby": "Intimidation Performance Persuasion Armor penalty"
+    },
+    {
+      "name": "AMMO 9",
+      "type": "CheckBox",
+      "rect": [
+        315.5,
+        576.9,
+        321.6,
+        583.1
+      ],
+      "nearby": "Intimidation Performance Persuasion penalty"
+    },
+    {
+      "name": "AMMO 10",
+      "type": "CheckBox",
+      "rect": [
+        326.1,
+        577.0,
+        332.3,
+        583.2
+      ],
+      "nearby": "Performance penalty WEAPONS"
+    },
+    {
+      "name": "AMMO 11",
+      "type": "CheckBox",
+      "rect": [
+        230.1,
+        587.4,
+        236.2,
+        593.6
+      ],
+      "nearby": "Performance Persuasion | * Armor penalty"
+    },
+    {
+      "name": "AMMO 13",
+      "type": "CheckBox",
+      "rect": [
+        240.5,
+        587.4,
+        246.7,
+        593.6
+      ],
+      "nearby": "Performance Persuasion | * Armor penalty"
+    },
+    {
+      "name": "AMMO 14",
+      "type": "CheckBox",
+      "rect": [
+        251.3,
+        587.4,
+        257.4,
+        593.6
+      ],
+      "nearby": "Performance Persuasion | * Armor penalty"
+    },
+    {
+      "name": "AMMO 15",
+      "type": "CheckBox",
+      "rect": [
+        261.8,
+        587.4,
+        268.0,
+        593.6
+      ],
+      "nearby": "Performance Persuasion | * Armor penalty"
+    },
+    {
+      "name": "AMMO 16",
+      "type": "CheckBox",
+      "rect": [
+        272.3,
+        587.6,
+        278.5,
+        593.8
+      ],
+      "nearby": "Performance Persuasion | * Armor penalty"
+    },
+    {
+      "name": "AMMO 17",
+      "type": "CheckBox",
+      "rect": [
+        283.8,
+        587.6,
+        289.9,
+        593.8
+      ],
+      "nearby": "Performance Persuasion | * Armor penalty"
+    },
+    {
+      "name": "AMMO 18",
+      "type": "CheckBox",
+      "rect": [
+        294.3,
+        587.6,
+        300.5,
+        593.8
+      ],
+      "nearby": "Performance Persuasion Armor penalty"
+    },
+    {
+      "name": "AMMO 19",
+      "type": "CheckBox",
+      "rect": [
+        304.8,
+        587.4,
+        310.9,
+        593.6
+      ],
+      "nearby": "Performance Persuasion Armor penalty"
+    },
+    {
+      "name": "AMMO 20",
+      "type": "CheckBox",
+      "rect": [
+        315.5,
+        587.4,
+        321.7,
+        593.6
+      ],
+      "nearby": "Performance Persuasion penalty"
+    },
+    {
+      "name": "AMMO 21",
+      "type": "CheckBox",
+      "rect": [
+        326.1,
+        587.4,
+        332.3,
+        593.6
+      ],
+      "nearby": "Performance penalty WEAPONS"
+    },
+    {
+      "name": "AMMO 22",
+      "type": "CheckBox",
+      "rect": [
+        342.4,
+        577.0,
+        348.5,
+        583.2
+      ],
+      "nearby": "WEAPONS"
+    },
+    {
+      "name": "AMMO 23",
+      "type": "CheckBox",
+      "rect": [
+        353.0,
+        576.9,
+        359.1,
+        583.1
+      ],
+      "nearby": "WEAPONS &"
+    },
+    {
+      "name": "AMMO 24",
+      "type": "CheckBox",
+      "rect": [
+        363.5,
+        577.0,
+        369.6,
+        583.2
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 25",
+      "type": "CheckBox",
+      "rect": [
+        374.1,
+        576.9,
+        380.2,
+        583.1
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 26",
+      "type": "CheckBox",
+      "rect": [
+        384.6,
+        576.9,
+        390.8,
+        583.1
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 27",
+      "type": "CheckBox",
+      "rect": [
+        396.1,
+        576.9,
+        402.2,
+        583.1
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 28",
+      "type": "CheckBox",
+      "rect": [
+        406.6,
+        577.0,
+        412.8,
+        583.2
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 29",
+      "type": "CheckBox",
+      "rect": [
+        417.2,
+        576.9,
+        423.4,
+        583.1
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 30",
+      "type": "CheckBox",
+      "rect": [
+        427.8,
+        576.9,
+        433.9,
+        583.1
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 31",
+      "type": "CheckBox",
+      "rect": [
+        438.4,
+        577.0,
+        444.6,
+        583.2
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 32",
+      "type": "CheckBox",
+      "rect": [
+        342.4,
+        587.4,
+        348.5,
+        593.6
+      ],
+      "nearby": "WEAPONS"
+    },
+    {
+      "name": "AMMO 33",
+      "type": "CheckBox",
+      "rect": [
+        352.8,
+        587.4,
+        359.0,
+        593.6
+      ],
+      "nearby": "WEAPONS &"
+    },
+    {
+      "name": "AMMO 34",
+      "type": "CheckBox",
+      "rect": [
+        363.6,
+        587.4,
+        369.7,
+        593.6
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 35",
+      "type": "CheckBox",
+      "rect": [
+        374.2,
+        587.4,
+        380.3,
+        593.6
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 36",
+      "type": "CheckBox",
+      "rect": [
+        384.6,
+        587.6,
+        390.8,
+        593.8
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 37",
+      "type": "CheckBox",
+      "rect": [
+        396.1,
+        587.6,
+        402.2,
+        593.8
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 38",
+      "type": "CheckBox",
+      "rect": [
+        406.7,
+        587.6,
+        412.8,
+        593.8
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 40",
+      "type": "CheckBox",
+      "rect": [
+        427.8,
+        587.4,
+        434.0,
+        593.6
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 41",
+      "type": "CheckBox",
+      "rect": [
+        438.4,
+        587.4,
+        444.6,
+        593.6
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 42",
+      "type": "CheckBox",
+      "rect": [
+        454.9,
+        577.0,
+        461.0,
+        583.2
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 43",
+      "type": "CheckBox",
+      "rect": [
+        465.5,
+        576.9,
+        471.6,
+        583.1
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 44",
+      "type": "CheckBox",
+      "rect": [
+        476.0,
+        577.0,
+        482.2,
+        583.2
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 45",
+      "type": "CheckBox",
+      "rect": [
+        486.6,
+        576.9,
+        492.8,
+        583.1
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 46",
+      "type": "CheckBox",
+      "rect": [
+        497.1,
+        576.9,
+        503.3,
+        583.1
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 47",
+      "type": "CheckBox",
+      "rect": [
+        508.6,
+        576.9,
+        514.7,
+        583.1
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 48",
+      "type": "CheckBox",
+      "rect": [
+        519.2,
+        577.0,
+        525.3,
+        583.2
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 49",
+      "type": "CheckBox",
+      "rect": [
+        529.7,
+        576.9,
+        535.9,
+        583.1
+      ],
+      "nearby": "AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 50",
+      "type": "CheckBox",
+      "rect": [
+        540.3,
+        576.9,
+        546.4,
+        583.1
+      ],
+      "nearby": "AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 51",
+      "type": "CheckBox",
+      "rect": [
+        550.9,
+        577.0,
+        557.1,
+        583.2
+      ],
+      "nearby": "AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 39",
+      "type": "CheckBox",
+      "rect": [
+        417.4,
+        587.4,
+        423.6,
+        593.6
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 52",
+      "type": "CheckBox",
+      "rect": [
+        454.9,
+        587.4,
+        461.1,
+        593.6
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 53",
+      "type": "CheckBox",
+      "rect": [
+        465.3,
+        587.4,
+        471.5,
+        593.6
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 54",
+      "type": "CheckBox",
+      "rect": [
+        476.1,
+        587.4,
+        482.2,
+        593.6
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 55",
+      "type": "CheckBox",
+      "rect": [
+        486.7,
+        587.4,
+        492.8,
+        593.6
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 56",
+      "type": "CheckBox",
+      "rect": [
+        497.1,
+        587.6,
+        503.3,
+        593.8
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 57",
+      "type": "CheckBox",
+      "rect": [
+        508.6,
+        587.6,
+        514.7,
+        593.8
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 58",
+      "type": "CheckBox",
+      "rect": [
+        519.2,
+        587.6,
+        525.3,
+        593.8
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 59",
+      "type": "CheckBox",
+      "rect": [
+        529.6,
+        587.4,
+        535.8,
+        593.6
+      ],
+      "nearby": "AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 60",
+      "type": "CheckBox",
+      "rect": [
+        540.3,
+        587.4,
+        546.5,
+        593.6
+      ],
+      "nearby": "AMMUNITIONS"
+    },
+    {
+      "name": "AMMO 61",
+      "type": "CheckBox",
+      "rect": [
+        550.9,
+        587.4,
+        557.1,
+        593.6
+      ],
+      "nearby": "AMMUNITIONS"
+    },
+    {
+      "name": "REST INDICATOR 1",
+      "type": "CheckBox",
+      "rect": [
+        227.9,
+        625.9,
+        237.3,
+        635.3
+      ],
+      "nearby": "PASSIVE WISDOM (PERCEPTION) INSPIRATION"
+    },
+    {
+      "name": "COMBAT FEAT 1",
+      "type": "Text",
+      "rect": [
+        239.1,
+        622.4,
+        510.8,
+        634.4
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS PASSIVE WISDOM (PERCEPTION)"
+    },
+    {
+      "name": "COMBAT FEAT 2",
+      "type": "Text",
+      "rect": [
+        239.1,
+        635.0,
+        510.8,
+        647.0
+      ],
+      "nearby": "PASSIVE WISDOM (PERCEPTION) INSPIRATION"
+    },
+    {
+      "name": "USE 3",
+      "type": "CheckBox",
+      "rect": [
+        533.1,
+        627.6,
+        539.3,
+        633.8
+      ],
+      "nearby": "AMMUNITIONS"
+    },
+    {
+      "name": "USE 4",
+      "type": "CheckBox",
+      "rect": [
+        543.1,
+        627.6,
+        549.3,
+        633.8
+      ],
+      "nearby": "AMMUNITIONS"
+    },
+    {
+      "name": "USE 5",
+      "type": "CheckBox",
+      "rect": [
+        553.0,
+        627.6,
+        559.1,
+        633.8
+      ],
+      "nearby": "AMMUNITIONS"
+    },
+    {
+      "name": "REST INDICATOR 2",
+      "type": "CheckBox",
+      "rect": [
+        227.9,
+        639.4,
+        237.3,
+        648.7
+      ],
+      "nearby": "PASSIVE WISDOM (PERCEPTION) INSPIRATION"
+    },
+    {
+      "name": "REST INDICATOR 3",
+      "type": "CheckBox",
+      "rect": [
+        228.0,
+        652.5,
+        237.3,
+        661.8
+      ],
+      "nearby": "INSPIRATION VISION"
+    },
+    {
+      "name": "REST INDICATOR 4",
+      "type": "CheckBox",
+      "rect": [
+        228.1,
+        665.5,
+        237.4,
+        674.9
+      ],
+      "nearby": "INSPIRATION VISION"
+    },
+    {
+      "name": "REST INDICATOR 5",
+      "type": "CheckBox",
+      "rect": [
+        228.1,
+        679.1,
+        237.4,
+        688.4
+      ],
+      "nearby": "VISION SPEED"
+    },
+    {
+      "name": "REST INDICATOR 6",
+      "type": "CheckBox",
+      "rect": [
+        228.2,
+        692.3,
+        237.5,
+        701.7
+      ],
+      "nearby": "VISION SPEED hour day"
+    },
+    {
+      "name": "REST INDICATOR 7",
+      "type": "CheckBox",
+      "rect": [
+        228.1,
+        705.7,
+        237.4,
+        715.0
+      ],
+      "nearby": "SPEED hour day"
+    },
+    {
+      "name": "REST INDICATOR 8",
+      "type": "CheckBox",
+      "rect": [
+        228.0,
+        718.9,
+        237.3,
+        728.3
+      ],
+      "nearby": "SPEED hour day movement"
+    },
+    {
+      "name": "REST INDICATOR 9",
+      "type": "CheckBox",
+      "rect": [
+        227.9,
+        731.9,
+        237.2,
+        741.3
+      ],
+      "nearby": "hour day movement SENSES & MOVEMENT"
+    },
+    {
+      "name": "USE 1",
+      "type": "CheckBox",
+      "rect": [
+        513.0,
+        627.6,
+        519.2,
+        633.7
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS"
+    },
+    {
+      "name": "USE 2",
+      "type": "CheckBox",
+      "rect": [
+        523.1,
+        627.8,
+        529.2,
+        633.9
+      ],
+      "nearby": "WEAPONS & AMMUNITIONS"
+    },
+    {
+      "name": "USE 8",
+      "type": "CheckBox",
+      "rect": [
+        533.1,
+        640.8,
+        539.3,
+        646.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "USE 9",
+      "type": "CheckBox",
+      "rect": [
+        543.1,
+        640.8,
+        549.3,
+        646.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "USE 10",
+      "type": "CheckBox",
+      "rect": [
+        553.0,
+        640.8,
+        559.1,
+        646.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "USE 6",
+      "type": "CheckBox",
+      "rect": [
+        513.0,
+        640.7,
+        519.2,
+        646.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "USE 7",
+      "type": "CheckBox",
+      "rect": [
+        523.1,
+        640.9,
+        529.2,
+        647.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "USE 13",
+      "type": "CheckBox",
+      "rect": [
+        533.1,
+        654.1,
+        539.3,
+        660.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "USE 14",
+      "type": "CheckBox",
+      "rect": [
+        543.1,
+        654.1,
+        549.3,
+        660.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "USE 15",
+      "type": "CheckBox",
+      "rect": [
+        553.0,
+        654.1,
+        559.1,
+        660.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "USE 11",
+      "type": "CheckBox",
+      "rect": [
+        513.0,
+        654.0,
+        519.2,
+        660.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "USE 12",
+      "type": "CheckBox",
+      "rect": [
+        523.1,
+        654.2,
+        529.2,
+        660.3
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "USE 18",
+      "type": "CheckBox",
+      "rect": [
+        533.1,
+        667.3,
+        539.3,
+        673.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "USE 19",
+      "type": "CheckBox",
+      "rect": [
+        543.1,
+        667.3,
+        549.3,
+        673.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "USE 20",
+      "type": "CheckBox",
+      "rect": [
+        553.0,
+        667.3,
+        559.1,
+        673.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "USE 16",
+      "type": "CheckBox",
+      "rect": [
+        513.0,
+        667.3,
+        519.2,
+        673.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "USE 17",
+      "type": "CheckBox",
+      "rect": [
+        523.1,
+        667.4,
+        529.2,
+        673.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "USE 24",
+      "type": "CheckBox",
+      "rect": [
+        533.2,
+        680.5,
+        539.4,
+        686.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "USE 25",
+      "type": "CheckBox",
+      "rect": [
+        543.3,
+        680.5,
+        549.4,
+        686.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "USE 26",
+      "type": "CheckBox",
+      "rect": [
+        553.1,
+        680.5,
+        559.3,
+        686.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "USE 21",
+      "type": "CheckBox",
+      "rect": [
+        513.1,
+        680.4,
+        519.3,
+        686.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "USE 22",
+      "type": "CheckBox",
+      "rect": [
+        523.2,
+        680.6,
+        529.4,
+        686.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "USE 29",
+      "type": "CheckBox",
+      "rect": [
+        533.1,
+        693.7,
+        539.3,
+        699.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "USE 30",
+      "type": "CheckBox",
+      "rect": [
+        543.1,
+        693.7,
+        549.3,
+        699.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "USE 31",
+      "type": "CheckBox",
+      "rect": [
+        553.0,
+        693.7,
+        559.1,
+        699.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "USE 27",
+      "type": "CheckBox",
+      "rect": [
+        513.0,
+        693.7,
+        519.2,
+        699.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "USE 28",
+      "type": "CheckBox",
+      "rect": [
+        523.1,
+        693.8,
+        529.2,
+        700.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "USE 34",
+      "type": "CheckBox",
+      "rect": [
+        533.1,
+        706.9,
+        539.3,
+        713.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "USE 35",
+      "type": "CheckBox",
+      "rect": [
+        543.1,
+        706.9,
+        549.3,
+        713.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "USE 36",
+      "type": "CheckBox",
+      "rect": [
+        553.0,
+        706.9,
+        559.1,
+        713.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "USE 32",
+      "type": "CheckBox",
+      "rect": [
+        513.0,
+        706.8,
+        519.2,
+        713.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "USE 33",
+      "type": "CheckBox",
+      "rect": [
+        523.1,
+        707.0,
+        529.2,
+        713.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "USE 39",
+      "type": "CheckBox",
+      "rect": [
+        533.2,
+        720.1,
+        539.4,
+        726.3
+      ],
+      "nearby": "Refresh after long rest | Use"
+    },
+    {
+      "name": "USE 40",
+      "type": "CheckBox",
+      "rect": [
+        543.3,
+        720.1,
+        549.4,
+        726.3
+      ],
+      "nearby": "Refresh after long rest | Use"
+    },
+    {
+      "name": "USE 41",
+      "type": "CheckBox",
+      "rect": [
+        553.1,
+        720.1,
+        559.3,
+        726.3
+      ],
+      "nearby": "Refresh after long rest | Use"
+    },
+    {
+      "name": "USE 37",
+      "type": "CheckBox",
+      "rect": [
+        513.1,
+        720.1,
+        519.3,
+        726.2
+      ],
+      "nearby": "Refresh after long rest | Use"
+    },
+    {
+      "name": "USE 38",
+      "type": "CheckBox",
+      "rect": [
+        523.2,
+        720.2,
+        529.4,
+        726.4
+      ],
+      "nearby": "Refresh after long rest | Use"
+    },
+    {
+      "name": "USE 44",
+      "type": "CheckBox",
+      "rect": [
+        533.1,
+        733.4,
+        539.3,
+        739.6
+      ],
+      "nearby": "Refresh after long rest | Use"
+    },
+    {
+      "name": "USE 45",
+      "type": "CheckBox",
+      "rect": [
+        543.1,
+        733.4,
+        549.3,
+        739.6
+      ],
+      "nearby": "Refresh after long rest | Use"
+    },
+    {
+      "name": "USE 46",
+      "type": "CheckBox",
+      "rect": [
+        553.0,
+        733.4,
+        559.1,
+        739.6
+      ],
+      "nearby": "Refresh after long rest | Use"
+    },
+    {
+      "name": "USE 42",
+      "type": "CheckBox",
+      "rect": [
+        513.0,
+        733.3,
+        519.2,
+        739.5
+      ],
+      "nearby": "Refresh after long rest | Use"
+    },
+    {
+      "name": "USE 43",
+      "type": "CheckBox",
+      "rect": [
+        523.1,
+        733.5,
+        529.2,
+        739.7
+      ],
+      "nearby": "Refresh after long rest | Use"
+    },
+    {
+      "name": "COMBAT FEAT 3",
+      "type": "Text",
+      "rect": [
+        239.1,
+        649.0,
+        510.8,
+        661.0
+      ],
+      "nearby": "PASSIVE WISDOM (PERCEPTION) INSPIRATION VISION"
+    },
+    {
+      "name": "COMBAT FEAT 4",
+      "type": "Text",
+      "rect": [
+        239.1,
+        661.6,
+        510.8,
+        673.6
+      ],
+      "nearby": "INSPIRATION VISION"
+    },
+    {
+      "name": "COMBAT FEAT 5",
+      "type": "Text",
+      "rect": [
+        239.1,
+        675.2,
+        510.8,
+        687.2
+      ],
+      "nearby": "INSPIRATION VISION SPEED"
+    },
+    {
+      "name": "COMBAT FEAT 6",
+      "type": "Text",
+      "rect": [
+        239.1,
+        687.8,
+        510.8,
+        699.8
+      ],
+      "nearby": "VISION SPEED hour day"
+    },
+    {
+      "name": "COMBAT FEAT 7",
+      "type": "Text",
+      "rect": [
+        238.7,
+        701.4,
+        510.4,
+        713.4
+      ],
+      "nearby": "VISION SPEED hour day"
+    },
+    {
+      "name": "COMBAT FEAT 8",
+      "type": "Text",
+      "rect": [
+        238.7,
+        714.0,
+        510.4,
+        726.0
+      ],
+      "nearby": "Refresh after short/long rest | Refresh"
+    },
+    {
+      "name": "COMBAT FEAT 9",
+      "type": "Text",
+      "rect": [
+        239.1,
+        701.4,
+        510.8,
+        713.4
+      ],
+      "nearby": "VISION SPEED hour day"
+    },
+    {
+      "name": "COMBAT FEAT 10",
+      "type": "Text",
+      "rect": [
+        239.1,
+        714.0,
+        510.8,
+        726.0
+      ],
+      "nearby": "Refresh after short/long rest | Refresh"
+    },
+    {
+      "name": "COMBAT FEAT 11",
+      "type": "Text",
+      "rect": [
+        238.7,
+        728.0,
+        510.4,
+        740.0
+      ],
+      "nearby": "Refresh after short/long rest | Refresh"
+    }
+  ],
+  "page_2": [
+    {
+      "name": "1_3",
+      "type": "Text",
+      "rect": [
+        50.6,
+        25.6,
+        210.1,
+        38.3
+      ],
+      "nearby": "Place"
+    },
+    {
+      "name": "2_3",
+      "type": "Text",
+      "rect": [
+        50.6,
+        38.9,
+        210.1,
+        51.6
+      ],
+      "nearby": "Place"
+    },
+    {
+      "name": "3_3",
+      "type": "Text",
+      "rect": [
+        50.6,
+        52.2,
+        210.1,
+        64.9
+      ],
+      "nearby": "Place Age"
+    },
+    {
+      "name": "4_2",
+      "type": "Text",
+      "rect": [
+        50.6,
+        65.5,
+        210.1,
+        78.2
+      ],
+      "nearby": "Age Height"
+    },
+    {
+      "name": "5_2",
+      "type": "Text",
+      "rect": [
+        50.6,
+        79.0,
+        210.1,
+        91.7
+      ],
+      "nearby": "Age Height Size"
+    },
+    {
+      "name": "BIO 1",
+      "type": "Text",
+      "rect": [
+        243.1,
+        79.5,
+        387.2,
+        92.2
+      ],
+      "nearby": "Age Gender Height Weight Size Hair"
+    },
+    {
+      "name": "6_2",
+      "type": "Text",
+      "rect": [
+        50.6,
+        92.3,
+        210.1,
+        105.0
+      ],
+      "nearby": "Age Height Size Eyes"
+    },
+    {
+      "name": "7_2",
+      "type": "Text",
+      "rect": [
+        50.6,
+        105.6,
+        210.1,
+        118.3
+      ],
+      "nearby": "Age Height Size Eyes Appearance"
+    },
+    {
+      "name": "8_2",
+      "type": "Text",
+      "rect": [
+        50.6,
+        118.9,
+        210.1,
+        131.6
+      ],
+      "nearby": "Height Size Eyes Appearance PROFICIENCIES"
+    },
+    {
+      "name": "BIO 2",
+      "type": "Text",
+      "rect": [
+        250.3,
+        92.3,
+        386.9,
+        105.0
+      ],
+      "nearby": "Age Gender Height Weight Size Hair"
+    },
+    {
+      "name": "9",
+      "type": "Text",
+      "rect": [
+        50.6,
+        132.4,
+        210.1,
+        145.1
+      ],
+      "nearby": "Size Eyes Appearance PROFICIENCIES"
+    },
+    {
+      "name": "1_4",
+      "type": "Text",
+      "rect": [
+        50.4,
+        166.7,
+        209.9,
+        179.4
+      ],
+      "nearby": "Appearance PROFICIENCIES Personality"
+    },
+    {
+      "name": "2_4",
+      "type": "Text",
+      "rect": [
+        50.4,
+        180.0,
+        209.9,
+        192.7
+      ],
+      "nearby": "Personality"
+    },
+    {
+      "name": "3_4",
+      "type": "Text",
+      "rect": [
+        50.4,
+        193.4,
+        209.9,
+        206.2
+      ],
+      "nearby": "Personality Ideals LANGUAGES"
+    },
+    {
+      "name": "4_3",
+      "type": "Text",
+      "rect": [
+        50.4,
+        206.8,
+        209.9,
+        219.5
+      ],
+      "nearby": "Personality Ideals LANGUAGES"
+    },
+    {
+      "name": "1_5",
+      "type": "Text",
+      "rect": [
+        50.4,
+        239.2,
+        209.9,
+        251.9
+      ],
+      "nearby": "Ideals LANGUAGES Bonds"
+    },
+    {
+      "name": "2_5",
+      "type": "Text",
+      "rect": [
+        50.4,
+        252.5,
+        209.9,
+        265.2
+      ],
+      "nearby": "LANGUAGES Bonds"
+    },
+    {
+      "name": "3_5",
+      "type": "Text",
+      "rect": [
+        50.4,
+        265.8,
+        209.9,
+        278.5
+      ],
+      "nearby": "Bonds Flaws"
+    },
+    {
+      "name": "4_4",
+      "type": "Text",
+      "rect": [
+        50.4,
+        279.1,
+        209.9,
+        291.8
+      ],
+      "nearby": "Bonds Flaws"
+    },
+    {
+      "name": "5_3",
+      "type": "Text",
+      "rect": [
+        50.4,
+        292.6,
+        209.9,
+        305.3
+      ],
+      "nearby": "Flaws"
+    },
+    {
+      "name": "6_3",
+      "type": "Text",
+      "rect": [
+        50.4,
+        305.9,
+        209.9,
+        318.6
+      ],
+      "nearby": "Flaws Background"
+    },
+    {
+      "name": "7_3",
+      "type": "Text",
+      "rect": [
+        50.4,
+        319.2,
+        209.9,
+        331.9
+      ],
+      "nearby": "Flaws Background"
+    },
+    {
+      "name": "8_3",
+      "type": "Text",
+      "rect": [
+        50.4,
+        332.5,
+        209.9,
+        345.2
+      ],
+      "nearby": "Background"
+    },
+    {
+      "name": "9_2",
+      "type": "Text",
+      "rect": [
+        50.4,
+        346.0,
+        209.9,
+        358.7
+      ],
+      "nearby": "Background"
+    },
+    {
+      "name": "10",
+      "type": "Text",
+      "rect": [
+        50.4,
+        359.3,
+        209.9,
+        372.0
+      ],
+      "nearby": "Background"
+    },
+    {
+      "name": "11",
+      "type": "Text",
+      "rect": [
+        50.4,
+        372.6,
+        209.9,
+        385.3
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "12",
+      "type": "Text",
+      "rect": [
+        50.4,
+        385.9,
+        209.9,
+        398.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "13",
+      "type": "Text",
+      "rect": [
+        50.4,
+        399.4,
+        209.9,
+        412.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "14",
+      "type": "Text",
+      "rect": [
+        50.4,
+        412.7,
+        209.9,
+        425.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "15",
+      "type": "Text",
+      "rect": [
+        50.4,
+        426.0,
+        209.9,
+        438.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "16",
+      "type": "Text",
+      "rect": [
+        50.4,
+        439.3,
+        209.9,
+        452.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "17",
+      "type": "Text",
+      "rect": [
+        50.4,
+        452.8,
+        209.9,
+        465.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "18",
+      "type": "Text",
+      "rect": [
+        50.4,
+        466.1,
+        209.9,
+        478.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "19",
+      "type": "Text",
+      "rect": [
+        50.3,
+        479.4,
+        209.9,
+        492.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "20",
+      "type": "Text",
+      "rect": [
+        50.3,
+        492.8,
+        209.8,
+        505.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "21",
+      "type": "Text",
+      "rect": [
+        50.3,
+        506.2,
+        209.8,
+        518.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "22",
+      "type": "Text",
+      "rect": [
+        50.3,
+        519.5,
+        209.8,
+        532.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "23",
+      "type": "Text",
+      "rect": [
+        50.3,
+        532.8,
+        209.8,
+        545.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "24",
+      "type": "Text",
+      "rect": [
+        50.3,
+        546.2,
+        209.8,
+        559.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "25",
+      "type": "Text",
+      "rect": [
+        50.3,
+        559.6,
+        209.8,
+        572.3
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "26",
+      "type": "Text",
+      "rect": [
+        50.2,
+        572.9,
+        209.5,
+        585.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "27",
+      "type": "Text",
+      "rect": [
+        50.8,
+        586.8,
+        210.2,
+        599.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "28",
+      "type": "Text",
+      "rect": [
+        50.8,
+        600.1,
+        210.2,
+        612.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "29",
+      "type": "Text",
+      "rect": [
+        50.8,
+        613.4,
+        210.2,
+        626.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "30",
+      "type": "Text",
+      "rect": [
+        50.8,
+        626.8,
+        210.2,
+        639.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "31",
+      "type": "Text",
+      "rect": [
+        50.8,
+        640.2,
+        210.2,
+        652.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "32",
+      "type": "Text",
+      "rect": [
+        50.8,
+        653.5,
+        210.2,
+        666.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "33",
+      "type": "Text",
+      "rect": [
+        50.8,
+        666.8,
+        210.2,
+        679.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "34",
+      "type": "Text",
+      "rect": [
+        50.8,
+        680.2,
+        210.2,
+        692.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "35",
+      "type": "Text",
+      "rect": [
+        50.8,
+        693.6,
+        210.2,
+        706.3
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "36",
+      "type": "Text",
+      "rect": [
+        50.8,
+        706.9,
+        210.2,
+        719.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "37",
+      "type": "Text",
+      "rect": [
+        50.8,
+        720.2,
+        210.2,
+        733.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "38",
+      "type": "Text",
+      "rect": [
+        50.6,
+        733.6,
+        210.2,
+        746.3
+      ],
+      "nearby": "FEATURES"
+    },
+    {
+      "name": "Place of Birth 1",
+      "type": "Text",
+      "rect": [
+        226.6,
+        38.9,
+        563.2,
+        51.6
+      ],
+      "nearby": "Place of Birth"
+    },
+    {
+      "name": "Place of Birth 2",
+      "type": "Text",
+      "rect": [
+        226.6,
+        52.2,
+        563.2,
+        64.9
+      ],
+      "nearby": "Place of Birth Age Gender"
+    },
+    {
+      "name": "Appearance 1",
+      "type": "Text",
+      "rect": [
+        226.6,
+        145.7,
+        563.2,
+        158.4
+      ],
+      "nearby": "Eyes Skin Appearance PROFICIENCIES Personality traits"
+    },
+    {
+      "name": "Appearance 2",
+      "type": "Text",
+      "rect": [
+        226.6,
+        159.0,
+        563.2,
+        171.5
+      ],
+      "nearby": "Appearance PROFICIENCIES Personality traits"
+    },
+    {
+      "name": "1_6",
+      "type": "Text",
+      "rect": [
+        226.6,
+        185.8,
+        563.2,
+        198.5
+      ],
+      "nearby": "Personality traits Ideals"
+    },
+    {
+      "name": "2_6",
+      "type": "Text",
+      "rect": [
+        226.6,
+        199.1,
+        563.2,
+        211.6
+      ],
+      "nearby": "Personality traits Ideals LANGUAGES"
+    },
+    {
+      "name": "1_7",
+      "type": "Text",
+      "rect": [
+        248.9,
+        212.6,
+        563.2,
+        225.1
+      ],
+      "nearby": "Ideals LANGUAGES"
+    },
+    {
+      "name": "2_7",
+      "type": "Text",
+      "rect": [
+        226.6,
+        225.7,
+        563.2,
+        238.4
+      ],
+      "nearby": "Ideals LANGUAGES Bonds"
+    },
+    {
+      "name": "3_6",
+      "type": "Text",
+      "rect": [
+        226.6,
+        239.0,
+        563.2,
+        251.6
+      ],
+      "nearby": "Ideals LANGUAGES Bonds"
+    },
+    {
+      "name": "1_8",
+      "type": "Text",
+      "rect": [
+        248.9,
+        252.7,
+        563.2,
+        265.2
+      ],
+      "nearby": "LANGUAGES Bonds"
+    },
+    {
+      "name": "2_8",
+      "type": "Text",
+      "rect": [
+        226.6,
+        265.8,
+        563.2,
+        278.5
+      ],
+      "nearby": "Bonds Flaws"
+    },
+    {
+      "name": "3_7",
+      "type": "Text",
+      "rect": [
+        226.6,
+        279.1,
+        563.2,
+        291.6
+      ],
+      "nearby": "Bonds Flaws"
+    },
+    {
+      "name": "1_9",
+      "type": "Text",
+      "rect": [
+        247.2,
+        292.7,
+        563.2,
+        305.3
+      ],
+      "nearby": "Flaws"
+    },
+    {
+      "name": "2_9",
+      "type": "Text",
+      "rect": [
+        226.6,
+        305.9,
+        563.2,
+        318.6
+      ],
+      "nearby": "Flaws Background Feature"
+    },
+    {
+      "name": "3_8",
+      "type": "Text",
+      "rect": [
+        226.6,
+        319.2,
+        563.2,
+        331.7
+      ],
+      "nearby": "Flaws Background Feature"
+    },
+    {
+      "name": "1_10",
+      "type": "Text",
+      "rect": [
+        226.7,
+        347.6,
+        562.8,
+        358.9
+      ],
+      "nearby": "Background Feature"
+    },
+    {
+      "name": "2_10",
+      "type": "Text",
+      "rect": [
+        226.7,
+        359.6,
+        562.8,
+        372.4
+      ],
+      "nearby": "Background Feature"
+    },
+    {
+      "name": "3_9",
+      "type": "Text",
+      "rect": [
+        226.7,
+        373.0,
+        562.8,
+        385.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "4_5",
+      "type": "Text",
+      "rect": [
+        226.7,
+        386.3,
+        562.8,
+        399.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "5_4",
+      "type": "Text",
+      "rect": [
+        226.7,
+        399.6,
+        562.8,
+        412.3
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "6_4",
+      "type": "Text",
+      "rect": [
+        226.7,
+        413.0,
+        562.8,
+        425.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "7_4",
+      "type": "Text",
+      "rect": [
+        226.6,
+        426.4,
+        563.2,
+        438.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "8_4",
+      "type": "Text",
+      "rect": [
+        226.6,
+        439.3,
+        563.2,
+        452.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "9_3",
+      "type": "Text",
+      "rect": [
+        226.6,
+        452.8,
+        563.2,
+        465.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "10_2",
+      "type": "Text",
+      "rect": [
+        226.6,
+        466.1,
+        563.2,
+        478.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "11_2",
+      "type": "Text",
+      "rect": [
+        226.6,
+        479.4,
+        563.2,
+        492.1
+      ],
+      "nearby": "CHARACTER DATA"
+    },
+    {
+      "name": "12_2",
+      "type": "Text",
+      "rect": [
+        226.6,
+        492.7,
+        563.2,
+        505.4
+      ],
+      "nearby": "CHARACTER DATA"
+    },
+    {
+      "name": "1_11",
+      "type": "Text",
+      "rect": [
+        228.1,
+        533.5,
+        561.1,
+        546.2
+      ],
+      "nearby": "CHARACTER DATA"
+    },
+    {
+      "name": "2_11",
+      "type": "Text",
+      "rect": [
+        228.1,
+        546.8,
+        561.1,
+        559.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "3_10",
+      "type": "Text",
+      "rect": [
+        228.1,
+        560.2,
+        561.1,
+        572.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "4_6",
+      "type": "Text",
+      "rect": [
+        228.1,
+        573.5,
+        561.1,
+        586.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "5_5",
+      "type": "Text",
+      "rect": [
+        228.1,
+        586.9,
+        561.1,
+        599.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "6_5",
+      "type": "Text",
+      "rect": [
+        228.1,
+        600.2,
+        561.1,
+        613.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "7_5",
+      "type": "Text",
+      "rect": [
+        228.1,
+        613.6,
+        561.1,
+        626.3
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "8_5",
+      "type": "Text",
+      "rect": [
+        228.1,
+        626.9,
+        561.1,
+        639.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "9_4",
+      "type": "Text",
+      "rect": [
+        228.1,
+        640.3,
+        561.1,
+        653.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "10_3",
+      "type": "Text",
+      "rect": [
+        228.1,
+        653.6,
+        561.1,
+        666.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "11_3",
+      "type": "Text",
+      "rect": [
+        228.1,
+        667.0,
+        561.1,
+        679.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "12_3",
+      "type": "Text",
+      "rect": [
+        228.1,
+        680.3,
+        561.1,
+        693.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "13_2",
+      "type": "Text",
+      "rect": [
+        228.1,
+        693.7,
+        561.1,
+        706.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "14_2",
+      "type": "Text",
+      "rect": [
+        228.1,
+        707.0,
+        561.1,
+        719.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "15_2",
+      "type": "Text",
+      "rect": [
+        228.1,
+        720.4,
+        561.1,
+        733.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "16_2",
+      "type": "Text",
+      "rect": [
+        228.1,
+        733.7,
+        561.1,
+        746.2
+      ],
+      "nearby": "FEATURES BACKSTORY"
+    },
+    {
+      "name": "BIO 3",
+      "type": "Text",
+      "rect": [
+        242.8,
+        105.4,
+        386.9,
+        118.1
+      ],
+      "nearby": "Height Weight Size Hair Eyes Skin"
+    },
+    {
+      "name": "BIO 4",
+      "type": "Text",
+      "rect": [
+        243.4,
+        118.5,
+        387.6,
+        131.2
+      ],
+      "nearby": "Height Size Hair Eyes Skin Appearance"
+    },
+    {
+      "name": "BIO 5",
+      "type": "Text",
+      "rect": [
+        417.9,
+        79.2,
+        562.0,
+        91.9
+      ],
+      "nearby": "Gender Weight Hair"
+    },
+    {
+      "name": "BIO 6",
+      "type": "Text",
+      "rect": [
+        417.9,
+        92.3,
+        562.0,
+        105.0
+      ],
+      "nearby": "Gender Weight Hair Skin"
+    },
+    {
+      "name": "BIO 7",
+      "type": "Text",
+      "rect": [
+        405.1,
+        105.4,
+        549.2,
+        118.1
+      ],
+      "nearby": "Gender Weight Hair Skin Appearance"
+    },
+    {
+      "name": "BIO 8",
+      "type": "Text",
+      "rect": [
+        405.1,
+        118.8,
+        549.2,
+        131.5
+      ],
+      "nearby": "Weight Hair Skin Appearance"
+    },
+    {
+      "name": "Place of Birth 3",
+      "type": "Text",
+      "rect": [
+        226.2,
+        65.0,
+        562.8,
+        77.7
+      ],
+      "nearby": "Age Gender Height Weight"
+    }
+  ],
+  "page_3": [
+    {
+      "name": "ItemRow1",
+      "type": "Text",
+      "rect": [
+        49.4,
+        38.0,
+        219.6,
+        50.4
+      ],
+      "nearby": "Item D"
+    },
+    {
+      "name": "DRow1",
+      "type": "Text",
+      "rect": [
+        220.9,
+        38.0,
+        246.2,
+        50.4
+      ],
+      "nearby": "D B"
+    },
+    {
+      "name": "BRow1",
+      "type": "Text",
+      "rect": [
+        247.6,
+        38.0,
+        273.0,
+        50.4
+      ],
+      "nearby": "D B P"
+    },
+    {
+      "name": "PRow1",
+      "type": "Text",
+      "rect": [
+        274.3,
+        38.0,
+        297.5,
+        50.4
+      ],
+      "nearby": "D B P"
+    },
+    {
+      "name": "ItemRow2",
+      "type": "Text",
+      "rect": [
+        49.4,
+        51.4,
+        219.6,
+        63.8
+      ],
+      "nearby": "Item D"
+    },
+    {
+      "name": "DRow2",
+      "type": "Text",
+      "rect": [
+        220.9,
+        51.4,
+        246.2,
+        63.8
+      ],
+      "nearby": "D B"
+    },
+    {
+      "name": "BRow2",
+      "type": "Text",
+      "rect": [
+        247.6,
+        51.4,
+        273.0,
+        63.8
+      ],
+      "nearby": "D B P"
+    },
+    {
+      "name": "PRow2",
+      "type": "Text",
+      "rect": [
+        274.3,
+        51.4,
+        297.5,
+        63.8
+      ],
+      "nearby": "D B P"
+    },
+    {
+      "name": "ItemRow3",
+      "type": "Text",
+      "rect": [
+        49.4,
+        64.8,
+        219.6,
+        77.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow3",
+      "type": "Text",
+      "rect": [
+        220.9,
+        64.8,
+        246.2,
+        77.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow3",
+      "type": "Text",
+      "rect": [
+        247.6,
+        64.8,
+        273.0,
+        77.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow3",
+      "type": "Text",
+      "rect": [
+        274.3,
+        64.8,
+        297.5,
+        77.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow4",
+      "type": "Text",
+      "rect": [
+        49.4,
+        78.1,
+        219.6,
+        90.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow4",
+      "type": "Text",
+      "rect": [
+        220.9,
+        78.1,
+        246.2,
+        90.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow4",
+      "type": "Text",
+      "rect": [
+        247.6,
+        78.1,
+        273.0,
+        90.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow4",
+      "type": "Text",
+      "rect": [
+        274.3,
+        78.1,
+        297.5,
+        90.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow5",
+      "type": "Text",
+      "rect": [
+        49.4,
+        91.6,
+        219.6,
+        103.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow5",
+      "type": "Text",
+      "rect": [
+        220.9,
+        91.6,
+        246.2,
+        103.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow5",
+      "type": "Text",
+      "rect": [
+        247.6,
+        91.6,
+        273.0,
+        103.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow5",
+      "type": "Text",
+      "rect": [
+        274.3,
+        91.6,
+        297.5,
+        103.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow6",
+      "type": "Text",
+      "rect": [
+        49.4,
+        104.9,
+        219.6,
+        117.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow6",
+      "type": "Text",
+      "rect": [
+        220.9,
+        104.9,
+        246.2,
+        117.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow6",
+      "type": "Text",
+      "rect": [
+        247.6,
+        104.9,
+        273.0,
+        117.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow6",
+      "type": "Text",
+      "rect": [
+        274.3,
+        104.9,
+        297.5,
+        117.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow7",
+      "type": "Text",
+      "rect": [
+        49.4,
+        118.2,
+        219.6,
+        130.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow7",
+      "type": "Text",
+      "rect": [
+        220.9,
+        118.2,
+        246.2,
+        130.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow7",
+      "type": "Text",
+      "rect": [
+        247.6,
+        118.2,
+        273.0,
+        130.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow7",
+      "type": "Text",
+      "rect": [
+        274.3,
+        118.2,
+        297.5,
+        130.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow8",
+      "type": "Text",
+      "rect": [
+        49.4,
+        131.6,
+        219.6,
+        144.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow8",
+      "type": "Text",
+      "rect": [
+        220.9,
+        131.6,
+        246.2,
+        144.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow8",
+      "type": "Text",
+      "rect": [
+        247.6,
+        131.6,
+        273.0,
+        144.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow8",
+      "type": "Text",
+      "rect": [
+        274.3,
+        131.6,
+        297.5,
+        144.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow9",
+      "type": "Text",
+      "rect": [
+        49.4,
+        145.0,
+        219.6,
+        157.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow9",
+      "type": "Text",
+      "rect": [
+        220.9,
+        145.0,
+        246.2,
+        157.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow9",
+      "type": "Text",
+      "rect": [
+        247.6,
+        145.0,
+        273.0,
+        157.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow9",
+      "type": "Text",
+      "rect": [
+        274.3,
+        145.0,
+        297.5,
+        157.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow10",
+      "type": "Text",
+      "rect": [
+        49.4,
+        158.4,
+        219.6,
+        170.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow10",
+      "type": "Text",
+      "rect": [
+        220.9,
+        158.4,
+        246.2,
+        170.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow10",
+      "type": "Text",
+      "rect": [
+        247.6,
+        158.4,
+        273.0,
+        170.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow10",
+      "type": "Text",
+      "rect": [
+        274.3,
+        158.4,
+        297.5,
+        170.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow11",
+      "type": "Text",
+      "rect": [
+        49.4,
+        171.7,
+        219.6,
+        184.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow11",
+      "type": "Text",
+      "rect": [
+        220.9,
+        171.7,
+        246.2,
+        184.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow11",
+      "type": "Text",
+      "rect": [
+        247.6,
+        171.7,
+        273.0,
+        184.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow11",
+      "type": "Text",
+      "rect": [
+        274.3,
+        171.7,
+        297.5,
+        184.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow12",
+      "type": "Text",
+      "rect": [
+        49.4,
+        185.0,
+        219.6,
+        197.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow12",
+      "type": "Text",
+      "rect": [
+        220.9,
+        185.0,
+        246.2,
+        197.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow12",
+      "type": "Text",
+      "rect": [
+        247.6,
+        185.0,
+        273.0,
+        197.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow12",
+      "type": "Text",
+      "rect": [
+        274.3,
+        185.0,
+        297.5,
+        197.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow13",
+      "type": "Text",
+      "rect": [
+        49.4,
+        198.5,
+        219.6,
+        210.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow13",
+      "type": "Text",
+      "rect": [
+        220.9,
+        198.5,
+        246.2,
+        210.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow13",
+      "type": "Text",
+      "rect": [
+        247.6,
+        198.5,
+        273.0,
+        210.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow13",
+      "type": "Text",
+      "rect": [
+        274.3,
+        198.5,
+        297.5,
+        210.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow14",
+      "type": "Text",
+      "rect": [
+        49.4,
+        211.8,
+        219.6,
+        224.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow14",
+      "type": "Text",
+      "rect": [
+        220.9,
+        211.8,
+        246.2,
+        224.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow14",
+      "type": "Text",
+      "rect": [
+        247.6,
+        211.8,
+        273.0,
+        224.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow14",
+      "type": "Text",
+      "rect": [
+        274.3,
+        211.8,
+        297.5,
+        224.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow15",
+      "type": "Text",
+      "rect": [
+        49.4,
+        225.1,
+        219.6,
+        237.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow15",
+      "type": "Text",
+      "rect": [
+        220.9,
+        225.1,
+        246.2,
+        237.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow15",
+      "type": "Text",
+      "rect": [
+        247.6,
+        225.1,
+        273.0,
+        237.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow15",
+      "type": "Text",
+      "rect": [
+        274.3,
+        225.1,
+        297.5,
+        237.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow16",
+      "type": "Text",
+      "rect": [
+        49.4,
+        238.6,
+        219.6,
+        250.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow16",
+      "type": "Text",
+      "rect": [
+        220.9,
+        238.6,
+        246.2,
+        250.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow16",
+      "type": "Text",
+      "rect": [
+        247.6,
+        238.6,
+        273.0,
+        250.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow16",
+      "type": "Text",
+      "rect": [
+        274.3,
+        238.6,
+        297.5,
+        250.9
+      ],
+      "nearby": "Where"
+    },
+    {
+      "name": "ItemRow17",
+      "type": "Text",
+      "rect": [
+        49.4,
+        251.9,
+        219.6,
+        264.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow17",
+      "type": "Text",
+      "rect": [
+        220.9,
+        251.9,
+        246.2,
+        264.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow17",
+      "type": "Text",
+      "rect": [
+        247.6,
+        251.9,
+        273.0,
+        264.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow17",
+      "type": "Text",
+      "rect": [
+        274.3,
+        251.9,
+        297.5,
+        264.4
+      ],
+      "nearby": "Where"
+    },
+    {
+      "name": "ItemRow18",
+      "type": "Text",
+      "rect": [
+        49.4,
+        265.3,
+        219.6,
+        277.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow18",
+      "type": "Text",
+      "rect": [
+        220.9,
+        265.3,
+        246.2,
+        277.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow18",
+      "type": "Text",
+      "rect": [
+        247.6,
+        265.3,
+        273.0,
+        277.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow18",
+      "type": "Text",
+      "rect": [
+        274.3,
+        265.3,
+        297.5,
+        277.7
+      ],
+      "nearby": "Where"
+    },
+    {
+      "name": "ItemRow19",
+      "type": "Text",
+      "rect": [
+        49.4,
+        278.6,
+        219.6,
+        291.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow19",
+      "type": "Text",
+      "rect": [
+        220.9,
+        278.6,
+        246.2,
+        291.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow19",
+      "type": "Text",
+      "rect": [
+        247.6,
+        278.6,
+        273.0,
+        291.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow19",
+      "type": "Text",
+      "rect": [
+        274.3,
+        278.6,
+        297.5,
+        291.0
+      ],
+      "nearby": "Where"
+    },
+    {
+      "name": "ItemRow20",
+      "type": "Text",
+      "rect": [
+        49.4,
+        292.0,
+        219.6,
+        304.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow20",
+      "type": "Text",
+      "rect": [
+        220.9,
+        292.0,
+        246.2,
+        304.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow20",
+      "type": "Text",
+      "rect": [
+        247.6,
+        292.0,
+        273.0,
+        304.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow20",
+      "type": "Text",
+      "rect": [
+        274.3,
+        292.0,
+        297.5,
+        304.4
+      ],
+      "nearby": "Where"
+    },
+    {
+      "name": "ItemRow21",
+      "type": "Text",
+      "rect": [
+        49.4,
+        305.4,
+        219.6,
+        317.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow21",
+      "type": "Text",
+      "rect": [
+        220.9,
+        305.4,
+        246.2,
+        317.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow21",
+      "type": "Text",
+      "rect": [
+        247.6,
+        305.4,
+        273.0,
+        317.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow21",
+      "type": "Text",
+      "rect": [
+        274.3,
+        305.4,
+        297.5,
+        317.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow22",
+      "type": "Text",
+      "rect": [
+        49.4,
+        318.7,
+        219.6,
+        331.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow22",
+      "type": "Text",
+      "rect": [
+        220.9,
+        318.7,
+        246.2,
+        331.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow22",
+      "type": "Text",
+      "rect": [
+        247.6,
+        318.7,
+        273.0,
+        331.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow22",
+      "type": "Text",
+      "rect": [
+        274.3,
+        318.7,
+        297.5,
+        331.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow23",
+      "type": "Text",
+      "rect": [
+        49.4,
+        332.0,
+        219.6,
+        344.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow23",
+      "type": "Text",
+      "rect": [
+        220.9,
+        332.0,
+        246.2,
+        344.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow23",
+      "type": "Text",
+      "rect": [
+        247.6,
+        332.0,
+        273.0,
+        344.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow23",
+      "type": "Text",
+      "rect": [
+        274.3,
+        332.0,
+        297.5,
+        344.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow24",
+      "type": "Text",
+      "rect": [
+        49.4,
+        345.5,
+        219.6,
+        357.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow24",
+      "type": "Text",
+      "rect": [
+        220.9,
+        345.5,
+        246.2,
+        357.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow24",
+      "type": "Text",
+      "rect": [
+        247.6,
+        345.5,
+        273.0,
+        357.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow24",
+      "type": "Text",
+      "rect": [
+        274.3,
+        345.5,
+        297.5,
+        357.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow25",
+      "type": "Text",
+      "rect": [
+        49.4,
+        358.8,
+        219.6,
+        371.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow25",
+      "type": "Text",
+      "rect": [
+        220.9,
+        358.8,
+        246.2,
+        371.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow25",
+      "type": "Text",
+      "rect": [
+        247.6,
+        358.8,
+        273.0,
+        371.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow25",
+      "type": "Text",
+      "rect": [
+        274.3,
+        358.8,
+        297.5,
+        371.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow26",
+      "type": "Text",
+      "rect": [
+        49.4,
+        372.1,
+        219.6,
+        384.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow26",
+      "type": "Text",
+      "rect": [
+        220.9,
+        372.1,
+        246.2,
+        384.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow26",
+      "type": "Text",
+      "rect": [
+        247.6,
+        372.1,
+        273.0,
+        384.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow26",
+      "type": "Text",
+      "rect": [
+        274.3,
+        372.1,
+        297.5,
+        384.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow27",
+      "type": "Text",
+      "rect": [
+        49.4,
+        385.6,
+        219.6,
+        397.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow27",
+      "type": "Text",
+      "rect": [
+        220.9,
+        385.6,
+        246.2,
+        397.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow27",
+      "type": "Text",
+      "rect": [
+        247.6,
+        385.6,
+        273.0,
+        397.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow27",
+      "type": "Text",
+      "rect": [
+        274.3,
+        385.6,
+        297.5,
+        397.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow28",
+      "type": "Text",
+      "rect": [
+        49.4,
+        398.9,
+        219.6,
+        411.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow28",
+      "type": "Text",
+      "rect": [
+        220.9,
+        398.9,
+        246.2,
+        411.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow28",
+      "type": "Text",
+      "rect": [
+        247.6,
+        398.9,
+        273.0,
+        411.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow28",
+      "type": "Text",
+      "rect": [
+        274.3,
+        398.9,
+        297.5,
+        411.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow29",
+      "type": "Text",
+      "rect": [
+        49.4,
+        412.3,
+        219.6,
+        424.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow29",
+      "type": "Text",
+      "rect": [
+        220.9,
+        412.3,
+        246.2,
+        424.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow29",
+      "type": "Text",
+      "rect": [
+        247.6,
+        412.3,
+        273.0,
+        424.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow29",
+      "type": "Text",
+      "rect": [
+        274.3,
+        412.3,
+        297.5,
+        424.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow30",
+      "type": "Text",
+      "rect": [
+        49.4,
+        425.6,
+        219.6,
+        438.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow30",
+      "type": "Text",
+      "rect": [
+        220.9,
+        425.6,
+        246.2,
+        438.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow30",
+      "type": "Text",
+      "rect": [
+        247.6,
+        425.6,
+        273.0,
+        438.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow30",
+      "type": "Text",
+      "rect": [
+        274.3,
+        425.6,
+        297.5,
+        438.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow31",
+      "type": "Text",
+      "rect": [
+        49.4,
+        439.0,
+        219.6,
+        451.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow31",
+      "type": "Text",
+      "rect": [
+        220.9,
+        439.0,
+        246.2,
+        451.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow31",
+      "type": "Text",
+      "rect": [
+        247.6,
+        439.0,
+        273.0,
+        451.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow31",
+      "type": "Text",
+      "rect": [
+        274.3,
+        439.0,
+        297.5,
+        451.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow32",
+      "type": "Text",
+      "rect": [
+        49.4,
+        452.4,
+        219.6,
+        464.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow32",
+      "type": "Text",
+      "rect": [
+        220.9,
+        452.4,
+        246.2,
+        464.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow32",
+      "type": "Text",
+      "rect": [
+        247.6,
+        452.4,
+        273.0,
+        464.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow32",
+      "type": "Text",
+      "rect": [
+        274.3,
+        452.4,
+        297.5,
+        464.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow33",
+      "type": "Text",
+      "rect": [
+        49.4,
+        465.7,
+        219.6,
+        478.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow33",
+      "type": "Text",
+      "rect": [
+        220.9,
+        465.7,
+        246.2,
+        478.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow33",
+      "type": "Text",
+      "rect": [
+        247.6,
+        465.7,
+        273.0,
+        478.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow33",
+      "type": "Text",
+      "rect": [
+        274.3,
+        465.7,
+        297.5,
+        478.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow34",
+      "type": "Text",
+      "rect": [
+        49.4,
+        479.0,
+        219.6,
+        491.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow34",
+      "type": "Text",
+      "rect": [
+        220.9,
+        479.0,
+        246.2,
+        491.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow34",
+      "type": "Text",
+      "rect": [
+        247.6,
+        479.0,
+        273.0,
+        491.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow34",
+      "type": "Text",
+      "rect": [
+        274.3,
+        479.0,
+        297.5,
+        491.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow35",
+      "type": "Text",
+      "rect": [
+        49.4,
+        492.5,
+        219.6,
+        504.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow35",
+      "type": "Text",
+      "rect": [
+        220.9,
+        492.5,
+        246.2,
+        504.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow35",
+      "type": "Text",
+      "rect": [
+        247.6,
+        492.5,
+        273.0,
+        504.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow35",
+      "type": "Text",
+      "rect": [
+        274.3,
+        492.5,
+        297.5,
+        504.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow36",
+      "type": "Text",
+      "rect": [
+        49.4,
+        505.8,
+        219.6,
+        518.3
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow36",
+      "type": "Text",
+      "rect": [
+        220.9,
+        505.8,
+        246.2,
+        518.3
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow36",
+      "type": "Text",
+      "rect": [
+        247.6,
+        505.8,
+        273.0,
+        518.3
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow36",
+      "type": "Text",
+      "rect": [
+        274.3,
+        505.8,
+        297.5,
+        518.3
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow37",
+      "type": "Text",
+      "rect": [
+        49.4,
+        519.2,
+        219.6,
+        531.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow37",
+      "type": "Text",
+      "rect": [
+        220.9,
+        519.2,
+        246.2,
+        531.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow37",
+      "type": "Text",
+      "rect": [
+        247.6,
+        519.2,
+        273.0,
+        531.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow37",
+      "type": "Text",
+      "rect": [
+        274.3,
+        519.2,
+        297.5,
+        531.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow38",
+      "type": "Text",
+      "rect": [
+        49.4,
+        532.6,
+        219.6,
+        544.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow38",
+      "type": "Text",
+      "rect": [
+        220.9,
+        532.6,
+        246.2,
+        544.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow38",
+      "type": "Text",
+      "rect": [
+        247.6,
+        532.6,
+        273.0,
+        544.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow38",
+      "type": "Text",
+      "rect": [
+        274.3,
+        532.6,
+        297.5,
+        544.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow39",
+      "type": "Text",
+      "rect": [
+        49.4,
+        545.9,
+        219.6,
+        558.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow39",
+      "type": "Text",
+      "rect": [
+        220.9,
+        545.9,
+        246.2,
+        558.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow39",
+      "type": "Text",
+      "rect": [
+        247.6,
+        545.9,
+        273.0,
+        558.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow39",
+      "type": "Text",
+      "rect": [
+        274.3,
+        545.9,
+        297.5,
+        558.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow40",
+      "type": "Text",
+      "rect": [
+        49.4,
+        559.3,
+        219.6,
+        571.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow40",
+      "type": "Text",
+      "rect": [
+        220.9,
+        559.3,
+        246.2,
+        571.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow40",
+      "type": "Text",
+      "rect": [
+        247.6,
+        559.3,
+        273.0,
+        571.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow40",
+      "type": "Text",
+      "rect": [
+        274.3,
+        559.3,
+        297.5,
+        571.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow41",
+      "type": "Text",
+      "rect": [
+        49.4,
+        572.6,
+        219.6,
+        585.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow41",
+      "type": "Text",
+      "rect": [
+        220.9,
+        572.6,
+        246.2,
+        585.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow41",
+      "type": "Text",
+      "rect": [
+        247.6,
+        572.6,
+        273.0,
+        585.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow41",
+      "type": "Text",
+      "rect": [
+        274.3,
+        572.6,
+        297.5,
+        585.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow42",
+      "type": "Text",
+      "rect": [
+        49.4,
+        586.0,
+        219.6,
+        598.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow42",
+      "type": "Text",
+      "rect": [
+        220.9,
+        586.0,
+        246.2,
+        598.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow42",
+      "type": "Text",
+      "rect": [
+        247.6,
+        586.0,
+        273.0,
+        598.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow42",
+      "type": "Text",
+      "rect": [
+        274.3,
+        586.0,
+        297.5,
+        598.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow43",
+      "type": "Text",
+      "rect": [
+        49.4,
+        599.4,
+        219.6,
+        611.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow43",
+      "type": "Text",
+      "rect": [
+        220.9,
+        599.4,
+        246.2,
+        611.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow43",
+      "type": "Text",
+      "rect": [
+        247.6,
+        599.4,
+        273.0,
+        611.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow43",
+      "type": "Text",
+      "rect": [
+        274.3,
+        599.4,
+        297.5,
+        611.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow44",
+      "type": "Text",
+      "rect": [
+        49.4,
+        612.7,
+        219.6,
+        625.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow44",
+      "type": "Text",
+      "rect": [
+        220.9,
+        612.7,
+        246.2,
+        625.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow44",
+      "type": "Text",
+      "rect": [
+        247.6,
+        612.7,
+        273.0,
+        625.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow44",
+      "type": "Text",
+      "rect": [
+        274.3,
+        612.7,
+        297.5,
+        625.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow45",
+      "type": "Text",
+      "rect": [
+        49.4,
+        626.2,
+        219.6,
+        638.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "DRow45",
+      "type": "Text",
+      "rect": [
+        220.9,
+        626.2,
+        246.2,
+        638.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "BRow45",
+      "type": "Text",
+      "rect": [
+        247.6,
+        626.2,
+        273.0,
+        638.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "PRow45",
+      "type": "Text",
+      "rect": [
+        274.3,
+        626.2,
+        297.5,
+        638.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "ItemRow46",
+      "type": "Text",
+      "rect": [
+        49.4,
+        639.5,
+        219.6,
+        651.8
+      ],
+      "nearby": "Total Weight"
+    },
+    {
+      "name": "DRow46",
+      "type": "Text",
+      "rect": [
+        220.9,
+        639.5,
+        246.2,
+        651.8
+      ],
+      "nearby": "Total Weight"
+    },
+    {
+      "name": "BRow46",
+      "type": "Text",
+      "rect": [
+        247.6,
+        639.5,
+        273.0,
+        651.8
+      ],
+      "nearby": "Total Weight"
+    },
+    {
+      "name": "PRow46",
+      "type": "Text",
+      "rect": [
+        274.3,
+        639.5,
+        297.5,
+        651.8
+      ],
+      "nearby": "Total Weight"
+    },
+    {
+      "name": "ItemRow47",
+      "type": "Text",
+      "rect": [
+        49.4,
+        652.8,
+        219.6,
+        665.3
+      ],
+      "nearby": "Total Weight Total Weight on Character"
+    },
+    {
+      "name": "DRow47",
+      "type": "Text",
+      "rect": [
+        220.9,
+        652.8,
+        246.2,
+        665.3
+      ],
+      "nearby": "Total Weight Total Weight on Character"
+    },
+    {
+      "name": "BRow47",
+      "type": "Text",
+      "rect": [
+        247.6,
+        652.8,
+        273.0,
+        665.3
+      ],
+      "nearby": "Total Weight Total Weight on Character"
+    },
+    {
+      "name": "PRow47",
+      "type": "Text",
+      "rect": [
+        274.3,
+        652.8,
+        297.5,
+        665.3
+      ],
+      "nearby": "Total Weight Total Weight on Character"
+    },
+    {
+      "name": "BRow48",
+      "type": "Text",
+      "rect": [
+        247.6,
+        666.2,
+        273.0,
+        678.6
+      ],
+      "nearby": "Total Weight Total Weight on Character"
+    },
+    {
+      "name": "PRow48",
+      "type": "Text",
+      "rect": [
+        274.3,
+        666.2,
+        297.6,
+        678.6
+      ],
+      "nearby": "Total Weight Total Weight on Character"
+    },
+    {
+      "name": "Total Weight on Character",
+      "type": "Text",
+      "rect": [
+        221.4,
+        680.4,
+        297.2,
+        693.0
+      ],
+      "nearby": "Total Weight Total Weight on Character"
+    },
+    {
+      "name": "2_12",
+      "type": "Text",
+      "rect": [
+        319.2,
+        27.6,
+        557.2,
+        40.3
+      ],
+      "nearby": "D B P"
+    },
+    {
+      "name": "1_13",
+      "type": "Text",
+      "rect": [
+        319.4,
+        40.9,
+        557.4,
+        53.0
+      ],
+      "nearby": "D B P"
+    },
+    {
+      "name": "2_13",
+      "type": "Text",
+      "rect": [
+        319.4,
+        53.8,
+        557.4,
+        66.5
+      ],
+      "nearby": "D B P"
+    },
+    {
+      "name": "3_11",
+      "type": "Text",
+      "rect": [
+        319.4,
+        67.1,
+        557.4,
+        79.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "4_7",
+      "type": "Text",
+      "rect": [
+        319.4,
+        80.4,
+        557.4,
+        93.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "5_6",
+      "type": "Text",
+      "rect": [
+        319.4,
+        93.8,
+        557.4,
+        106.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "6_6",
+      "type": "Text",
+      "rect": [
+        319.4,
+        107.2,
+        557.4,
+        119.9
+      ],
+      "nearby": "Weight: 50 pieces=1 lb. CREDITS"
+    },
+    {
+      "name": "CREDITS 1",
+      "type": "Text",
+      "rect": [
+        319.1,
+        152.6,
+        557.0,
+        165.4
+      ],
+      "nearby": "Weight: 50 pieces=1 lb. CREDITS"
+    },
+    {
+      "name": "CREDITS 2",
+      "type": "Text",
+      "rect": [
+        319.1,
+        166.1,
+        557.0,
+        178.8
+      ],
+      "nearby": "CREDITS"
+    },
+    {
+      "name": "CREDITS 3",
+      "type": "Text",
+      "rect": [
+        319.1,
+        179.4,
+        557.0,
+        192.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "CREDITS 4",
+      "type": "Text",
+      "rect": [
+        319.1,
+        192.7,
+        557.0,
+        205.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "CREDITS 5",
+      "type": "Text",
+      "rect": [
+        319.1,
+        206.2,
+        557.0,
+        218.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "CREDITS 6",
+      "type": "Text",
+      "rect": [
+        319.1,
+        219.5,
+        557.0,
+        232.2
+      ],
+      "nearby": "GEMS AND TREASURE"
+    },
+    {
+      "name": "CREDITS 7",
+      "type": "Text",
+      "rect": [
+        319.1,
+        232.9,
+        557.0,
+        245.6
+      ],
+      "nearby": "GEMS AND TREASURE"
+    },
+    {
+      "name": "WhereRow1",
+      "type": "Text",
+      "rect": [
+        319.4,
+        277.3,
+        425.4,
+        289.7
+      ],
+      "nearby": "GEMS AND TREASURE Where How"
+    },
+    {
+      "name": "How muchRow1",
+      "type": "Text",
+      "rect": [
+        426.7,
+        277.3,
+        492.2,
+        289.7
+      ],
+      "nearby": "GEMS AND TREASURE How much When"
+    },
+    {
+      "name": "WhenRow1",
+      "type": "Text",
+      "rect": [
+        493.6,
+        277.3,
+        556.7,
+        289.7
+      ],
+      "nearby": "GEMS AND TREASURE How much When"
+    },
+    {
+      "name": "WhereRow2",
+      "type": "Text",
+      "rect": [
+        319.4,
+        290.6,
+        425.4,
+        303.0
+      ],
+      "nearby": "Where How"
+    },
+    {
+      "name": "How muchRow2",
+      "type": "Text",
+      "rect": [
+        426.7,
+        290.6,
+        492.2,
+        303.0
+      ],
+      "nearby": "Where How much When"
+    },
+    {
+      "name": "WhenRow2",
+      "type": "Text",
+      "rect": [
+        493.6,
+        290.6,
+        556.7,
+        303.0
+      ],
+      "nearby": "How much When"
+    },
+    {
+      "name": "WhereRow3",
+      "type": "Text",
+      "rect": [
+        319.4,
+        304.0,
+        425.4,
+        316.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "How muchRow3",
+      "type": "Text",
+      "rect": [
+        426.7,
+        304.0,
+        492.2,
+        316.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "WhenRow3",
+      "type": "Text",
+      "rect": [
+        493.6,
+        304.0,
+        556.7,
+        316.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "WhereRow4",
+      "type": "Text",
+      "rect": [
+        319.4,
+        317.4,
+        425.4,
+        329.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "How muchRow4",
+      "type": "Text",
+      "rect": [
+        426.7,
+        317.4,
+        492.2,
+        329.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "WhenRow4",
+      "type": "Text",
+      "rect": [
+        493.6,
+        317.4,
+        556.7,
+        329.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "WhereRow5",
+      "type": "Text",
+      "rect": [
+        319.4,
+        330.7,
+        425.4,
+        343.2
+      ],
+      "nearby": "Loaned, deposited or received"
+    },
+    {
+      "name": "How muchRow5",
+      "type": "Text",
+      "rect": [
+        426.7,
+        330.7,
+        492.2,
+        343.2
+      ],
+      "nearby": "deposited or received values or goods"
+    },
+    {
+      "name": "WhenRow5",
+      "type": "Text",
+      "rect": [
+        493.6,
+        330.7,
+        556.7,
+        343.2
+      ],
+      "nearby": "deposited or received values or goods"
+    },
+    {
+      "name": "WhereRow6",
+      "type": "Text",
+      "rect": [
+        319.4,
+        344.2,
+        425.4,
+        356.5
+      ],
+      "nearby": "Loaned, deposited or received VALUABLES"
+    },
+    {
+      "name": "How muchRow6",
+      "type": "Text",
+      "rect": [
+        426.7,
+        344.2,
+        492.2,
+        356.5
+      ],
+      "nearby": "deposited or received values or goods"
+    },
+    {
+      "name": "WhenRow6",
+      "type": "Text",
+      "rect": [
+        493.6,
+        344.2,
+        556.7,
+        356.5
+      ],
+      "nearby": "or received values or goods VALUABLES"
+    },
+    {
+      "name": "1_14",
+      "type": "Text",
+      "rect": [
+        313.7,
+        395.6,
+        562.4,
+        408.4
+      ],
+      "nearby": "VALUABLES"
+    },
+    {
+      "name": "2_14",
+      "type": "Text",
+      "rect": [
+        313.7,
+        409.0,
+        562.4,
+        421.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "3_12",
+      "type": "Text",
+      "rect": [
+        313.7,
+        422.4,
+        562.4,
+        435.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "4_8",
+      "type": "Text",
+      "rect": [
+        313.7,
+        435.7,
+        562.4,
+        448.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "5_7",
+      "type": "Text",
+      "rect": [
+        313.7,
+        449.0,
+        562.4,
+        461.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "6_7",
+      "type": "Text",
+      "rect": [
+        313.7,
+        462.5,
+        562.4,
+        475.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "7_6",
+      "type": "Text",
+      "rect": [
+        313.7,
+        475.8,
+        562.4,
+        488.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "8_6",
+      "type": "Text",
+      "rect": [
+        313.7,
+        489.1,
+        562.4,
+        501.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "9_5",
+      "type": "Text",
+      "rect": [
+        313.7,
+        502.6,
+        562.4,
+        515.3
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "10_4",
+      "type": "Text",
+      "rect": [
+        313.7,
+        515.9,
+        562.4,
+        528.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "11_4",
+      "type": "Text",
+      "rect": [
+        313.7,
+        529.3,
+        562.4,
+        542.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "12_4",
+      "type": "Text",
+      "rect": [
+        313.7,
+        542.6,
+        562.4,
+        555.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "13_3",
+      "type": "Text",
+      "rect": [
+        313.7,
+        556.0,
+        562.4,
+        568.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "14_3",
+      "type": "Text",
+      "rect": [
+        313.7,
+        569.4,
+        562.4,
+        582.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "15_3",
+      "type": "Text",
+      "rect": [
+        313.7,
+        582.7,
+        562.4,
+        595.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "16_3",
+      "type": "Text",
+      "rect": [
+        313.7,
+        596.0,
+        562.4,
+        608.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "17_2",
+      "type": "Text",
+      "rect": [
+        313.7,
+        609.5,
+        562.4,
+        622.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "18_2",
+      "type": "Text",
+      "rect": [
+        313.7,
+        622.8,
+        562.4,
+        635.5
+      ],
+      "nearby": "STORAGE"
+    },
+    {
+      "name": "19_2",
+      "type": "Text",
+      "rect": [
+        313.7,
+        636.2,
+        562.4,
+        649.0
+      ],
+      "nearby": "STORAGE"
+    },
+    {
+      "name": "DRow48",
+      "type": "Text",
+      "rect": [
+        220.9,
+        666.1,
+        246.2,
+        678.6
+      ],
+      "nearby": "Total Weight Total Weight on Character"
+    },
+    {
+      "name": "ENCUMBERED",
+      "type": "Text",
+      "rect": [
+        327.3,
+        702.9,
+        367.0,
+        724.8
+      ],
+      "nearby": "ENCUMBERED HEAVILY Strength x5 lb. Strength"
+    },
+    {
+      "name": "HEAVILY ENCUMBERED",
+      "type": "Text",
+      "rect": [
+        387.1,
+        702.9,
+        426.8,
+        724.8
+      ],
+      "nearby": "HEAVILY ENCUMB. Strength x10 lb. Strength"
+    },
+    {
+      "name": "MAX CARRYING",
+      "type": "Text",
+      "rect": [
+        446.7,
+        702.6,
+        486.4,
+        724.6
+      ],
+      "nearby": "ENCUMB. MAX CARRYING Strength x15 lb."
+    },
+    {
+      "name": "PUSH DRAG LIFT",
+      "type": "Text",
+      "rect": [
+        509.4,
+        702.7,
+        549.0,
+        724.7
+      ],
+      "nearby": "PUSH, DRAG LIFT Strength x30 lb."
+    }
+  ],
+  "page_4": [
+    {
+      "name": "TECH ATTACK MODIFIER",
+      "type": "Text",
+      "rect": [
+        276.8,
+        26.9,
+        323.8,
+        39.6
+      ],
+      "nearby": "MODIFIER: __________ TECH MODIFIER: __________ FORCE"
+    },
+    {
+      "name": "TECH POINTS",
+      "type": "Text",
+      "rect": [
+        78.1,
+        32.9,
+        125.2,
+        49.8
+      ],
+      "nearby": "TECH POINTS"
+    },
+    {
+      "name": "FORCE ATTACK MODIFIER",
+      "type": "Text",
+      "rect": [
+        276.8,
+        43.9,
+        323.8,
+        56.6
+      ],
+      "nearby": "MODIFIER: __________ MODIFIER: __________ FORCE __________"
+    },
+    {
+      "name": "TECH SAVE DC",
+      "type": "Text",
+      "rect": [
+        403.3,
+        26.6,
+        450.3,
+        39.3
+      ],
+      "nearby": "SAVE DC: __________ SAVE DC: __________"
+    },
+    {
+      "name": "FORCE SAVE DC",
+      "type": "Text",
+      "rect": [
+        403.4,
+        43.7,
+        450.4,
+        56.4
+      ],
+      "nearby": "DC: __________ DC: __________ SIDE: __________"
+    },
+    {
+      "name": "LIGHT ATTACK MODIFIER",
+      "type": "Text",
+      "rect": [
+        276.8,
+        61.5,
+        323.9,
+        74.2
+      ],
+      "nearby": "MODIFIER: __________ FORCE SIDE: __________ __________"
+    },
+    {
+      "name": "LIGHT SAVE DC",
+      "type": "Text",
+      "rect": [
+        403.4,
+        61.1,
+        450.3,
+        73.8
+      ],
+      "nearby": "DC: __________ SIDE: __________ SIDE: __________"
+    },
+    {
+      "name": "TECH POINTS USED",
+      "type": "Text",
+      "rect": [
+        78.8,
+        67.3,
+        125.8,
+        94.5
+      ],
+      "nearby": "TECH POINTS POINTS USED"
+    },
+    {
+      "name": "DARK ATTACK MODIFIER",
+      "type": "Text",
+      "rect": [
+        276.9,
+        79.1,
+        323.9,
+        91.9
+      ],
+      "nearby": "SIDE: __________ SIDE: __________ UNIVERSAL: __________"
+    },
+    {
+      "name": "DARK SAVE DC",
+      "type": "Text",
+      "rect": [
+        403.4,
+        78.6,
+        450.3,
+        91.4
+      ],
+      "nearby": "SIDE: __________ SIDE: __________ UNIVERSAL: __________"
+    },
+    {
+      "name": "UNIVERSAL SAVE DC",
+      "type": "Text",
+      "rect": [
+        403.3,
+        95.6,
+        450.3,
+        108.3
+      ],
+      "nearby": "__________ DARK SIDE: __________ UNIVERSAL: __________"
+    },
+    {
+      "name": "UNIVERSAL ATTACK MODIFIER",
+      "type": "Text",
+      "rect": [
+        276.8,
+        96.7,
+        323.8,
+        109.4
+      ],
+      "nearby": "DARK SIDE: __________ UNIVERSAL: UNIVERSAL: __________"
+    },
+    {
+      "name": "1_15",
+      "type": "Text",
+      "rect": [
+        49.4,
+        125.2,
+        298.1,
+        137.9
+      ],
+      "nearby": "POINTS USED UNIVERSAL: __________"
+    },
+    {
+      "name": "POWER 37",
+      "type": "CheckBox",
+      "rect": [
+        316.4,
+        129.0,
+        322.5,
+        135.2
+      ],
+      "nearby": "UNIVERSAL: UNIVERSAL: __________"
+    },
+    {
+      "name": "1_16",
+      "type": "Text",
+      "rect": [
+        327.8,
+        125.2,
+        558.0,
+        137.9
+      ],
+      "nearby": "UNIVERSAL: __________ POINTS USED UNIVERSAL: __________"
+    },
+    {
+      "name": "2_15",
+      "type": "Text",
+      "rect": [
+        49.4,
+        138.5,
+        298.1,
+        151.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 38",
+      "type": "CheckBox",
+      "rect": [
+        316.5,
+        142.4,
+        322.7,
+        148.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "2_16",
+      "type": "Text",
+      "rect": [
+        327.8,
+        138.5,
+        558.0,
+        151.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "3_13",
+      "type": "Text",
+      "rect": [
+        49.4,
+        151.8,
+        298.1,
+        164.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 39",
+      "type": "CheckBox",
+      "rect": [
+        316.5,
+        155.7,
+        322.7,
+        161.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "3_14",
+      "type": "Text",
+      "rect": [
+        327.8,
+        151.8,
+        558.0,
+        164.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "4_9",
+      "type": "Text",
+      "rect": [
+        49.4,
+        165.2,
+        298.1,
+        178.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 40",
+      "type": "CheckBox",
+      "rect": [
+        316.4,
+        169.1,
+        322.5,
+        175.3
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "4_10",
+      "type": "Text",
+      "rect": [
+        327.8,
+        165.2,
+        558.0,
+        178.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "5_8",
+      "type": "Text",
+      "rect": [
+        49.4,
+        178.6,
+        298.1,
+        191.3
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 41",
+      "type": "CheckBox",
+      "rect": [
+        316.5,
+        182.5,
+        322.6,
+        188.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "5_9",
+      "type": "Text",
+      "rect": [
+        327.8,
+        178.6,
+        558.0,
+        191.3
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "6_8",
+      "type": "Text",
+      "rect": [
+        49.4,
+        191.9,
+        298.1,
+        204.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 42",
+      "type": "CheckBox",
+      "rect": [
+        316.5,
+        195.8,
+        322.6,
+        201.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "6_9",
+      "type": "Text",
+      "rect": [
+        327.8,
+        191.9,
+        558.0,
+        204.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "7_7",
+      "type": "Text",
+      "rect": [
+        49.4,
+        205.2,
+        298.1,
+        217.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 43",
+      "type": "CheckBox",
+      "rect": [
+        316.5,
+        209.0,
+        322.4,
+        215.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "7_8",
+      "type": "Text",
+      "rect": [
+        327.8,
+        205.2,
+        558.0,
+        217.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "8_7",
+      "type": "Text",
+      "rect": [
+        49.4,
+        218.5,
+        298.1,
+        231.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 44",
+      "type": "CheckBox",
+      "rect": [
+        316.4,
+        222.5,
+        322.5,
+        228.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "8_8",
+      "type": "Text",
+      "rect": [
+        327.8,
+        218.5,
+        558.0,
+        231.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "9_6",
+      "type": "Text",
+      "rect": [
+        49.4,
+        231.8,
+        298.1,
+        244.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "9_7",
+      "type": "Text",
+      "rect": [
+        327.8,
+        231.8,
+        558.0,
+        244.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "10_5",
+      "type": "Text",
+      "rect": [
+        49.4,
+        245.2,
+        298.1,
+        257.9
+      ],
+      "nearby": "AT-WILL"
+    },
+    {
+      "name": "POWER 45",
+      "type": "CheckBox",
+      "rect": [
+        316.5,
+        235.9,
+        322.5,
+        242.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "10_6",
+      "type": "Text",
+      "rect": [
+        327.8,
+        245.2,
+        558.0,
+        257.9
+      ],
+      "nearby": "1st LEVEL"
+    },
+    {
+      "name": "11_5",
+      "type": "Text",
+      "rect": [
+        49.4,
+        258.5,
+        298.1,
+        271.2
+      ],
+      "nearby": "AT-WILL"
+    },
+    {
+      "name": "11_6",
+      "type": "Text",
+      "rect": [
+        327.8,
+        258.5,
+        558.0,
+        271.2
+      ],
+      "nearby": "1st LEVEL"
+    },
+    {
+      "name": "POWER 48",
+      "type": "CheckBox",
+      "rect": [
+        316.3,
+        292.4,
+        322.5,
+        298.6
+      ],
+      "nearby": "AT-WILL"
+    },
+    {
+      "name": "1_17",
+      "type": "Text",
+      "rect": [
+        63.7,
+        288.7,
+        297.7,
+        301.4
+      ],
+      "nearby": "AT-WILL"
+    },
+    {
+      "name": "1_18",
+      "type": "Text",
+      "rect": [
+        327.3,
+        288.7,
+        558.0,
+        301.4
+      ],
+      "nearby": "1st LEVEL"
+    },
+    {
+      "name": "POWER 49",
+      "type": "CheckBox",
+      "rect": [
+        316.5,
+        305.8,
+        322.6,
+        312.0
+      ],
+      "nearby": "AT-WILL"
+    },
+    {
+      "name": "2_17",
+      "type": "Text",
+      "rect": [
+        63.7,
+        302.0,
+        297.7,
+        314.8
+      ],
+      "nearby": "AT-WILL"
+    },
+    {
+      "name": "2_18",
+      "type": "Text",
+      "rect": [
+        327.3,
+        302.0,
+        558.0,
+        314.8
+      ],
+      "nearby": "1st LEVEL"
+    },
+    {
+      "name": "POWER 50",
+      "type": "CheckBox",
+      "rect": [
+        316.5,
+        319.1,
+        322.6,
+        325.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "3_15",
+      "type": "Text",
+      "rect": [
+        63.7,
+        315.4,
+        297.7,
+        328.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "3_16",
+      "type": "Text",
+      "rect": [
+        327.3,
+        315.4,
+        558.0,
+        328.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 51",
+      "type": "CheckBox",
+      "rect": [
+        316.3,
+        332.5,
+        322.5,
+        338.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "4_11",
+      "type": "Text",
+      "rect": [
+        63.7,
+        328.7,
+        297.7,
+        341.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "4_12",
+      "type": "Text",
+      "rect": [
+        327.3,
+        328.7,
+        558.0,
+        341.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 17",
+      "type": "CheckBox",
+      "rect": [
+        52.4,
+        345.9,
+        58.6,
+        352.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 52",
+      "type": "CheckBox",
+      "rect": [
+        316.4,
+        345.8,
+        322.5,
+        352.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "5_10",
+      "type": "Text",
+      "rect": [
+        63.7,
+        342.0,
+        297.7,
+        354.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "5_11",
+      "type": "Text",
+      "rect": [
+        327.3,
+        342.0,
+        558.0,
+        354.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 19",
+      "type": "CheckBox",
+      "rect": [
+        52.4,
+        359.2,
+        58.6,
+        365.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 53",
+      "type": "CheckBox",
+      "rect": [
+        316.4,
+        359.2,
+        322.5,
+        365.3
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "6_10",
+      "type": "Text",
+      "rect": [
+        63.7,
+        355.3,
+        297.7,
+        368.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "6_11",
+      "type": "Text",
+      "rect": [
+        327.3,
+        355.3,
+        558.0,
+        368.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 7",
+      "type": "CheckBox",
+      "rect": [
+        52.5,
+        372.5,
+        58.5,
+        378.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 54",
+      "type": "CheckBox",
+      "rect": [
+        316.4,
+        372.4,
+        322.3,
+        378.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "7_9",
+      "type": "Text",
+      "rect": [
+        63.7,
+        368.6,
+        297.7,
+        381.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "7_10",
+      "type": "Text",
+      "rect": [
+        327.3,
+        368.6,
+        558.0,
+        381.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 55",
+      "type": "CheckBox",
+      "rect": [
+        316.5,
+        385.9,
+        322.6,
+        392.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "8_9",
+      "type": "Text",
+      "rect": [
+        63.7,
+        382.0,
+        297.7,
+        394.7
+      ],
+      "nearby": "2nd LEVEL"
+    },
+    {
+      "name": "8_10",
+      "type": "Text",
+      "rect": [
+        327.3,
+        382.0,
+        558.0,
+        394.7
+      ],
+      "nearby": "LEVEL 3rd LEVEL"
+    },
+    {
+      "name": "POWER 9",
+      "type": "CheckBox",
+      "rect": [
+        52.5,
+        399.1,
+        58.5,
+        405.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 56",
+      "type": "CheckBox",
+      "rect": [
+        316.4,
+        399.1,
+        322.4,
+        405.2
+      ],
+      "nearby": "LEVEL"
+    },
+    {
+      "name": "9_8",
+      "type": "Text",
+      "rect": [
+        63.7,
+        395.4,
+        297.7,
+        408.1
+      ],
+      "nearby": "2nd LEVEL"
+    },
+    {
+      "name": "9_9",
+      "type": "Text",
+      "rect": [
+        327.3,
+        395.4,
+        558.0,
+        408.1
+      ],
+      "nearby": "LEVEL 3rd LEVEL"
+    },
+    {
+      "name": "POWER 1",
+      "type": "CheckBox",
+      "rect": [
+        52.3,
+        292.4,
+        58.5,
+        298.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 11",
+      "type": "CheckBox",
+      "rect": [
+        52.5,
+        305.9,
+        58.6,
+        312.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 10",
+      "type": "CheckBox",
+      "rect": [
+        52.5,
+        429.2,
+        58.6,
+        435.3
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 57",
+      "type": "CheckBox",
+      "rect": [
+        316.5,
+        429.3,
+        322.6,
+        435.5
+      ],
+      "nearby": "LEVEL"
+    },
+    {
+      "name": "1_19",
+      "type": "Text",
+      "rect": [
+        63.7,
+        425.5,
+        297.7,
+        438.2
+      ],
+      "nearby": "2nd LEVEL"
+    },
+    {
+      "name": "1_20",
+      "type": "Text",
+      "rect": [
+        327.3,
+        425.5,
+        558.0,
+        438.2
+      ],
+      "nearby": "LEVEL 3rd LEVEL"
+    },
+    {
+      "name": "POWER 13",
+      "type": "CheckBox",
+      "rect": [
+        52.5,
+        319.1,
+        58.6,
+        325.3
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 12",
+      "type": "CheckBox",
+      "rect": [
+        52.5,
+        442.7,
+        58.6,
+        448.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 58",
+      "type": "CheckBox",
+      "rect": [
+        316.4,
+        442.7,
+        322.5,
+        448.9
+      ],
+      "nearby": "LEVEL"
+    },
+    {
+      "name": "2_19",
+      "type": "Text",
+      "rect": [
+        63.7,
+        438.8,
+        297.7,
+        451.6
+      ],
+      "nearby": "2nd LEVEL"
+    },
+    {
+      "name": "2_20",
+      "type": "Text",
+      "rect": [
+        327.3,
+        438.8,
+        558.0,
+        451.6
+      ],
+      "nearby": "LEVEL 3rd LEVEL"
+    },
+    {
+      "name": "POWER 15",
+      "type": "CheckBox",
+      "rect": [
+        52.3,
+        332.5,
+        58.5,
+        338.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 14",
+      "type": "CheckBox",
+      "rect": [
+        52.5,
+        456.0,
+        58.6,
+        462.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 59",
+      "type": "CheckBox",
+      "rect": [
+        316.6,
+        455.9,
+        322.7,
+        462.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "3_17",
+      "type": "Text",
+      "rect": [
+        63.7,
+        452.2,
+        297.7,
+        464.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "3_18",
+      "type": "Text",
+      "rect": [
+        327.3,
+        452.2,
+        558.0,
+        464.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 16",
+      "type": "CheckBox",
+      "rect": [
+        52.3,
+        469.4,
+        58.5,
+        475.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 60",
+      "type": "CheckBox",
+      "rect": [
+        316.4,
+        469.4,
+        322.6,
+        475.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "4_13",
+      "type": "Text",
+      "rect": [
+        63.7,
+        465.5,
+        297.7,
+        478.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "4_14",
+      "type": "Text",
+      "rect": [
+        327.3,
+        465.5,
+        558.0,
+        478.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 18",
+      "type": "CheckBox",
+      "rect": [
+        52.4,
+        482.8,
+        58.6,
+        488.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 61",
+      "type": "CheckBox",
+      "rect": [
+        316.5,
+        482.7,
+        322.6,
+        488.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "5_12",
+      "type": "Text",
+      "rect": [
+        63.7,
+        478.8,
+        297.7,
+        491.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "5_13",
+      "type": "Text",
+      "rect": [
+        327.3,
+        478.8,
+        558.0,
+        491.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 20",
+      "type": "CheckBox",
+      "rect": [
+        52.4,
+        496.1,
+        58.6,
+        502.3
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 62",
+      "type": "CheckBox",
+      "rect": [
+        316.5,
+        496.0,
+        322.6,
+        502.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "6_12",
+      "type": "Text",
+      "rect": [
+        63.7,
+        492.1,
+        297.7,
+        504.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "6_13",
+      "type": "Text",
+      "rect": [
+        327.3,
+        492.1,
+        558.0,
+        504.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 8",
+      "type": "CheckBox",
+      "rect": [
+        52.3,
+        385.9,
+        58.5,
+        392.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 21",
+      "type": "CheckBox",
+      "rect": [
+        52.4,
+        509.3,
+        58.6,
+        515.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 63",
+      "type": "CheckBox",
+      "rect": [
+        316.5,
+        509.3,
+        322.6,
+        515.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "7_11",
+      "type": "Text",
+      "rect": [
+        63.7,
+        505.4,
+        297.7,
+        518.2
+      ],
+      "nearby": "4th LEVEL"
+    },
+    {
+      "name": "7_12",
+      "type": "Text",
+      "rect": [
+        327.3,
+        505.4,
+        558.0,
+        518.2
+      ],
+      "nearby": "LEVEL 5th LEVEL"
+    },
+    {
+      "name": "POWER 22",
+      "type": "CheckBox",
+      "rect": [
+        52.3,
+        522.8,
+        58.5,
+        528.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 64",
+      "type": "CheckBox",
+      "rect": [
+        316.4,
+        522.7,
+        322.6,
+        528.9
+      ],
+      "nearby": "LEVEL"
+    },
+    {
+      "name": "8_11",
+      "type": "Text",
+      "rect": [
+        63.7,
+        518.9,
+        297.7,
+        531.6
+      ],
+      "nearby": "4th LEVEL"
+    },
+    {
+      "name": "8_12",
+      "type": "Text",
+      "rect": [
+        327.3,
+        518.9,
+        558.0,
+        531.6
+      ],
+      "nearby": "LEVEL 5th LEVEL"
+    },
+    {
+      "name": "POWER 23",
+      "type": "CheckBox",
+      "rect": [
+        52.4,
+        552.7,
+        58.6,
+        558.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 65",
+      "type": "CheckBox",
+      "rect": [
+        316.4,
+        552.8,
+        322.6,
+        558.9
+      ],
+      "nearby": "LEVEL"
+    },
+    {
+      "name": "1_21",
+      "type": "Text",
+      "rect": [
+        63.7,
+        549.0,
+        297.7,
+        561.7
+      ],
+      "nearby": "4th LEVEL"
+    },
+    {
+      "name": "1_22",
+      "type": "Text",
+      "rect": [
+        327.3,
+        549.0,
+        558.0,
+        561.7
+      ],
+      "nearby": "LEVEL 5th LEVEL"
+    },
+    {
+      "name": "POWER 24",
+      "type": "CheckBox",
+      "rect": [
+        52.4,
+        566.3,
+        58.6,
+        572.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 66",
+      "type": "CheckBox",
+      "rect": [
+        316.6,
+        566.1,
+        322.7,
+        572.2
+      ],
+      "nearby": "LEVEL"
+    },
+    {
+      "name": "2_22",
+      "type": "Text",
+      "rect": [
+        327.3,
+        562.3,
+        558.0,
+        575.0
+      ],
+      "nearby": "LEVEL 5th LEVEL"
+    },
+    {
+      "name": "POWER 25",
+      "type": "CheckBox",
+      "rect": [
+        52.4,
+        579.5,
+        58.6,
+        585.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 67",
+      "type": "CheckBox",
+      "rect": [
+        316.4,
+        579.5,
+        322.6,
+        585.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "3_19",
+      "type": "Text",
+      "rect": [
+        63.7,
+        575.6,
+        297.7,
+        588.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "3_20",
+      "type": "Text",
+      "rect": [
+        327.3,
+        575.6,
+        558.0,
+        588.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 26",
+      "type": "CheckBox",
+      "rect": [
+        52.3,
+        592.9,
+        58.4,
+        599.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 68",
+      "type": "CheckBox",
+      "rect": [
+        316.4,
+        592.8,
+        322.6,
+        599.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "4_15",
+      "type": "Text",
+      "rect": [
+        63.7,
+        589.0,
+        297.7,
+        601.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "4_16",
+      "type": "Text",
+      "rect": [
+        327.3,
+        589.0,
+        558.0,
+        601.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 27",
+      "type": "CheckBox",
+      "rect": [
+        52.3,
+        606.3,
+        58.5,
+        612.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 69",
+      "type": "CheckBox",
+      "rect": [
+        316.5,
+        606.3,
+        322.7,
+        612.4
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "5_14",
+      "type": "Text",
+      "rect": [
+        63.7,
+        602.3,
+        297.7,
+        615.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "5_15",
+      "type": "Text",
+      "rect": [
+        327.3,
+        602.3,
+        558.0,
+        615.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 28",
+      "type": "CheckBox",
+      "rect": [
+        52.3,
+        619.6,
+        58.5,
+        625.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 70",
+      "type": "CheckBox",
+      "rect": [
+        316.5,
+        619.4,
+        322.7,
+        625.6
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "6_14",
+      "type": "Text",
+      "rect": [
+        63.7,
+        615.6,
+        297.7,
+        628.3
+      ],
+      "nearby": "6th LEVEL"
+    },
+    {
+      "name": "6_15",
+      "type": "Text",
+      "rect": [
+        327.3,
+        615.6,
+        558.0,
+        628.3
+      ],
+      "nearby": "LEVEL 7th LEVEL"
+    },
+    {
+      "name": "POWER 29",
+      "type": "CheckBox",
+      "rect": [
+        52.3,
+        632.9,
+        58.5,
+        639.0
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 71",
+      "type": "CheckBox",
+      "rect": [
+        316.4,
+        632.8,
+        322.6,
+        639.0
+      ],
+      "nearby": "LEVEL"
+    },
+    {
+      "name": "7_13",
+      "type": "Text",
+      "rect": [
+        63.7,
+        628.9,
+        297.7,
+        641.6
+      ],
+      "nearby": "6th LEVEL"
+    },
+    {
+      "name": "7_14",
+      "type": "Text",
+      "rect": [
+        327.3,
+        628.9,
+        558.0,
+        641.6
+      ],
+      "nearby": "LEVEL 7th LEVEL"
+    },
+    {
+      "name": "POWER 30",
+      "type": "CheckBox",
+      "rect": [
+        52.3,
+        662.9,
+        58.5,
+        669.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 72",
+      "type": "CheckBox",
+      "rect": [
+        316.5,
+        662.8,
+        322.6,
+        668.9
+      ],
+      "nearby": "LEVEL"
+    },
+    {
+      "name": "1_23",
+      "type": "Text",
+      "rect": [
+        63.7,
+        659.2,
+        297.7,
+        671.9
+      ],
+      "nearby": "6th LEVEL"
+    },
+    {
+      "name": "1_24",
+      "type": "Text",
+      "rect": [
+        327.3,
+        659.2,
+        558.0,
+        671.9
+      ],
+      "nearby": "LEVEL 7th LEVEL"
+    },
+    {
+      "name": "POWER 31",
+      "type": "CheckBox",
+      "rect": [
+        52.3,
+        676.5,
+        58.5,
+        682.7
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 73",
+      "type": "CheckBox",
+      "rect": [
+        316.6,
+        676.3,
+        322.8,
+        682.5
+      ],
+      "nearby": "LEVEL"
+    },
+    {
+      "name": "2_23",
+      "type": "Text",
+      "rect": [
+        63.7,
+        672.5,
+        297.7,
+        685.2
+      ],
+      "nearby": "6th LEVEL"
+    },
+    {
+      "name": "2_24",
+      "type": "Text",
+      "rect": [
+        327.3,
+        672.5,
+        558.0,
+        685.2
+      ],
+      "nearby": "LEVEL 7th LEVEL"
+    },
+    {
+      "name": "2_21",
+      "type": "Text",
+      "rect": [
+        63.7,
+        562.3,
+        297.7,
+        575.0
+      ],
+      "nearby": "4th LEVEL"
+    },
+    {
+      "name": "POWER 32",
+      "type": "CheckBox",
+      "rect": [
+        52.3,
+        689.8,
+        58.5,
+        695.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 74",
+      "type": "CheckBox",
+      "rect": [
+        316.5,
+        689.6,
+        322.6,
+        695.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "3_21",
+      "type": "Text",
+      "rect": [
+        63.7,
+        685.8,
+        297.7,
+        698.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "3_22",
+      "type": "Text",
+      "rect": [
+        327.3,
+        685.8,
+        558.0,
+        698.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 33",
+      "type": "CheckBox",
+      "rect": [
+        52.5,
+        702.9,
+        58.7,
+        709.1
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 75",
+      "type": "CheckBox",
+      "rect": [
+        316.5,
+        702.8,
+        322.6,
+        708.9
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "4_17",
+      "type": "Text",
+      "rect": [
+        63.7,
+        699.1,
+        297.7,
+        711.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "4_18",
+      "type": "Text",
+      "rect": [
+        327.3,
+        699.1,
+        558.0,
+        711.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 34",
+      "type": "CheckBox",
+      "rect": [
+        52.5,
+        716.2,
+        58.6,
+        722.3
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 76",
+      "type": "CheckBox",
+      "rect": [
+        316.4,
+        716.4,
+        322.5,
+        722.5
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "5_16",
+      "type": "Text",
+      "rect": [
+        63.7,
+        712.4,
+        297.7,
+        725.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "6_16",
+      "type": "Text",
+      "rect": [
+        63.7,
+        725.8,
+        297.7,
+        738.5
+      ],
+      "nearby": "8th LEVEL"
+    },
+    {
+      "name": "FORCE POINTS",
+      "type": "Text",
+      "rect": [
+        485.1,
+        31.3,
+        532.1,
+        48.3
+      ],
+      "nearby": "__________ DC: __________ FORCE POINTS __________"
+    },
+    {
+      "name": "FORCE POINTS USED",
+      "type": "Text",
+      "rect": [
+        485.4,
+        67.8,
+        532.4,
+        95.0
+      ],
+      "nearby": "FORCE POINTS __________ __________ POINTS USED"
+    },
+    {
+      "name": "5_17",
+      "type": "Text",
+      "rect": [
+        327.3,
+        712.4,
+        558.0,
+        725.2
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 35",
+      "type": "CheckBox",
+      "rect": [
+        52.5,
+        729.7,
+        58.6,
+        735.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 77",
+      "type": "CheckBox",
+      "rect": [
+        316.4,
+        729.7,
+        322.5,
+        735.8
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "6_17",
+      "type": "Text",
+      "rect": [
+        327.3,
+        725.8,
+        558.0,
+        738.5
+      ],
+      "nearby": "LEVEL 9th LEVEL"
+    },
+    {
+      "name": "POWER 36",
+      "type": "CheckBox",
+      "rect": [
+        52.2,
+        743.1,
+        58.4,
+        749.3
+      ],
+      "nearby": ""
+    },
+    {
+      "name": "POWER 78",
+      "type": "CheckBox",
+      "rect": [
+        316.4,
+        742.9,
+        322.5,
+        749.1
+      ],
+      "nearby": "LEVEL"
+    },
+    {
+      "name": "7_15",
+      "type": "Text",
+      "rect": [
+        63.7,
+        739.1,
+        297.7,
+        751.8
+      ],
+      "nearby": "8th LEVEL"
+    },
+    {
+      "name": "7_16",
+      "type": "Text",
+      "rect": [
+        327.3,
+        739.1,
+        558.0,
+        751.8
+      ],
+      "nearby": "LEVEL 9th LEVEL"
+    },
+    {
+      "name": "POWER 47",
+      "type": "CheckBox",
+      "rect": [
+        316.5,
+        262.5,
+        322.5,
+        268.6
+      ],
+      "nearby": "AT-WILL"
+    },
+    {
+      "name": "POWER 46",
+      "type": "CheckBox",
+      "rect": [
+        316.4,
+        249.1,
+        322.5,
+        255.2
+      ],
+      "nearby": ""
+    }
+  ]
+}

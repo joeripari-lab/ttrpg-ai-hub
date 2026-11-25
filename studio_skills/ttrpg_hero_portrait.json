@@ -1,0 +1,17 @@
+{
+  "id": "ttrpg_hero_portrait",
+  "name": "TTRPG Hero Portrait (Painted Fantasy)",
+  "description": "Classic tabletop RPG character portrait with rich oil brushwork, dramatic rim lighting, and heroic framing.",
+  "prompt_prefix": "masterpiece fantasy character portrait, D&D handbook oil painting style, ",
+  "prompt_suffix": "intricate armor and gear details, expressive face, dramatic chiaroscuro rim lighting, rich textures, painterly brushwork, sharp focus on eyes, 8k uhd",
+  "negative_prompt": "modern clothing, photograph, blurry, bad hands, extra fingers, mutated hands, poorly drawn face, watermark, text, signature, low quality, deformed, duplicate",
+  "ai_instructions": "Emphasize tabletop RPG character design, class-appropriate armor, weapons, and accessories, expressive facial character, and rich fantasy oil-painting lighting.",
+  "settings": {
+    "resolution": "832x1216",
+    "steps": 30,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m_sde",
+    "scheduler": "karras",
+    "denoise": 0.6
+  }
+}

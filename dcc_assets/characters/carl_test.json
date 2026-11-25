@@ -1,0 +1,126 @@
+{
+  "id": "carl_test",
+  "name": "Carl",
+  "race": "Human",
+  "gender": "He/Him",
+  "level": "1",
+  "crawler_number": "4122",
+  "class_name": "None",
+  "floor": "1",
+  "size": "Medium",
+  "move": "30 ft",
+  "step": "5 ft",
+  "ai_favor": "2",
+  "portrait_path": "C:\\AI_Workspace\\outputs\\images\\20261115_184450_AIHub_Gen_00005_.png",
+  "stats": {
+    "STR": {
+      "unenhanced": 5,
+      "enhanced": 5,
+      "mod": 2
+    },
+    "INT": {
+      "unenhanced": 4,
+      "enhanced": 4,
+      "mod": 2
+    },
+    "CON": {
+      "unenhanced": 5,
+      "enhanced": 5,
+      "mod": 2
+    },
+    "DEX": {
+      "unenhanced": 4,
+      "enhanced": 4,
+      "mod": 2
+    },
+    "CHA": {
+      "unenhanced": 3,
+      "enhanced": 3,
+      "mod": 1
+    }
+  },
+  "vitals": {
+    "hp_current": 14,
+    "hp_max": 14,
+    "mana_current": 9,
+    "mana_max": 9,
+    "evade_buffs": 0,
+    "evade_total": 12,
+    "armor": 1,
+    "dr_buffs": 0,
+    "dr_total": 1,
+    "popularity": 2
+  },
+  "external_buffs": [
+    "Enchanted Boxer Shorts (+1 CHA)",
+    "",
+    ""
+  ],
+  "attacks": [
+    {
+      "name": "Hand-to-Hand (Unarmed 1)",
+      "rank": 3,
+      "stat": "STR",
+      "stat_mod": 2,
+      "to_hit": "+5",
+      "damage_dice": "1d4",
+      "damage_stat_mod": "+2",
+      "effects": "Evade | AI Favor: 0"
+    },
+    {
+      "name": "Goblin Dynamite",
+      "rank": 2,
+      "stat": "DEX",
+      "stat_mod": 2,
+      "to_hit": "+4",
+      "damage_dice": "2d6",
+      "damage_stat_mod": "+2",
+      "effects": "AoE 10ft | Evade | AI Favor: 1"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Marine Mechanics",
+      "origin": "Career",
+      "rank": 2,
+      "stat": "INT",
+      "stat_display": "INT (+2)",
+      "total_mod": "+4",
+      "check_type": "Unopposed",
+      "notes": "Coast Guard"
+    },
+    {
+      "name": "Demolition",
+      "origin": "Hobby",
+      "rank": 1,
+      "stat": "INT",
+      "stat_display": "INT (+2)",
+      "total_mod": "+3",
+      "check_type": "Unopposed",
+      "notes": ""
+    },
+    {
+      "name": "Boxing",
+      "origin": "Adolescence",
+      "rank": 3,
+      "stat": "STR",
+      "stat_display": "STR (+2)",
+      "total_mod": "+5",
+      "check_type": "Evade",
+      "notes": ""
+    }
+  ],
+  "gear": {
+    "head": "",
+    "torso": "Leather Jacket",
+    "arms": "",
+    "hands": "Gauntlet",
+    "legs": "Heart-Print Boxers",
+    "feet": "Barefoot",
+    "accessories": "Torch, 2x Healing Potion"
+  },
+  "past_trauma": "Ex-girlfriend Bea",
+  "loose_ends": "Find Donut's tiara",
+  "regrets": "Going outside in slippers",
+  "notes": "Session 0 verified test crawler."
+}

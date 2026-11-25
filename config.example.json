@@ -1,0 +1,11 @@
+{
+  "comfy_url": "http://127.0.0.1:8188",
+  "llm_url": "http://127.0.0.1:1235/v1",
+  "ollama_url": "http://127.0.0.1:11434/v1",
+  "llm_provider_mode": "gemini_first",
+  "gemini_api_key": "<YOUR_API_KEY>",
+  "gemini_model": "gemini-2.5-flash",
+  "default_checkpoint": "Juggernaut-X-RunDiffusion-NSFW.safetensors",
+  "default_negative_prompt": "bad hands, extra fingers, mutated hands, poorly drawn face, blurry, watermark, text, signature, low quality, worst quality, deformed, ugly, duplicate",
+  "llm_system_prompt": "You are a capable local AI assistant running privately on Joe's machine. You specialize in TTRPG character portrait design, fantasy worldbuilding, Dungeon Crawler World (DCC) Session 0 character creation, and ComfyUI image generation."
+}

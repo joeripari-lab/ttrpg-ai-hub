@@ -1,0 +1,17 @@
+{
+  "id": "dark_fantasy_figure",
+  "name": "Dark Fantasy Collector Figure / Concept",
+  "description": "Dramatic chiaroscuro rim lighting, intricate armor/anatomy details, dark atmospheric backdrop.",
+  "prompt_prefix": "masterpiece dark fantasy art, ",
+  "prompt_suffix": "dramatic rim lighting, volumetric shadows, hyper-detailed textures, intricate ornamentation, dark atmospheric background, cinematic composition, 8k resolution",
+  "negative_prompt": "flat lighting, overexposed, low detail, blurry, cartoon, watermark, text, deformed anatomy, extra limbs",
+  "ai_instructions": "Focus on dramatic dark fantasy aesthetics, chiaroscuro lighting, rich material contrasts (metal, leather, skin, stone), and striking heroic/seductive poses.",
+  "settings": {
+    "resolution": "832x1216",
+    "steps": 30,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m_sde",
+    "scheduler": "karras",
+    "denoise": 0.62
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "etsy_listing",
+  "name": "Etsy Listing Auto-Publisher",
+  "marketplace": "etsy",
+  "start_url": "https://www.etsy.com/your/shops/me/tools/listings/create",
+  "description": "Uploads product photos, fills Title, Description, Price, Quantity, Tags, and publishes (or saves draft) on Etsy.",
+  "updated_at": "2026-11-14T15:02:27.984286",
+  "steps": [
+    {
+      "action": "goto",
+      "url": "{{etsy_shop_url}}",
+      "note": "Open Etsy Create Listing page"
+    },
+    {
+      "action": "wait",
+      "seconds": 3,
+      "note": "Wait for Etsy listing editor to initialize"
+    },
+    {
+      "action": "upload_files",
+      "selector": "input[type='file'][accept*='image'], input[type='file']",
+      "value": "{{images}}",
+      "note": "Upload product images"
+    },
+    {
+      "action": "wait",
+      "seconds": 4,
+      "note": "Allow photo upload thumbnails to process"
+    },
+    {
+      "action": "fill",
+      "selector": "textarea[name='title'], input[name='title'], #listing-title-input, [data-field='title'] textarea, [data-field='title'] input",
+      "value": "{{title}}",
+      "note": "Fill Listing Title"
+    },
+    {
+      "action": "fill",
+      "selector": "textarea[name='description'], #listing-description-textarea, [data-field='description'] textarea",
+      "value": "{{description}}",
+      "note": "Fill Listing Description"
+    },
+    {
+      "action": "fill",
+      "selector": "input[name='price'], #listing-price-input, [data-field='price'] input",
+      "value": "{{price}}",
+      "note": "Fill Price"
+    },
+    {
+      "action": "fill",
+      "selector": "input[name='quantity'], #listing-quantity-input, [data-field='quantity'] input",
+      "value": "{{quantity}}",
+      "note": "Fill Quantity"
+    },
+    {
+      "action": "add_tags",
+      "selector": "#listing-tags-input, input[placeholder*='tag' i], input[name='tags']",
+      "button_selector": "button:has-text('Add')",
+      "value": "{{tags}}",
+      "note": "Add up to 13 SEO tags"
+    },
+    {
+      "action": "publish_or_draft",
+      "publish_selector": "button:has-text('Publish'), [data-testid='publish']",
+      "draft_selector": "button:has-text('Save as draft'), button:has-text('Save as Draft')",
+      "note": "Publish or Save Draft"
+    }
+  ]
+}
