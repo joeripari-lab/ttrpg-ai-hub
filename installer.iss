@@ -1,3 +1,7 @@
+#ifndef SourceDir
+  #define SourceDir "dist_win\TTRPG_AI_Hub"
+#endif
+
 [Setup]
 AppId={{8D4F2E1A-9C3B-4B7E-A2D1-6E5F4C3B2A10}
 AppName=TTRPG AI Hub
@@ -13,7 +17,7 @@ CloseApplications=yes
 RestartApplications=yes
 
 [Files]
-Source: "dist_win\TTRPG_AI_Hub\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "{#SourceDir}\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Icons]
 Name: "{group}\TTRPG AI Hub"; Filename: "{app}\TTRPG_AI_Hub.exe"
