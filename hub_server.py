@@ -33,6 +33,7 @@ import rules_rag
 import campaign_dcc
 import campaign_rulesets
 import campaign_engine
+import updater
 
 # ============================================================================
 # PATHS & CONFIGURATION
@@ -73,12 +74,13 @@ DEFAULT_CONFIG = {
     "openai_model": "gpt-4o-mini",
     "anthropic_api_key": "",
     "anthropic_model": "claude-sonnet-4-5",
+    "github_token": "",
     "default_checkpoint": "Juggernaut-X-RunDiffusion-NSFW.safetensors",
     "default_negative_prompt": "bad hands, extra fingers, mutated hands, poorly drawn face, blurry, watermark, text, signature, low quality, worst quality, deformed, ugly, duplicate",
     "llm_system_prompt": (
-        "You are a capable local AI assistant running privately on Joe's machine. "
+        "You are a capable AI assistant for tabletop RPGs. "
         "You specialize in TTRPG character portrait design, fantasy worldbuilding, "
-        "Dungeon Crawler World (DCC) Session 0 character creation, and ComfyUI image generation."
+        "Session 0 character creation, and image generation."
     ),
 }
 
@@ -2223,15 +2225,15 @@ INDEX_HTML = r"""<!DOCTYPE html>
 
 <header>
   <div class="brand">
-    <span>🎲 TTRPG AI Studio &amp; DCC Hub</span>
-    <span class="badge">RTX 4070 • Local Stack</span>
+    <span>🎲 TTRPG AI Studio &amp; DM Hub</span>
+    <span class="badge" id="header-mode-badge">⚡ Hybrid AI</span>
   </div>
   <div style="display:flex; gap:10px; align-items:center; flex-wrap:wrap;">
-    <div class="badge" id="comfy-badge"><span class="dot" id="comfy-dot"></span> ComfyUI: <span id="comfy-text">Checking...</span></div>
-    <button class="btn secondary" onclick="startService('comfy')" style="padding:6px 10px; font-size:12px;">Start ComfyUI</button>
+    <div class="badge local-only-ui" id="comfy-badge"><span class="dot" id="comfy-dot"></span> ComfyUI: <span id="comfy-text">Checking...</span></div>
+    <button class="btn secondary local-only-ui" onclick="startService('comfy')" style="padding:6px 10px; font-size:12px;">Start ComfyUI</button>
     <div class="badge" id="llm-badge"><span class="dot" id="llm-dot"></span> AI Compute: <span id="llm-text">Checking...</span></div>
-    <button class="btn secondary" onclick="startService('llm')" style="padding:6px 10px; font-size:12px;">Start Local LLM</button>
-    <button class="btn secondary" onclick="startService('unload_llm')" style="padding:6px 10px; font-size:12px;" title="Unload local LLM from RTX 4070 so ComfyUI gets 100% of your 12 GB VRAM">🧹 Free GPU VRAM</button>
+    <button class="btn secondary local-only-ui" onclick="startService('llm')" style="padding:6px 10px; font-size:12px;">Start Local LLM</button>
+    <button class="btn secondary local-only-ui" onclick="startService('unload_llm')" style="padding:6px 10px; font-size:12px;" title="Unload local LLM from GPU VRAM so ComfyUI gets 100% of your VRAM">🧹 Free GPU VRAM</button>
     <button class="btn amber" onclick="openSetupWizard()" style="padding:6px 10px; font-size:12px;">🧙 Setup Wizard</button>
   </div>
 </header>
@@ -2349,7 +2351,7 @@ INDEX_HTML = r"""<!DOCTYPE html>
   <section id="tab-studio" class="tab active">
     <div class="studio-layout">
       <div class="card">
-        <h3>Generate or Edit Image (Local ComfyUI Engine)</h3>
+        <h3 id="studio-engine-title">Generate or Edit Image (Local ComfyUI Engine)</h3>
 
         <div style="margin-bottom:12px; padding:12px; background:#0b0f19; border:1px solid var(--accent); border-radius:10px;">
           <div style="display:flex; justify-content:space-between; align-items:center; gap:8px; flex-wrap:wrap;">
@@ -2367,13 +2369,15 @@ INDEX_HTML = r"""<!DOCTYPE html>
           </div>
         </div>
 
-        <label>Checkpoint Model</label>
-        <select id="gen-ckpt"></select>
+        <div class="local-only-ui">
+          <label>Checkpoint Model</label>
+          <select id="gen-ckpt"></select>
 
-        <label>Optional LoRA</label>
-        <div class="row">
-          <select id="gen-lora"><option value="">None</option></select>
-          <input type="number" id="gen-lora-str" value="0.8" step="0.1" min="0" max="2" style="max-width:90px;" title="LoRA Strength">
+          <label>Optional LoRA</label>
+          <div class="row">
+            <select id="gen-lora"><option value="">None</option></select>
+            <input type="number" id="gen-lora-str" value="0.8" step="0.1" min="0" max="2" style="max-width:90px;" title="LoRA Strength">
+          </div>
         </div>
 
         <!-- TTRPG RULESET PORTRAIT PRESET BUILDER (DROPDOWNS) -->
@@ -2419,7 +2423,7 @@ INDEX_HTML = r"""<!DOCTYPE html>
           </div>
         </div>
 
-        <div style="margin-top:14px; padding:12px; background:#0b0f19; border:1px dashed var(--accent); border-radius:10px;">
+        <div class="local-only-ui" style="margin-top:14px; padding:12px; background:#0b0f19; border:1px dashed var(--accent); border-radius:10px;">
           <div style="display:flex; justify-content:space-between; align-items:center;">
             <label style="margin:0; color:#c4b5fd; font-size:13px;">🖼️ Input Image to Edit / Modify (Img2Img — Optional)</label>
             <button class="btn secondary" id="btn-clear-studio-img" onclick="clearStudioInputImage()" style="display:none; padding:3px 8px; font-size:11px;">✖ Clear Image</button>
@@ -2487,11 +2491,13 @@ INDEX_HTML = r"""<!DOCTYPE html>
         <textarea id="gen-prompt" rows="4" placeholder="Describe what you want to generate (or what the edited image should look like)..."></textarea>
         <div style="margin-top:6px; display:flex; justify-content:flex-end; gap:8px;">
           <button class="btn secondary" id="btn-undo-enhance" style="display:none; padding:5px 10px; font-size:11px;" onclick="undoEnhancePrompt()">↩️ Undo Enhance</button>
-          <button class="btn secondary" style="padding:5px 10px; font-size:11px;" onclick="enhancePrompt()">✨ Enhance Prompt with Local AI</button>
+          <button class="btn secondary" id="btn-enhance-prompt" style="padding:5px 10px; font-size:11px;" onclick="enhancePrompt()">✨ Enhance Prompt with AI</button>
         </div>
 
-        <label>Negative Prompt</label>
-        <textarea id="gen-neg" rows="2">bad hands, extra fingers, mutated hands, poorly drawn face, blurry, watermark, text, signature, low quality, worst quality, deformed, ugly</textarea>
+        <div class="local-only-ui">
+          <label>Negative Prompt</label>
+          <textarea id="gen-neg" rows="2">bad hands, extra fingers, mutated hands, poorly drawn face, blurry, watermark, text, signature, low quality, worst quality, deformed, ugly</textarea>
+        </div>
 
         <div class="row">
           <div>
@@ -2512,38 +2518,40 @@ INDEX_HTML = r"""<!DOCTYPE html>
           </div>
         </div>
 
-        <div class="row">
-          <div>
-            <label>Steps</label>
-            <input type="number" id="gen-steps" value="28" min="10" max="60">
+        <div class="local-only-ui">
+          <div class="row">
+            <div>
+              <label>Steps</label>
+              <input type="number" id="gen-steps" value="28" min="10" max="60">
+            </div>
+            <div>
+              <label>CFG Scale</label>
+              <input type="number" id="gen-cfg" value="5.5" step="0.5" min="1" max="15">
+            </div>
+            <div>
+              <label>Seed (-1 = Random)</label>
+              <input type="number" id="gen-seed" value="-1">
+            </div>
           </div>
-          <div>
-            <label>CFG Scale</label>
-            <input type="number" id="gen-cfg" value="5.5" step="0.5" min="1" max="15">
-          </div>
-          <div>
-            <label>Seed (-1 = Random)</label>
-            <input type="number" id="gen-seed" value="-1">
-          </div>
-        </div>
 
-        <div class="row">
-          <div>
-            <label>Sampler</label>
-            <select id="gen-sampler">
-              <option value="dpmpp_2m_sde" selected>dpmpp_2m_sde (Recommended for Juggernaut)</option>
-              <option value="euler_ancestral">euler_ancestral</option>
-              <option value="dpmpp_2m">dpmpp_2m</option>
-              <option value="euler">euler</option>
-            </select>
-          </div>
-          <div>
-            <label>Scheduler</label>
-            <select id="gen-scheduler">
-              <option value="karras" selected>karras</option>
-              <option value="normal">normal</option>
-              <option value="sgm_uniform">sgm_uniform</option>
-            </select>
+          <div class="row">
+            <div>
+              <label>Sampler</label>
+              <select id="gen-sampler">
+                <option value="dpmpp_2m_sde" selected>dpmpp_2m_sde (Recommended for Juggernaut)</option>
+                <option value="euler_ancestral">euler_ancestral</option>
+                <option value="dpmpp_2m">dpmpp_2m</option>
+                <option value="euler">euler</option>
+              </select>
+            </div>
+            <div>
+              <label>Scheduler</label>
+              <select id="gen-scheduler">
+                <option value="karras" selected>karras</option>
+                <option value="normal">normal</option>
+                <option value="sgm_uniform">sgm_uniform</option>
+              </select>
+            </div>
           </div>
         </div>
 
@@ -2577,7 +2585,7 @@ INDEX_HTML = r"""<!DOCTYPE html>
 
       <div class="card">
         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; gap:8px; flex-wrap:wrap;">
-          <h3 style="margin:0;">Generated Gallery (`C:\AI_Workspace\outputs\images`)</h3>
+          <h3 style="margin:0;">Generated Gallery (<code id="gallery-path-label">outputs/images</code>)</h3>
           <div style="display:flex; gap:8px;">
             <button class="btn secondary" onclick="loadGallery()">🔄 Refresh</button>
             <button class="btn secondary" style="border-color:var(--red); color:#fca5a5;" onclick="deleteAllGalleryImages()">🗑️ Delete All</button>
@@ -2723,7 +2731,7 @@ INDEX_HTML = r"""<!DOCTYPE html>
         </div>
         <div style="display:flex; gap:6px; flex-wrap:wrap; align-items:center;">
           <span id="rules-rag-status" style="font-size:11px; color:var(--muted);">📚 Rules: checking...</span>
-          <button type="button" class="btn secondary" style="padding:4px 8px; font-size:11px;" onclick="reindexRulesNow()" title="Scan C:\AI_Workspace\Rules for new or updated PDFs">🔄 Re-Index</button>
+          <button type="button" class="btn secondary" style="padding:4px 8px; font-size:11px;" onclick="reindexRulesNow()" title="Scan Rules folder for new or updated PDFs">🔄 Re-Index</button>
           <button type="button" class="btn secondary" style="padding:4px 9px; font-size:11px; border-color:#10b981; color:#a7f3d0;" onclick="prefillDccPrompt()">✨ /dcc</button>
           <button type="button" class="btn secondary" style="padding:4px 9px; font-size:11px; border-color:#38bdf8; color:#bae6fd;" onclick="prefillSw5ePrompt()">✨ /sw5e</button>
           <button type="button" class="btn secondary" style="padding:4px 9px; font-size:11px; border-color:#ef4444; color:#fecaca;" onclick="prefillDnd5ePrompt()">✨ /dnd5e</button>
@@ -3079,7 +3087,7 @@ INDEX_HTML = r"""<!DOCTYPE html>
         <div>
           <h3 style="margin:0; color:#fde68a;">🗺️ Multi-System Campaign Organizer (DCC • D&amp;D 5e • SW5e)</h3>
           <div style="font-size:12px; color:var(--muted); margin-top:4px;">
-            Two-way synced with <code>C:\AI_Workspace\campaign_vault\</code> &amp; <code>campaign_ops.db</code>. Switch rulesets to manage Hubs, Nodes, Beats, Entities, and Loot.
+            Two-way synced with <code id="camp-vault-path-label">campaign_vault/</code> &amp; <code>campaign_ops.db</code>. Switch rulesets to manage Hubs, Nodes, Beats, Entities, and Loot.
           </div>
         </div>
         <div style="display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
@@ -3334,63 +3342,69 @@ INDEX_HTML = r"""<!DOCTYPE html>
   <!-- TAB 5: MODELS & SETTINGS -->
   <section id="tab-models" class="tab">
     <div class="card" style="border-color:var(--accent);">
-      <h3>⚡ Hybrid Compute Engine — Gemini API (`BLOCK_NONE`) + Local GPU</h3>
+      <h3>⚡ AI Compute &amp; API Settings</h3>
       <p style="font-size:13px; color:var(--muted); margin-top:0;">
-        Offload Vision AI, DCC character sheet creation, prompt optimization, and chat to your <b>Gemini API Key</b> with all configurable safety thresholds set to <code>BLOCK_NONE</code> (`HARM_CATEGORY_SEXUALLY_EXPLICIT`, `HARM_CATEGORY_DANGEROUS_CONTENT`, `HARM_CATEGORY_HARASSMENT`, `HARM_CATEGORY_HATE_SPEECH`, `HARM_CATEGORY_CIVIC_INTEGRITY`). This frees ~6 GB of VRAM on your RTX 4070 so <b>ComfyUI</b> gets 100% of your GPU!
+        Choose <b>Fully Local</b> (Ollama + ComfyUI), <b>Fully Cloud</b> (ChatGPT / Claude / Gemini + Cloud Images), or <b>Hybrid</b> (Local + Cloud fallback). Gemini uses configurable safety thresholds set to <code>BLOCK_NONE</code> for dark-fantasy TTRPG content.
       </p>
       <div class="grid-equal">
         <div>
           <label>Setup / Compute Mode</label>
-          <select id="cfg-setup-mode">
+          <select id="cfg-setup-mode" onchange="applySetupModeUI(this.value)">
             <option value="hybrid">⚡ Hybrid: Local + Cloud Fallback (Recommended)</option>
             <option value="local">🏠 Fully Local AI (Ollama / LM Studio + ComfyUI Only)</option>
             <option value="cloud">☁️ Fully Cloud AI (ChatGPT / Claude / Gemini + Cloud Images)</option>
           </select>
 
-          <label>Hybrid Priority &amp; Cloud Provider</label>
-          <div class="row" style="gap:6px;">
-            <select id="cfg-llm-mode">
-              <option value="gemini_first">Cloud First → Local Fallback</option>
-              <option value="local_only">Local First → Cloud Fallback</option>
-            </select>
+          <div id="cfg-cloud-models-wrap">
+            <div id="cfg-hybrid-priority-wrap">
+              <label>Hybrid Priority</label>
+              <select id="cfg-llm-mode">
+                <option value="gemini_first">Cloud First → Local Fallback</option>
+                <option value="local_only">Local First → Cloud Fallback</option>
+              </select>
+            </div>
+
+            <label>Cloud Provider</label>
             <select id="cfg-cloud-provider">
               <option value="gemini">Google Gemini</option>
               <option value="openai">OpenAI (ChatGPT)</option>
               <option value="anthropic">Anthropic (Claude)</option>
             </select>
-          </div>
 
-          <label>Gemini / OpenAI / Anthropic Models</label>
-          <div class="grid-3" style="gap:6px;">
-            <select id="cfg-gemini-model">
-              <option value="gemini-2.5-flash">gemini-2.5-flash</option>
-              <option value="gemini-2.5-pro">gemini-2.5-pro</option>
-              <option value="gemini-2.0-flash">gemini-2.0-flash</option>
-            </select>
-            <input id="cfg-openai-model" value="gpt-4o-mini" placeholder="gpt-4o-mini">
-            <input id="cfg-anthropic-model" value="claude-sonnet-4-5" placeholder="claude-sonnet-4-5">
+            <label>Gemini / OpenAI / Anthropic Models</label>
+            <div class="grid-3" style="gap:6px;">
+              <select id="cfg-gemini-model">
+                <option value="gemini-2.5-flash">gemini-2.5-flash</option>
+                <option value="gemini-2.5-pro">gemini-2.5-pro</option>
+                <option value="gemini-2.0-flash">gemini-2.0-flash</option>
+              </select>
+              <input id="cfg-openai-model" value="gpt-4o-mini" placeholder="gpt-4o-mini">
+              <input id="cfg-anthropic-model" value="claude-sonnet-4-5" placeholder="claude-sonnet-4-5">
+            </div>
           </div>
         </div>
         <div>
-          <label>Gemini API Key</label>
-          <div class="row">
-            <input type="password" id="cfg-gemini-key" placeholder="AIzaSy...">
-            <button class="btn secondary" style="max-width:75px;" onclick="const el=document.getElementById('cfg-gemini-key'); el.type = el.type==='password'?'text':'password';">👁️</button>
+          <div id="cfg-cloud-keys-wrap">
+            <label>Gemini API Key</label>
+            <div class="row">
+              <input type="password" id="cfg-gemini-key" placeholder="AIzaSy...">
+              <button class="btn secondary" style="max-width:75px;" onclick="const el=document.getElementById('cfg-gemini-key'); el.type = el.type==='password'?'text':'password';">👁️</button>
+            </div>
+            <label>OpenAI API Key (ChatGPT + Cloud Images)</label>
+            <input type="password" id="cfg-openai-key" placeholder="sk-...">
+            <label>Anthropic API Key (Claude)</label>
+            <input type="password" id="cfg-anthropic-key" placeholder="sk-ant-...">
           </div>
-          <label>OpenAI API Key (ChatGPT + Cloud Images)</label>
-          <input type="password" id="cfg-openai-key" placeholder="sk-...">
-          <label>Anthropic API Key (Claude)</label>
-          <input type="password" id="cfg-anthropic-key" placeholder="sk-ant-...">
           <div style="display:flex; gap:10px; margin-top:14px;">
             <button class="btn" onclick="saveSettings()" style="flex:1;">💾 Save Compute &amp; API Settings</button>
-            <button class="btn amber" onclick="testGeminiConnection()" style="flex:1;">🧪 Test Gemini</button>
+            <button class="btn amber" id="btn-test-gemini" onclick="testGeminiConnection()" style="flex:1;">🧪 Test Gemini</button>
           </div>
           <div id="gemini-test-status" style="margin-top:8px; font-size:12px; color:var(--green);"></div>
         </div>
       </div>
     </div>
 
-    <div class="grid-equal">
+    <div class="grid-equal local-only-ui">
       <div class="card">
         <h3>Download Additional Checkpoints or LoRAs (Civitai / HuggingFace)</h3>
         <p style="font-size:13px; color:var(--muted);">
@@ -3407,6 +3421,26 @@ INDEX_HTML = r"""<!DOCTYPE html>
         <input type="text" id="dl-url" placeholder="https://civitai.com/api/download/models/...">
         <button class="btn secondary" onclick="downloadModel()" style="margin-top:14px; width:100%;">⬇️ Download to ComfyUI</button>
       </div>
+    </div>
+
+    <div class="card" style="margin-top:14px; border-color:#38bdf8;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+        <h3 style="margin:0; color:#7dd3fc;">🔄 App Updates (GitHub)</h3>
+        <span class="badge" id="app-version-badge">v1.0.0</span>
+      </div>
+      <p style="font-size:12px; color:var(--muted); margin:6px 0 10px 0;">
+        Check <code>joeripari-lab/ttrpg-ai-hub</code> for new releases and install updates in-place without manually re-downloading or losing your saved characters, rules, or settings.
+      </p>
+      <div class="row" style="gap:8px; align-items:flex-end;">
+        <div style="flex:2;">
+          <label style="margin-top:0;">Optional GitHub Token (only needed while repo is Private)</label>
+          <input type="password" id="cfg-github-token" placeholder="github_pat_... (leave blank for public releases)">
+        </div>
+        <div style="flex:1;">
+          <button class="btn" onclick="checkForAppUpdates()" style="width:100%;">🔍 Check for Updates</button>
+        </div>
+      </div>
+      <div id="update-status-box" style="margin-top:10px; font-size:12px; color:var(--muted);"></div>
     </div>
   </section>
 </main>
@@ -3435,9 +3469,60 @@ async function api(path, method='GET', body=null) {
   return await res.json();
 }
 
+let appDataDir = '';
+let currentSetupMode = 'hybrid';
+
+function applySetupModeUI(mode) {
+  currentSetupMode = mode || 'hybrid';
+  const isCloud = currentSetupMode === 'cloud';
+  const isLocal = currentSetupMode === 'local';
+  const isHybrid = !isCloud && !isLocal;
+
+  document.querySelectorAll('.local-only-ui').forEach(el => {
+    el.style.display = isCloud ? 'none' : '';
+  });
+
+  const badge = document.getElementById('header-mode-badge');
+  if (badge) {
+    badge.textContent = isCloud ? '☁️ Cloud AI' : (isLocal ? '🏠 Local AI' : '⚡ Hybrid AI');
+  }
+  const stTitle = document.getElementById('studio-engine-title');
+  if (stTitle) {
+    stTitle.textContent = isCloud ? 'Generate Image (Cloud AI)' : 'Generate or Edit Image (Local ComfyUI Engine)';
+  }
+  const enhBtn = document.getElementById('btn-enhance-prompt');
+  if (enhBtn) {
+    enhBtn.textContent = isCloud ? '✨ Enhance Prompt with Cloud AI' : '✨ Enhance Prompt with AI';
+  }
+  const hpWrap = document.getElementById('cfg-hybrid-priority-wrap');
+  if (hpWrap) hpWrap.style.display = isHybrid ? '' : 'none';
+
+  const cmWrap = document.getElementById('cfg-cloud-models-wrap');
+  const ckWrap = document.getElementById('cfg-cloud-keys-wrap');
+  const tgBtn = document.getElementById('btn-test-gemini');
+  if (cmWrap) cmWrap.style.display = isLocal ? 'none' : '';
+  if (ckWrap) ckWrap.style.display = isLocal ? 'none' : '';
+  if (tgBtn) tgBtn.style.display = isLocal ? 'none' : '';
+}
+
 async function refreshStatus() {
   try {
     const st = await api('/api/status');
+    if (st.data_dir) {
+      appDataDir = st.data_dir;
+      const gLbl = document.getElementById('gallery-path-label');
+      if (gLbl) gLbl.textContent = `${appDataDir}\\outputs\\images`;
+      const vLbl = document.getElementById('camp-vault-path-label');
+      if (vLbl) vLbl.textContent = `${appDataDir}\\campaign_vault\\`;
+    }
+    if (st.setup_mode && st.setup_mode !== currentSetupMode) {
+      applySetupModeUI(st.setup_mode);
+    }
+    if (st.app_version) {
+      const vb = document.getElementById('app-version-badge');
+      if (vb) vb.textContent = 'v' + st.app_version;
+    }
+
     const cDot = document.getElementById('comfy-dot');
     const cTxt = document.getElementById('comfy-text');
     if (st.comfy.online) {
@@ -3492,6 +3577,7 @@ async function initDashboard() {
 
   const cfg = await api('/api/config');
   document.getElementById('cfg-setup-mode').value = cfg.setup_mode || 'hybrid';
+  applySetupModeUI(cfg.setup_mode || 'hybrid');
   document.getElementById('cfg-llm-mode').value = cfg.llm_provider_mode || 'gemini_first';
   document.getElementById('cfg-cloud-provider').value = cfg.cloud_provider || 'gemini';
   document.getElementById('cfg-gemini-model').value = cfg.gemini_model || 'gemini-2.5-flash';
@@ -3500,6 +3586,8 @@ async function initDashboard() {
   document.getElementById('cfg-gemini-key').value = cfg.gemini_api_key || '';
   document.getElementById('cfg-openai-key').value = cfg.openai_api_key || '';
   document.getElementById('cfg-anthropic-key').value = cfg.anthropic_api_key || '';
+  const ghEl = document.getElementById('cfg-github-token');
+  if (ghEl) ghEl.value = cfg.github_token || '';
   if (cfg.setup_completed === false) {
     openSetupWizard();
   }
@@ -4592,7 +4680,8 @@ async function sendChat() {
     let imgHtml = '';
     (res.images || []).forEach(u => {
       const fname = u.split('/').pop();
-      const diskP = `C:\\\\AI_Workspace\\\\outputs\\\\images\\\\${fname}`;
+      const baseImgDir = (appDataDir ? `${appDataDir}\\outputs\\images` : 'outputs\\images').replace(/\\/g, '\\\\');
+      const diskP = `${baseImgDir}\\\\${fname}`;
       imgHtml += `
         <div style="margin-top:10px;">
           <img src="${u}" onclick="window.open('${u}', '_blank')" style="max-width:340px; border-radius:8px; border:1px solid #8b5cf6; cursor:pointer; display:block;">
@@ -4606,7 +4695,7 @@ async function sendChat() {
     if (res.images && res.images.length && chatAttachedImagePath) {
       const latestUrl = res.images[0];
       const latestFname = latestUrl.split('/').pop();
-      const latestDiskPath = `C:\\AI_Workspace\\outputs\\images\\${latestFname}`;
+      const latestDiskPath = `${appDataDir ? `${appDataDir}\\outputs\\images` : 'outputs\\images'}\\${latestFname}`;
       if (!chatOriginalImagePath) {
         chatOriginalImagePath = chatAttachedImagePath;
         chatOriginalImageUrl = chatAttachedImageUrl;
@@ -4676,8 +4765,9 @@ async function sendChat() {
 }
 
 async function saveSettings() {
+  const mode = document.getElementById('cfg-setup-mode').value;
   await api('/api/config', 'POST', {
-    setup_mode: document.getElementById('cfg-setup-mode').value,
+    setup_mode: mode,
     llm_provider_mode: document.getElementById('cfg-llm-mode').value,
     cloud_provider: document.getElementById('cfg-cloud-provider').value,
     gemini_model: document.getElementById('cfg-gemini-model').value,
@@ -4685,8 +4775,10 @@ async function saveSettings() {
     anthropic_model: document.getElementById('cfg-anthropic-model').value.trim(),
     gemini_api_key: document.getElementById('cfg-gemini-key').value.trim(),
     openai_api_key: document.getElementById('cfg-openai-key').value.trim(),
-    anthropic_api_key: document.getElementById('cfg-anthropic-key').value.trim()
+    anthropic_api_key: document.getElementById('cfg-anthropic-key').value.trim(),
+    github_token: (document.getElementById('cfg-github-token')?.value || '').trim()
   });
+  applySetupModeUI(mode);
   await refreshStatus();
   alert('Settings saved!');
 }
@@ -5109,7 +5201,7 @@ async function exportDccPdfs(exportSheet, exportJournal) {
   if (res.files && res.files.journal) {
     links.push(`<a href="${res.files.journal.url}" target="_blank" class="btn secondary" style="display:inline-flex; padding:6px 12px; text-decoration:none; border-color:#10b981; color:#a7f3d0;">📘 Open / Print Character Journal (${res.files.journal.filename})</a>`);
   }
-  statusEl.innerHTML = `<div style="color:#6ee7b7; margin-bottom:6px;">✅ Exported Session 0 PDFs to <code>C:\\AI_Workspace\\outputs\\dcc\\</code>!</div><div style="display:flex; gap:8px; flex-wrap:wrap;">${links.join('')}</div>`;
+  statusEl.innerHTML = `<div style="color:#6ee7b7; margin-bottom:6px;">✅ Exported Session 0 PDFs to <code>${appDataDir ? `${appDataDir}\\outputs\\dcc\\` : 'outputs\\dcc\\'}</code>!</div><div style="display:flex; gap:8px; flex-wrap:wrap;">${links.join('')}</div>`;
 }
 
 async function saveDccRulesConfig() {
@@ -5502,7 +5594,7 @@ async function exportSw5ePdfs(exportChar, exportShip) {
   if (res.files?.ship) {
     links.push(`<a href="${res.files.ship.url}" target="_blank" class="btn secondary" style="display:inline-flex; padding:6px 12px; text-decoration:none; border-color:#f59e0b; color:#fde68a;">🛸 Open / Print Starship PDF (${res.files.ship.filename})</a>`);
   }
-  statusEl.innerHTML = `<div style="color:#6ee7b7; margin-bottom:6px;">✅ Exported SW5e PDFs to <code>C:\\AI_Workspace\\outputs\\sw5e\\</code>!</div><div style="display:flex; gap:8px; flex-wrap:wrap;">${links.join('')}</div>`;
+  statusEl.innerHTML = `<div style="color:#6ee7b7; margin-bottom:6px;">✅ Exported SW5e PDFs to <code>${appDataDir ? `${appDataDir}\\outputs\\sw5e\\` : 'outputs\\sw5e\\'}</code>!</div><div style="display:flex; gap:8px; flex-wrap:wrap;">${links.join('')}</div>`;
 }
 
 function onChatModeToggle(mode) {
@@ -5751,7 +5843,7 @@ async function exportDnd5ePdf() {
   }
   applyDnd5eCharToForm(res.character);
   await refreshDnd5eList(res.character.id);
-  stEl.innerHTML = `<div style="color:#6ee7b7; margin-bottom:6px;">✅ Exported to <code>C:\\AI_Workspace\\outputs\\dnd5e\\</code>!</div>` +
+  stEl.innerHTML = `<div style="color:#6ee7b7; margin-bottom:6px;">✅ Exported to <code>${appDataDir ? `${appDataDir}\\outputs\\dnd5e\\` : 'outputs\\dnd5e\\'}</code>!</div>` +
     `<a href="${res.file.url}" target="_blank" class="btn secondary" style="display:inline-flex; padding:6px 12px; text-decoration:none; border-color:#ef4444; color:#fecaca;">📄 Open / Print 5e Character Sheet (${res.file.filename})</a>`;
 }
 
@@ -6185,6 +6277,75 @@ async function downloadModel() {
   alert(res.message || res.error);
 }
 
+let pendingUpdateInfo = null;
+
+async function checkForAppUpdates() {
+  const box = document.getElementById('update-status-box');
+  const token = (document.getElementById('cfg-github-token')?.value || '').trim();
+  if (token) {
+    await api('/api/config', 'POST', { github_token: token });
+  }
+  box.innerHTML = '⏳ Checking GitHub for updates...';
+  const res = await api('/api/update/check');
+  pendingUpdateInfo = res;
+  if (res.error) {
+    let devBtn = res.has_git
+      ? ` <button class="btn secondary" style="padding:4px 10px; font-size:11px; margin-left:8px;" onclick="gitPullAppUpdate()">🔄 Pull Latest (Dev Git)</button>`
+      : '';
+    box.innerHTML = `<span style="color:var(--amber);">⚠️ ${res.error}</span>${devBtn}`;
+    return;
+  }
+  if (res.update_available) {
+    let actionHtml = '';
+    if (res.download_url) {
+      actionHtml = `<button class="btn" style="background:#10b981; color:#042f2e; font-weight:700; margin-top:8px;" onclick="applyAppUpdate()">⬇️ Download &amp; Install v${res.latest_version}</button>`;
+    } else {
+      actionHtml = `<div style="color:var(--amber); margin-top:6px;">Release found, but no installer .exe asset is attached. <a href="${res.html_url}" target="_blank" style="color:#7dd3fc;">Open Release</a></div>`;
+    }
+    if (res.has_git) {
+      actionHtml += ` <button class="btn secondary" style="margin-top:8px; margin-left:6px;" onclick="gitPullAppUpdate()">🔄 Pull Latest (Dev Git)</button>`;
+    }
+    box.innerHTML = `
+      <div style="padding:10px; background:#0b0f19; border:1px solid #10b981; border-radius:8px;">
+        <div style="color:#6ee7b7; font-weight:700;">✨ Update Available: v${res.latest_version} (Current: v${res.current_version})</div>
+        ${res.release_notes ? `<pre style="white-space:pre-wrap; font-size:11px; color:var(--muted); margin:6px 0 0 0;">${res.release_notes}</pre>` : ''}
+        ${actionHtml}
+      </div>`;
+  } else {
+    let devBtn = res.has_git
+      ? ` <button class="btn secondary" style="padding:4px 10px; font-size:11px; margin-left:8px;" onclick="gitPullAppUpdate()">🔄 Pull Latest (Dev Git)</button>`
+      : '';
+    box.innerHTML = `<span style="color:#6ee7b7;">✅ You are up to date (v${res.current_version}).</span>${devBtn}`;
+  }
+}
+
+async function applyAppUpdate() {
+  if (!pendingUpdateInfo || !pendingUpdateInfo.download_url) return;
+  const box = document.getElementById('update-status-box');
+  box.innerHTML = '⏳ Downloading installer update from GitHub... Please wait, the app will restart automatically.';
+  const res = await api('/api/update/apply', 'POST', {
+    mode: 'release',
+    download_url: pendingUpdateInfo.download_url,
+    asset_name: pendingUpdateInfo.asset_name || 'TTRPG_AI_Hub_Setup.exe'
+  });
+  if (res.ok) {
+    box.innerHTML = `<span style="color:#6ee7b7;">✅ ${res.message}</span>`;
+  } else {
+    box.innerHTML = `<span style="color:var(--red);">❌ ${res.error || 'Update failed'}</span>`;
+  }
+}
+
+async function gitPullAppUpdate() {
+  const box = document.getElementById('update-status-box');
+  box.innerHTML = '⏳ Running git pull...';
+  const res = await api('/api/update/apply', 'POST', { mode: 'git' });
+  if (res.ok) {
+    box.innerHTML = `<span style="color:#6ee7b7;">✅ ${res.output}${res.updated ? ' — Restart app to load updated Python modules.' : ''}</span>`;
+  } else {
+    box.innerHTML = `<span style="color:var(--red);">❌ ${res.error}</span>`;
+  }
+}
+
 window.addEventListener('DOMContentLoaded', initDashboard);
 </script>
 </body>
@@ -6367,11 +6528,20 @@ class AIHubHandler(BaseHTTPRequestHandler):
             return
 
         if path == "/api/status":
+            cfg = load_config()
             self._send_json({
                 "comfy": check_comfy_status(),
                 "llm": check_llm_status(),
-                "logs": SERVICE_PROCS["agent_logs"][-80:]
+                "logs": SERVICE_PROCS["agent_logs"][-80:],
+                "data_dir": str(app_paths.DATA_DIR),
+                "setup_mode": cfg.get("setup_mode", "hybrid"),
+                "app_version": updater.APP_VERSION,
             })
+            return
+
+        if path == "/api/update/check":
+            cfg = load_config()
+            self._send_json(updater.check_for_updates(cfg.get("github_token", "")))
             return
 
         if path == "/api/models":
@@ -6757,6 +6927,21 @@ class AIHubHandler(BaseHTTPRequestHandler):
                     export_journal=bool(body.get("export_journal", True)),
                 )
                 self._send_json({"ok": True, **res, "characters": dcc_engine.list_characters()})
+                return
+
+            if path == "/api/update/apply":
+                cfg = load_config()
+                mode = body.get("mode") or "release"
+                if mode == "git":
+                    self._send_json(updater.git_pull_update())
+                else:
+                    self._send_json(
+                        updater.download_and_apply_update(
+                            body.get("download_url", ""),
+                            body.get("asset_name", "TTRPG_AI_Hub_Setup.exe"),
+                            cfg.get("github_token", ""),
+                        )
+                    )
                 return
 
             if path == "/api/config":

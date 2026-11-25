@@ -276,7 +276,7 @@ def build_dm_system_prompt(system: str, user_query: str, top_k: int = 6) -> tupl
 Your job is to help the DM run the table smoothly: adjudicate rules accurately, look up stats/mechanics, suggest encounters, NPCs, loot, DCs, or pacing, and keep answers concise and table-ready.
 
 STRICT GROUNDING RULES:
-1. Follow the System Guide & Persona Directives below (if provided) AND prioritize the retrieved **{label}** rulebook excerpts from `C:\\AI_Workspace\\Rules\\`.
+1. Follow the System Guide & Persona Directives below (if provided) AND prioritize the retrieved **{label}** rulebook excerpts from `{RULES_DIR}`.
 2. Whenever you cite a rule, mechanic, table, or stat from the rulebook excerpts, include the exact citation in parentheses, e.g. `(CarlRPG_Core_Rulebook_Digital_Low-Res_081226, p. 142)`.
 3. If the retrieved excerpts do not cover a specific edge case, state clearly what is from the System Guide / Core Rulebook vs. what is an improvised ruling.
 {guide_block}

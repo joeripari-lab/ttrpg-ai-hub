@@ -13,7 +13,9 @@ import time
 from pathlib import Path
 from datetime import datetime
 
-BASE_DIR = Path(r"C:\AI_Workspace")
+import app_paths
+
+BASE_DIR = app_paths.DATA_DIR
 BROWSER_PROFILE_DIR = BASE_DIR / "browser_profile"
 WORKFLOWS_DIR = BASE_DIR / "workflows"
 

@@ -1,4 +1,5 @@
 [Setup]
+AppId={{8D4F2E1A-9C3B-4B7E-A2D1-6E5F4C3B2A10}
 AppName=TTRPG AI Hub
 AppVersion=1.0.0
 DefaultDirName={localappdata}\Programs\TTRPG_AI_Hub
@@ -8,6 +9,8 @@ OutputBaseFilename=TTRPG_AI_Hub_Setup
 Compression=lzma2
 SolidCompression=yes
 PrivilegesRequired=lowest
+CloseApplications=yes
+RestartApplications=yes
 
 [Files]
 Source: "dist_win\TTRPG_AI_Hub\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
