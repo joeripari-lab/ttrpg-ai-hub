@@ -33,3 +33,14 @@ dist_win/
 .playwright_ready
 .tmp.*
 *.log
+
+# Legacy / non-app & local test data
+Start_*.bat
+Implementation Plan.md
+PROJECT_HANDOFF.md
+browser_agent.py
+workflows/
+dcc_assets/characters/
+dnd5e_assets/characters/
+sw5e_assets/characters/
+sw5e_assets/ships/
