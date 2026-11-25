@@ -1,47 +1,84 @@
-# ⚡ Unified Local AI Hub & Teachable Action Agent (`C:\AI_Workspace`)
+# 🎲 TTRPG AI Studio & DM Hub
 
-This workspace unites your local uncensored image generation (`ComfyUI` + `Juggernaut-X-RunDiffusion-NSFW` on your RTX 4070), your local Vision/Chat AI (`Qwen2.5-VL-7B-Instruct` via LM Studio), and a **Teachable Browser Action Agent** that creates and auto-publishes product listings on **Etsy** and **Mayhem Marketplace**.
-
----
-
-## 🚀 Quick Start (One Click)
-
-Double-click **[Start_AI_Hub.bat](file:///C:/AI_Workspace/Start_AI_Hub.bat)** in `C:\AI_Workspace`.
-
-On first launch, it will automatically:
-1. Create a local virtual environment (`C:\AI_Workspace\venv`).
-2. Install **Playwright** and its persistent **Chromium** browser for marketplace automation.
-3. Launch the **Unified Local AI Hub** web dashboard at **`http://127.0.0.1:7860`**.
+A standalone Windows desktop application (`pywebview` + local Python server) for Tabletop RPG Game Masters and players, supporting **Dungeon Crawl Classics (DCC)**, **Star Wars 5e (SW5e)**, and **D&D 5e** with **Local**, **Cloud**, or **Hybrid** AI compute.
 
 ---
 
-## 🧩 What's Inside the Dashboard (`http://127.0.0.1:7860`)
+## ✨ Core Features
 
-### 1. 🎨 Image Studio
-* **Direct ComfyUI Integration**: Connects directly to `C:\ComfyUI_windows_portable` and defaults to your installed **`Juggernaut-X-RunDiffusion-NSFW.safetensors`** checkpoint.
-* **1-Click Engine Start**: Click **Start ComfyUI** in the top bar if ComfyUI isn't already running.
-* **AI Prompt Enhancer**: Click **✨ Enhance Prompt with Local AI** to expand short ideas into detailed SDXL prompts using your local LLM.
-* **1-Click Send to Lister**: Every generated image in `C:\AI_Workspace\outputs\images` has a **🛒 Use in Listing** button to send it straight to the Etsy & Mayhem auto-lister.
+- **🧙 First-Run Setup Wizard & 3 Compute Modes**
+  - **🏠 Fully Local AI:** 100% offline via Ollama (e.g., `qwen2.5:7b`) + optional local ComfyUI (`SDXL` / `Img2Img` / `ReActor`).
+  - **☁️ Fully Cloud AI:** No GPU required — uses **Google Gemini**, **OpenAI ChatGPT**, or **Anthropic Claude** (+ Cloud Image generation), and automatically hides local-only ComfyUI/VRAM UI controls.
+  - **⚡ Hybrid Mode:** Cloud-first with Local fallback, or Local-first with Cloud fallback.
+- **🎨 Image Studio**
+  - **TTRPG Portrait Preset Builder:** Ruleset-aware Race/Species, Class, Art Style, and Backdrop dropdowns for D&D 5e, SW5e, and DCC.
+  - **Studio Skills & Persistent Memory:** Save reusable style presets (`studio_skills/`) and correction rules (`learned_memory.json`).
+- **💬 Agent Chat & Rulebook-Cited DM Companion**
+  - Local SQLite FTS5 RAG (`rules_rag.py`) indexes your owned rulebook PDFs and grounds DM Companion answers with book/page citations.
+  - Supports slash commands: `/dm`, `/dcc`, `/sw5e`, `/dnd5e`, `/skill`, and `/draw`.
+- **📄 Fillable PDF Character & Ship Builders**
+  - **DCC TTRPG:** Session 0 Character Sheet + 8-page Character Journal PDF (`dcc_engine.py`).
+  - **SW5e:** Character Sheet + Starship Sheet PDF (`sw5e_engine.py`).
+  - **D&D 5e:** 3-page Fillable Character Sheet + Spellcasting PDF (`dnd5e_engine.py`).
+- **🗺️ Multi-System Campaign Organizer**
+  - Two-way synced Markdown (`campaign_vault/`) + SQLite (`campaign_ops.db`) for Hubs, Nodes, Beats, Beat-to-Entity bindings (NPCs, monsters, loot), and Session Runbook export.
+- **🔄 In-App GitHub Updater**
+  - Check for new GitHub Releases and install updates in-place from **Models & Settings → App Updates** without losing your saved characters, rules, or settings.
 
-### 2. 🎯 Teach & Record Browser Agent (Etsy & Mayhem Marketplace)
-* **Step 1 — One-Time Login**:
-  * Go to the **🎯 Teach & Record Browser Agent** tab and click **🔑 Open Browser to Log into Etsy** and **🔑 Open Browser to Log into Mayhem**.
-  * Log into your seller accounts once. Because the agent uses a persistent browser profile (`C:\AI_Workspace\browser_profile`), your login session stays saved across runs.
-* **Step 2 — Teach by Demonstration (Record Mode)**:
-  * Select **`Mayhem Marketplace Playbook (mayhem_listing)`** or **`Etsy Listing Playbook (etsy_listing)`**, enter your seller create-listing URL, and click **🔴 Launch Browser & Record My Actions Now**.
-  * Perform a listing once in the browser window. The live recorder automatically captures your file uploads, button clicks, and text inputs — converting Title, Description, Price, Quantity, and Tags into dynamic variables (`{{title}}`, `{{description}}`, `{{price}}`, `{{quantity}}`, `{{tags}}`).
-  * Close the browser window when done to save your playbook to `C:\AI_Workspace\workflows\`.
+---
 
-### 3. 🛒 Auto-Lister & Drop-Folder Automation
-* **Interactive Mode**:
-  * Upload product photos (or pick from your generated gallery) in **🛒 Auto-Lister (Etsy & Mayhem)**.
-  * Click **🧠 Step 1: Auto-Write Title, Description & Tags with Local Vision AI** — `Qwen2.5-VL-7B` inspects your product photos and writes the SEO title, description, and 13 Etsy tags.
-  * Click **🚀 Step 2: Launch Agent & Publish to Selected Marketplaces** — the browser agent opens Etsy and Mayhem Marketplace, uploads your photos, fills every field, and **clicks Publish automatically**.
-* **Hands-Free Drop Folder (`C:\AI_Workspace\drop_inbox`)**:
-  * Drop any product folder containing photos (and an optional `notes.txt`) into `C:\AI_Workspace\drop_inbox\<Product_Name>`.
-  * Check **Auto-Watch & Publish New Folders Automatically** (or click **Process All Drop-Inbox Folders Now**) and the agent will automatically write the listing copy, publish to Etsy & Mayhem Marketplace, and move the completed folder to `C:\AI_Workspace\drop_processed`.
+## 📚 Rulebooks & Copyright Notice
 
-### 4. 💬 Agent Chat
-* Chat freely with your local LLM.
-* Type `/draw <prompt>` in chat to generate images right inside the chat stream.
-* Type `teach mayhem marketplace` or `teach etsy` to launch the teaching browser directly from chat.
+No copyrighted rulebook PDFs are bundled in this repository or the installer.  
+To unlock rulebook-cited DM Companion answers for a system, upload your own owned PDFs via the **Setup Wizard** or place them in your data folder under:
+
+- `Rules/DCC TTRPG/`
+- `Rules/DnD 5e/`
+- `Rules/SW5e/`
+
+---
+
+## 🚀 Getting Started
+
+### Option 1: Windows Desktop Installer (Recommended)
+1. Download `TTRPG_AI_Hub_Setup.exe` from the [GitHub Releases](https://github.com/joeripari-lab/ttrpg-ai-hub/releases) page.
+2. Run the installer (installs to `%LOCALAPPDATA%\Programs\TTRPG_AI_Hub` and creates Start Menu / Desktop shortcuts).
+3. Launch **TTRPG AI Hub** and complete the First-Run Setup Wizard.
+   - User data, rulebook indexes, campaign vaults, and outputs are stored in `%LOCALAPPDATA%\TTRPG_AI_Hub` (or `TTRPG_HUB_DATA_DIR` if set).
+
+### Option 2: Run from Source (Development)
+1. Create/activate your Python virtual environment (`venv`) and install dependencies (`pywebview`, `pymupdf`, etc.).
+2. *(Optional)* Copy `config.example.json` to `config.json` (never commit `config.json` — it is `.gitignore`d).
+3. Launch the native desktop window:
+   ```powershell
+   .\venv\Scripts\python.exe desktop_launcher.py
+   ```
+
+---
+
+## 🛠️ Building & Publishing a Release
+
+1. Bump `APP_VERSION` in `updater.py` and `AppVersion` in `installer.iss`.
+2. Build the standalone PyInstaller bundle (`--onedir --windowed`) and compile `installer.iss` with Inno Setup 6 (`ISCC.exe`):
+   ```powershell
+   .\venv\Scripts\python.exe build_installer.py
+   & "$env:LOCALAPPDATA\Programs\Inno Setup 6\ISCC.exe" installer.iss
+   ```
+3. Commit and tag the release (`vX.Y.Z`) on `main`, then attach `dist\TTRPG_AI_Hub_Setup.exe` to the GitHub Release so installed users can update in-app via **Models & Settings → App Updates**.
+
+---
+
+## 📁 Project Structure
+
+| File / Folder | Purpose |
+| :--- | :--- |
+| `desktop_launcher.py` | Launches `hub_server` in a background thread and opens the native `pywebview` window |
+| `hub_server.py` | Local HTTP API server and single-page web UI |
+| `app_paths.py` | Portable bundle vs. user data directory resolution (`DATA_DIR`) |
+| `llm_router.py` | Unified LLM & Cloud Image router (Ollama, LM Studio, Gemini, OpenAI, Anthropic) |
+| `rules_rag.py` | PDF rulebook indexer and SQLite FTS5 retrieval for DM Companion |
+| `updater.py` | In-app GitHub Releases updater + silent Inno Setup upgrade launcher |
+| `dcc_engine.py`, `sw5e_engine.py`, `dnd5e_engine.py` | Rule calculations and fillable PDF exporters |
+| `campaign_engine.py`, `campaign_dcc.py`, `campaign_rulesets.py` | Multi-system Campaign Organizer, beat-entity bindings, and vault sync |
+| `dcc_assets/`, `sw5e_assets/`, `dnd5e_assets/`, `studio_skills/` | Fillable PDF templates, field maps, system guides, and Studio Skill presets |
+| `build_installer.py`, `installer.iss` | PyInstaller and Inno Setup 6 build scripts |
